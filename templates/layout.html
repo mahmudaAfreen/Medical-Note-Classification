@@ -1,0 +1,44 @@
+<style>
+table, th, td {
+  border:1px solid black;
+
+}
+td {
+  text-align: center;
+}
+
+
+
+.tooltip-inner {
+    min-width: 100px;
+    max-width: 500px;
+}
+</style>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-26">
+
+        <div name="context_text" class="instance" font-size="24px">
+          <div id="instance-text" name="instance_text" font-size="24px">
+            {{instance_text | safe}}
+            {{instance | safe}}
+          </div>
+        </div>
+          <div class="annotation_schema">
+              {{annotation_schematic}}
+          </div>
+      </div>
+    </div>
+
+
+    <div style="height: 15px;" />
+
+  </div>
+  <div class="col-md-24">
+  </div>
+</div>
+<div style="text-align:center"> Keyboard Input: {{keybindings}} </div>
+
+
