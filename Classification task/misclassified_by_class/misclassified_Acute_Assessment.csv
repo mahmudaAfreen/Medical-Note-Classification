@@ -1,0 +1,45 @@
+text,true_label,predicted_label
+Hyperglycemia\n- Medical Reasoning: This is likely related to an inflammatory response as the patient had an elevated Lyme titer and positive rapid strep test.,Acute Assessment,Medications
+"• Left upper extremity neuropathy, suspicious for cervical radiculopathy, possible contribution of peripheral neuropathy",Acute Assessment,Acute Symptoms
+• Neck pain in the setting of arthritis and disc generation,Acute Assessment,Vegetative History
+I suspect that this is a flare of cervical radiculopathy,Acute Assessment,Acute Symptoms
+"1. Ovarian cancer.\n- Medical Reasoning: Looking at her abdominal CT results, it appears to be stage IIIA disease based on the lymph node involvement.",Acute Assessment,Medications
+1. Right knee posterior cruciate ligament strain.,Acute Assessment,Medications
+I have explained to her that her x-rays did not reveal any signs of a fracture,Acute Assessment,Medications
+Right knee acute medial meniscus sprain.,Acute Assessment,Medications
+Smith-Magenis syndrome.,Acute Assessment,Medications
+with Smith-Magenis syndrome.,Acute Assessment,Medications
+Several organ systems can be affected by this chromosomal deletion syndrome and congenital anomalies of the kidney and urinary tract have been reported in the literature.,Acute Assessment,Discussion
+1. Acute nephrolithiasis.,Acute Assessment,Medications
+His previous CT scan was reviewed and demonstrates a 0.5 cm kidney stone located in the proximal right ureter without evidence of hydronephrosis.,Acute Assessment,Medications
+• Viral infection\n• Dandruff,Acute Assessment,Reassessment
+• Macromastia.,Acute Assessment,Reassessment
+and is an ideal candidate for bilateral reduction mammoplasty,Acute Assessment,Medications
+"Given her extremely large breasts and the measurements above, there is potential for using a free nipple graft.",Acute Assessment,Medications
+• Cardiac murmur.,Acute Assessment,Medications
+• PVCs.,Acute Assessment,Medications
+• Lightheadedness/dizziness.,Acute Assessment,Medications
+Cardiac murmur\nDiana has a 4/6 systolic murmur at the RUSB with mild radiation to the carotids,Acute Assessment,Medications
+This is most likely representative of aortic stenosis,Acute Assessment,Medications
+"She does have symptoms including a significant increase in fatigue over the last 6 months, shortness of breath, and some lightheadedness",Acute Assessment,Discussion
+"This could be due to severe aortic stenosis, however, her S2 is relatively preserved which would be more consistent with moderate",Acute Assessment,Medications
+She does not appear significantly volume overloaded today.,Acute Assessment,Medications
+PVCs\nHer referral mentions tachycardia,Acute Assessment,Medications
+Her EKG today shows sinus rhythm with frequent PVCs as well as anterior septal infarct pattern,Acute Assessment,Medications
+She does not have any significant palpitations,Acute Assessment,Medications
+It is possible that some of her lightheadedness and dizziness are related to the aortic stenosis,Acute Assessment,Medications
+"She is also having some PVCs on her EKG, which could be contributing, but she does not feel palpitations.",Acute Assessment,Discussion
+Left knee strain.,Acute Assessment,Personal History
+â¢ Resistant hypertension.,Acute Assessment,Medications
+"Mr. Roberts presents with resistant hypertension, with systolic blood pressure readings between 146-155",Acute Assessment,Discussion
+After presenting at 150/100,Acute Assessment,Medications
+"Low back pain, possible acute disc herniation.",Acute Assessment,Acute Symptoms
+His x-rays did not reveal any signs of a fracture,Acute Assessment,Medications
+Right diabetic foot ulcer.,Acute Assessment,Medications
+2. Newly reduced left ventricular dysfunction and moderate mitral regurgitation.\n- Medical Reasoning: A recent echocardiogram revealed a reduced ejection fraction of 35%,Acute Assessment,Medications
+"She was able to be treated in the cath lab in a timely manner, so I think that the muscle is just stunned",Acute Assessment,Medications
+Given her history. it will improve over time.,Acute Assessment,Medications
+"Left knee pain, possible MCL strain.",Acute Assessment,Acute Symptoms
+that her x-rays did not reveal any signs of a tear,Acute Assessment,Medications
+"Right knee pain, possible posterior cruciate ligament sprain.",Acute Assessment,Medications
+I explained that her x-rays did not reveal any signs of a fracture,Acute Assessment,Medications

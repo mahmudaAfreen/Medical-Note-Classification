@@ -1,0 +1,73 @@
+text,true_label,predicted_label
+CHIEF COMPLAINT\n\nHigh blood sugar.,Acute Symptoms,Medications
+who presents for evaluation of high blood sugar.,Acute Symptoms,Medications
+"The patient states he has been taking his blood sugars at home, and they have been in the 300 's.",Acute Symptoms,Discussion
+who presents for evaluation of high blood sugar.,Acute Symptoms,Medications
+He reports that his left arm pain began approximately 2 weeks ago,Acute Symptoms,Medications
+He woke around 2:00 am with intense pain in his left arm and hand,Acute Symptoms,Medications
+"and he was able to go back to sleep, the pain did not return until that evening.",Acute Symptoms,Personal History
+"The pain initially was encountered at night, but the patient notes that the symptoms carry into the next day.",Acute Symptoms,Medications
+"He denies pain when moving his neck, turning his head, and moving his shoulder.",Acute Symptoms,Discussion
+CHIEF COMPLAINT\n\nNew patient evaluation of newly diagnosed ovarian cancer.,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nRight knee injury.,Acute Symptoms,Medications
+"The onset of her pain began 2 weeks ago, when she was downhill skiing.",Acute Symptoms,Medications
+The patient locates her pain to the medial aspect of her right knee.,Acute Symptoms,Medications
+"Currently, her pain level is 7 out of 10, however she notes this can reach an 11 out of 10 at times with prolonged ambulation.",Acute Symptoms,Medications
+She experiences limping with ambulation.,Acute Symptoms,Medications
+The patient states that her pain lasts for as long as she is ambulating.,Acute Symptoms,Medications
+She denies radiating pain.,Acute Symptoms,Medications
+She also reports constant swelling and stiffness in the morning.,Acute Symptoms,Medications
+Her stiffness will resolve with ambulation,Acute Symptoms,Medications
+"Musculoskeletal: Reports right knee pain, swelling, and stiffness. Denies left knee pain.",Acute Symptoms,Discussion
+CC:\n\nRight knee pain.,Acute Symptoms,Discussion
+who presents today for an evaluation of right knee pain.,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nRenal screening tests.,Acute Symptoms,Vegetative History
+CHIEF COMPLAINT\n\nRight-sided abdominal pain,Acute Symptoms,Medications
+Medical Reasoning: The patient presents with complaints of right-sided abdominal pain,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nAnnual exam.,Acute Symptoms,Medications
+who presents for her annual exam,Acute Symptoms,Medications
+She presents today for her annual exam.,Acute Symptoms,Medications
+"CHIEF COMPLAINT\n\nCough, nasal congestion, and rhinorrhea.",Acute Symptoms,Medications
+"who is being evaluated today for a cough, nasal congestion, and rhinorrhea.",Acute Symptoms,Medications
+"Symptoms began yesterday around dinnertime with clear nasal drainage, pulling on his ears bilaterally, and rubbing his nose frequently.",Acute Symptoms,Medications
+He does not have a barky cough or a sore throat.,Acute Symptoms,Discussion
+CHIEF COMPLAINT\n\nMacromastia.,Acute Symptoms,Medications
+"Current breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup. No prior pregnancies, potentially planning on pregnancies in the future, and unsure of breast feeding.",Acute Symptoms,Discussion
+"She endorses the following symptoms because of her macromastia for 7 years:\n\nChronic upper back pain: Yes.\nBra strap grooving in shoulders or indentation on lateral chest wall: Occasionally.\nNeck pain: Yes.\nNipple pain or numbness: Yes.\nParesthesia of the hands or arms: Yes.\nIntertrigo, rash or yeast or other skin problems beneath breasts: Yes, persistent sweating.\nStooped posture: Yes.\nPhysical activity limited by breast size: Yes.\n\nThe patient has undergone the following therapies:\nPhysical therapy: No.\n\nSpecial bras: Yes.\nNon-narcotic pain medication: No.\nNarcotic pain medication: No.\n\nHer previous breast surgery includes:\nPrevious reconstruction: No.",Acute Symptoms,Medications
+with symptomatic macromastia presenting for evaluation of breast reduction,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nHeart murmur.,Acute Symptoms,Medications
+who presents today for evaluation of a heart murmur.,Acute Symptoms,Medications
+"Ms. Scott has been recently diagnosed with a “new, worrisome” heart murmur",Acute Symptoms,Medications
+"She denies chest pain, syncope, palpitations, fevers, or chills.",Acute Symptoms,Discussion
+"She reports shortness of breath if she walks too fast, too long, or tries to drink a whole glass of water without stopping",Acute Symptoms,Medications
+"Compared to 6 months ago, her functioning has declined 20-30%.",Acute Symptoms,Medications
+"Prior to 6 months, symptoms were absent.",Acute Symptoms,Medications
+"For the past month she has been experiencing severe, bilateral leg pain, which was limiting her mobility.",Acute Symptoms,Medications
+"Occasionally, she feels dizzy but takes medication for this and it subsides",Acute Symptoms,Medications
+"Her ankles have been swelling for the past 6 months, but the swelling fluctuates day to day.",Acute Symptoms,Medications
+She also reports feeling “overly tired” but attributes this to her polypharmacy.,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nJoint pain.,Acute Symptoms,Medications
+She localizes the joint pain to her bilateral knees.,Acute Symptoms,Medications
+"The patient reports she has been doing stair workouts, which she thought was building muscle on her knees",Acute Symptoms,Discussion
+She denies any pins and needles in her feet or swelling in her legs,Acute Symptoms,Medications
+The patient notes that she would look out for those symptoms because she has diabetes,Acute Symptoms,Medications
+"Physical Examination\n\nCardiovascular\nNormal rate, regular rhythm, S2 normal, normal heart sounds, and normal pulses.\n\nPulmonary/Chest\nBreath sounds normal. \n\nAbdominal\nThere is no tenderness.\n\nMusculoskeletal\nThere is no edema.",Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nHypertension.\nAlcohol use disorder.,Acute Symptoms,Medications
+who presents for a follow-up for hypertension.,Acute Symptoms,Medications
+Mrs. Taylor presents for a follow-up for hypertension,Acute Symptoms,Medications
+"After his injury, he felt as though he was unable to support his upper body weight.",Acute Symptoms,Medications
+The patient reports weakness in his legs when carrying heavy objects,Acute Symptoms,Medications
+The pain will resolve with repositioning.,Acute Symptoms,Medications
+"The onset of her pain began 1 week ago, when she was running around with her niece and fell.",Acute Symptoms,Medications
+She reports that she has been limping since the injury.,Acute Symptoms,Medications
+The patient locates her pain to the medial and lateral aspects of her knee,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nAnnual exam.,Acute Symptoms,Medications
+She presents for her annual exam.,Acute Symptoms,Medications
+She presents for her annual exam.,Acute Symptoms,Medications
+CHIEF COMPLAINT\n\nHistory of depression.,Acute Symptoms,Medications
+He presents today for abnormal labs.,Acute Symptoms,Medications
+He presents today for abnormal labs.,Acute Symptoms,Medications
+She localizes her pain to the medial aspect of the knee.,Acute Symptoms,Medications
+"She also reports occasional clicking with full extension of the knee, as well as occasional instability with ambulation.",Acute Symptoms,Medications
+The patient states that her pain is the worst when ambulating up an incline.,Acute Symptoms,Medications
+"Musculoskeletal: Reports right knee pain, clicking, and instability.",Acute Symptoms,Medications

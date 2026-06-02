@@ -1,0 +1,10 @@
+text,true_label,predicted_label
+I have also prescribed oxycodone 5 mg every 6 to 8 hours as needed for pain.,Medications,Discussion
+He can continue to alternate oxycodone with Tylenol,Medications,Discussion
+"If a croup cough develops, the patient will receive a 0.5 teaspoon.",Medications,Acute Symptoms
+Hypertension\nShe is taking amlodipine and lisinopril. We will continue these as is.,Medications,Acute Symptoms
+Lightheadedness/dizziness\nShe is on meclizine for this,Medications,Acute Symptoms
+Diabetes type II.\n Medical Treatment: Continue metformin 500 mg twice a day.,Medications,Discussion
+Alcohol use disorder\nI will start her on naltrexone which we have previously discussed,Medications,Personal History
+I have also prescribed the patient tramadol 50 mg to treat her pain,Medications,Acute Symptoms
+"She can continue taking her ibuprofen if she finds this helpful, but I am also going to send in a prescription medication she can take less frequently",Medications,Discussion

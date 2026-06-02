@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: remote-work
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: remote-work
+  template:
+    metadata:
+      labels:
+        app: remote-work
+    spec:
+      containers:
+      - name: remote-work
+        image: registry.datexis.com/s91031/traintestspecialist
+        volumeMounts:
+          - name: dshm
+            mountPath: /dev/shm
+          - name: cluster-ssh
+            mountPath: /root/ssh-key
+            readOnly: true
+          - name: my-data-pvc
+            mountPath: /pvc
+        ports:
+          - containerPort: 22
+          
+        lifecycle:
+          postStart:
+            exec:
+              command: ["/bin/sh", "-c", "cat /root/ssh-key/authorized_keys >> /root/.ssh/authorized_keys"]
+        resources:
+          requests:
+            cpu: "1"
+            memory: "2Gi"
+            nvidia.com/gpu: "1"
+          limits:
+            nvidia.com/gpu: "1"
+        env:
+          - name: LANG
+            value: 'C.UTF-8'
+          - name: TRANSFORMERS_CACHE  
+            value: /pvc/huggingface_cache
+          - name: HF_DATASETS_CACHE
+            value: /pvc/huggingface_datasets_cache
+
+      nodeSelector:
+        gpu: a100
+        #kubernetes.io/hostname: cl-worker28
+      imagePullSecrets:
+      - name: private-registry-auth
+      volumes:
+        - name: cluster-ssh
+          secret:
+            secretName: my-ssh-public-key
+            defaultMode: 256
+        #- name: hf-auth-token
+          #secret:
+            #secretName: hf-auth-token
+
+        - name: dshm
+          emptyDir:
+            medium: Memory
+        - name: my-data-pvc
+          persistentVolumeClaim:
+            claimName: my-data-pvc

@@ -1,0 +1,26 @@
+text,true_label,predicted_label
+The patient is a 58-year-old male,Personal Information,Medications
+The patient is a 58-year-old male,Personal Information,Medications
+Elizabeth Ross is a pleasant 91-year-old female,Personal Information,Vegetative History
+Ms. Thompson is a 43-year-old female,Personal Information,Medications
+"Katherine Lopez is a 22-month-old female, born at 34 weeks +3 days gestation,",Personal Information,Medications
+Katherine is a 22-month-old former 34+3-week-old twin,Personal Information,Medications
+Elizabeth Peterson is a 66-year-old female,Personal Information,Vegetative History
+Elizabeth Peterson is a 66-year-old female,Personal Information,Vegetative History
+Randy Gutierrez is a 9-month-old male,Personal Information,Medications
+He is accompanied by his mother.,Personal Information,Medications
+Julia Jones is a 25-year-old female,Personal Information,Vegetative History
+Julia Jones is a 25-year-old female,Personal Information,Vegetative History
+Diana Scott is a 100-year-old female,Personal Information,Vegetative History
+Ms. Janet Sullivan is a 33-year-old female,Personal Information,Medications
+Ms. Janet Sullivan is a 33-year-old female,Personal Information,Medications
+Jordan Roberts is a 49-year-old,Personal Information,Medications
+Amanda Taylor is an 72-year-old woman,Personal Information,Medications
+Jeremy Adams is a pleasant 57-year-old male,Personal Information,Medications
+Christina Cooper is a pleasant 77-year-old female,Personal Information,Acute Symptoms
+Angela Powell is a pleasant 81-year-old female,Personal Information,Medications
+Evelyn Morris is a 56-year-old female,Personal Information,Vegetative History
+Evelyn Morris is a 56-year-old female,Personal Information,Vegetative History
+Roy Sanchez is a 50-year-old male,Personal Information,Medications
+Roy Sanchez is a 50-year-old male who comes in,Personal Information,Medications
+Beverly Howard is a pleasant 33-year-old female,Personal Information,Medications

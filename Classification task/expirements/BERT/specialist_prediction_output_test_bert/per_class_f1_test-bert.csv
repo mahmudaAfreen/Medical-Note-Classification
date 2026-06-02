@@ -1,0 +1,20 @@
+class_id,class_name,f1_score
+0,Acute Assessment,0.7567567825317383
+1,Acute Symptoms,0.7333333492279053
+2,Diagnostic Testing,0.8679245114326477
+3,Discussion,0.7627118825912476
+4,Drug History,0.4000000059604645
+5,Family History,1.0
+6,Follow-up,0.9285714030265808
+7,Lab Examination,0.6666666865348816
+8,Medications,0.7674418687820435
+9,Other Social,0.7027027010917664
+10,Other Treatments,0.6567164063453674
+11,Personal History,0.7195767164230347
+12,Personal Information,1.0
+13,Physical Examination,0.9130434989929199
+14,Radiology Examination,0.8205128312110901
+15,Reassessment,0.782608687877655
+16,Referral,0.6666666865348816
+17,Theraputic History,0.7560975551605225
+18,Vegetative History,0.800000011920929

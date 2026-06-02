@@ -1,0 +1,4 @@
+text,true_label,predicted_label
+Tobacco: No prior history.\nAlcohol: Socially. One glass per week.\nDrug: No prior history.,Drug History,Acute Symptoms
+History includes significant alcohol use disorder and mild hypercholesterolemia,Drug History,Medications
+Mrs. Taylor admits to consuming alcohol 4-5 times a week and is interested in Naltrexone injections,Drug History,Medications
