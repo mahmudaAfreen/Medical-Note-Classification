@@ -1,0 +1,4 @@
+{"id":"1","text":"How satisfied do you feel about your experience participating our study?","schema": "radio", "choices": ["Not satisfied", "Satisfied", "Very satisfied"], "label_requirement": {"required":true}}
+{"id":"2","text":"How was the amount of samples?","schema": "radio", "choices": ["Too few", "Ok", "Too many"], "label_requirement": {"required":true}}
+{"id":"3","text":"Was the annotation guideline helpful?","schema": "radio", "choices": ["Missleading", "Not very helpful", "Ok", "Helpful", "Very helpful"], "label_requirement": {"required":true}}
+{"id":"4","text":"Please feel free to leave any comments about our study (optional)","schema": "text"}
