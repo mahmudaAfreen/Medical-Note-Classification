@@ -1,0 +1,23 @@
+text,true_label,predicted_label
+Depression.\n- Medical Reasoning: She is doing well,Reassessment,Medications
+Hypertension.\n• Medical Reasoning: This is well controlled based on daily home monitoring.,Reassessment,Acute Symptoms
+• Hypertension.,Reassessment,Medications
+• Hyperlipidemia.,Reassessment,Medications
+• Hypothyroid.,Reassessment,Medications
+Hyperlipidemia\nThis is managed by her PCP,Reassessment,Acute Symptoms
+She is having bilateral leg pain over the past month,Reassessment,Medications
+"This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP",Reassessment,Acute Symptoms
+"Hypertension.\n Medical Reasoning: Her blood pressure is elevated in office today,",Reassessment,Lab Examination
+"Diabetes type II.\n Medical Reasoning: Her hemoglobin a1C is slightly elevated, but her blood glucose levels have been well-controlled.",Reassessment,Medications
+â¢ Alcohol use disorder.,Reassessment,Medications
+â¢ Hypertension.,Reassessment,Medications
+1. Coronary artery disease.\n- Medical Reasoning: The patient has a history of coronary artery disease that we will continue to monitor.,Reassessment,Medications
+3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.,Reassessment,Medications
+4. Hypertension.\n- Medical Reasoning: Blood pressure is well controlled. She will tolerate the Aldactone well.,Reassessment,Medications
+5. Type 2 diabetes.\n- Medical Reasoning: Stable.,Reassessment,Medications
+Status post right carpal tunnel release.\n- Medical Reasoning: The patient is doing well postoperatively,Reassessment,Discussion
+Herniated disc.\nâ¢ Medical Reasoning: She has been asymptomatic since receiving a steroid injection several months ago. I do not think we need to refer her for any further steroid injections or physical therapy at this time.,Reassessment,Medications
+Coronary artery disease.\nâ¢ Medical Reasoning: She reports a burning chest pain with exertion approximately 3 times per week for the past month.,Reassessment,Medications
+Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.,Reassessment,Medications
+Hypertension.\n- Medical Reasoning: Blood pressure is well controlled at this time.,Reassessment,Medications
+Depression.\nâ¢ Medical Reasoning: He is doing well,Reassessment,Medications

@@ -1,0 +1,101 @@
+text,true_label,predicted_label
+He notes that his diet has not changed much.,Personal History,Medications
+"He does not eat processed food, nor does he put sugar in his tea.",Personal History,Medications
+The patient reports that he thinks the sugar in his diet is from fruit.,Personal History,Medications
+The patient has a history of congestive heart failure.,Personal History,Medications
+The patient has a history of right rotator cuff issues which he notes are doing well.,Personal History,Medications
+He notes that his reflux is doing better.,Personal History,Medications
+The patient reports that he no longer gets up at night from reflux.,Personal History,Medications
+"After several nights of experiencing the left arm and hand pain, he was seen by Betty Ross, PA-C.",Personal History,Medications
+"She suspected a pinched nerve and completed x-rays of the cervical spine,",Personal History,Medications
+The patient has a history of a right knee reconstruction when she was 14 years old.,Personal History,Medications
+She states that she was a good gymnast at that time.,Personal History,Medications
+The patient adds that she has had problems with her right knee since that time.,Personal History,Medications
+The patient reports a history of total right knee reconstruction at the age of 14.,Personal History,Medications
+PAST MEDICAL HISTORY:\n\nAtrial fibrillation.,Personal History,Medications
+diagnosed with the rare Smith-Magenis syndrome and associated global developmental delays.,Personal History,Medications
+She was referred to nephrology by genetics who recommended renal screening tests.,Personal History,Medications
+"At birth, the patient weighed 4 pounds 8 ounces, exhibited difficulties during eating where she would stop breathing, and challenges regulating her body temperature; determined to be typical issues associated with premature birth.",Personal History,Medications
+"The patient has seen many specialists, including GI for severe reflux, a dietitian",Personal History,Discussion
+and a neurologist who diagnosed her with Smith-Magenis syndrome.,Personal History,Medications
+"Additionally, she has been seen by a geneticist, orthopedist, ophthalmologist, and audiologist.",Personal History,Discussion
+"The patient is not ambulatory, did not sit up unassisted until 1 years old, and is currently crawling and attempting to take steps.",Personal History,Acute Symptoms
+The geneticist informed the patient's mother that patients with Smith-Magenis syndrome usually have kidney issues where “the kidneys fuse into one” and issues with their legs.,Personal History,Medications
+The mom states that Katherine is shorter and seems chubbier related to her syndrome.,Personal History,Medications
+BIRTH HISTORY\n\nTwin gestation. Birth weight 4 pounds 8 ounces.,Personal History,Medications
+PAST HISTORY\n\nMedical\nSmith-Magenis syndrome.,Personal History,Medications
+SOCIAL HISTORY\n\nPatient accompanied to appointment by her mother.\nSibling: 9-year-old brother and twin sister.,Personal History,Medications
+Patient reports history of kidney stones.,Personal History,Medications
+"with a past medical history significant for depression and hypertension,",Personal History,Medications
+It has been a year since I last saw the patient.,Personal History,Medications
+The patient reports that she is doing well,Personal History,Medications
+The patient reports that her blood pressure has been doing well.,Personal History,Medications
+She has been using the blood pressure cuff once a day and her readings seem normal.,Personal History,Discussion
+The patient endorses nasal congestion.,Personal History,Medications
+with a past medical history significant for depression and hypertension,Personal History,Medications
+Healthcare maintenance.\n• Medical Reasoning: She is due for her annual mammogram.,Personal History,Acute Symptoms
+Ms. Jones reports this is her first visit in regard to a breast reduction and has been interested in getting a breast reduction for approximately 7 years.,Personal History,Medications
+"No prior pregnancies, potentially planning on pregnancies in the future, and unsure of breast feeding.",Personal History,Discussion
+The patient endorses back and neck pain since she was in high school.,Personal History,Discussion
+PAST HISTORY\n\nMedical\nSignificant for migraine headaches.,Personal History,Medications
+She did see her doctor last week who completed a chest x-ray and prescribed pain medicine,Personal History,Medications
+The patient is unsure if she has completed any cardiovascular testing.,Personal History,Medications
+PAST HISTORY\n\nMedical\nHyperlipidemia.\nHypertension.\nHypothyroid.,Personal History,Acute Symptoms
+ALLERGIES\n\nNo known drug allergies.,Personal History,Medications
+"She is unsure if she has had an echocardiogram, although some of her outside records do note diastolic dysfunction, so it is possible that she had one as some point in the past.",Personal History,Theraputic History
+"She notes she had a right shoulder rotator cuff repair about 2 years ago, but she has not had any problems since that point.",Personal History,Medications
+She reports that her diabetes are well-controlled.,Personal History,Medications
+The patient does have high blood pressure but she monitors it,Personal History,Medications
+She notes her blood pressure has not been elevated since her joint pain started.,Personal History,Medications
+with a long history of hypertension and an acute episode of palpitations.,Personal History,Medications
+"In March, Mr. Roberts went to the emergency room for palpitations and hypertension",Personal History,Medications
+"He attributed this to a panic attack, but also stated he consumed several cups of coffee on an empty stomach the morning of.",Personal History,Medications
+He denies additional episodes of palpitations.,Personal History,Medications
+"He has been monitoring his blood pressure at home daily, obtaining systolic blood pressure readings of 146 to 155",Personal History,Discussion
+"Additionally, he has been monitoring his salt intake and feels he is doing well at reducing it",Personal History,Medications
+He has a new primary care physician,Personal History,Medications
+PAST HISTORY\n\nMedical\nHypertension,Personal History,Medications
+"At last visit on April 16, BP was 130/90.",Personal History,Medications
+After presenting at 150/100,Personal History,Medications
+CMP and CBC were essentially unremarkable.,Personal History,Medications
+She acknowledges that her blood pressure would likely improve if she stopped alcohol consumption.,Personal History,Medications
+She is checking her blood pressure in the morning and evening,Personal History,Acute Symptoms
+stating it is higher at night but will improve after sitting for a few minutes.,Personal History,Medications
+She is averaged 135-145 or 150 over 95-110.,Personal History,Medications
+PAST HISTORY\n\nMedical\nHypertension.\nHypercholesterolemia.\nAlcohol use disorder.,Personal History,Medications
+History includes significant alcohol use disorder and mild hypercholesterolemia,Personal History,Medications
+"At last visit on April 16, BP was 130/90",Personal History,Medications
+"The onset of his pain began 4 months ago, when he was moving boxes out of his sonâs college dorm",Personal History,Discussion
+"At that time, he noted tingling in his right toes, which resolved after approximately 1 hour.",Personal History,Acute Symptoms
+"The patient was seen at urgent care and was referred to obtain an MRI,",Personal History,Medications
+"SURGICAL HISTORY\n\nThe patient has a history of a right total knee arthroplasty 2 years ago, in spring of 2020",Personal History,Medications
+He states that his right knee feels 95% improved since the surgery.,Personal History,Acute Symptoms
+The onset of her wound began 1 year ago with no specific injury,Personal History,Medications
+The patient states that it seemed like a blister and she picked at it where it then turned red,Personal History,Discussion
+The patient was seen by her primary care physician,Personal History,Medications
+The patient has type 2 diabetes with neuropathy,Personal History,Medications
+"She states that her blood sugars are running better than they were; however, they are still in the 200's",Personal History,Medications
+Her last hemoglobin A1C was 10.,Personal History,Medications
+SURGICAL HISTORY\n\nRCA stent 2018,Personal History,Acute Symptoms
+She states that she is unable to take ibuprofen secondary to an ulcer,Personal History,Medications
+"with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc",Personal History,Medications
+The patient states she has been doing okay with her herniated disc in her back.,Personal History,Medications
+She has not had any back pain or any limitations in movement,Personal History,Discussion
+Her right carpal tunnel release was performed a couple of years ago and she is back to work,Personal History,Acute Symptoms
+She has full range of motion and it feels really good,Personal History,Medications
+No numbness or tingling in her hands.,Personal History,Medications
+She has had prior stenting for her heart and heart vessels in the past.,Personal History,Medications
+"Over the last month, she reports chest pain approximately 3-4 times a week with ambulation",Personal History,Medications
+Her chest pain does resolve with rest,Personal History,Medications
+The pain is described as burning and is located in the middle of her chest.,Personal History,Acute Symptoms
+She denies pain at rest.,Personal History,Medications
+She has had a little bit of nasal congestion from allergies.,Personal History,Medications
+"with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc",Personal History,Medications
+She has returned to work and denies any recurrent symptoms.,Personal History,Medications
+who comes in with a history of depressionand high blood pressure.,Personal History,Medications
+so the diet is off the charts out the window.,Personal History,Medications
+The patient has a history of depression and is doing well,Personal History,Medications
+The patient states this has been a challenging year and a half,Personal History,Medications
+His high blood pressure has been under good control recently,Personal History,Medications
+with a history of depression and high blood pressure,Personal History,Medications
+She denies any previous right knee issues,Personal History,Medications

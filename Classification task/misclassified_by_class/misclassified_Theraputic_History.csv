@@ -1,0 +1,44 @@
+text,true_label,predicted_label
+"He applied ice and after 2-3 hours, the pain improved",Theraputic History,Medications
+"prescribed gabapentin and prednisone, and referred the patient to us.",Theraputic History,Medications
+"The patient has benefited from the gabapentin and prednisone, reporting improvement of pain at night.",Theraputic History,Medications
+He denies any blood thinners,Theraputic History,Medications
+"The patient has been wearing a brace and using THC cream, which has been helpful.",Theraputic History,Acute Symptoms
+"She denies taking any medications for pain, however she has been utilizing THC gummies, which have been beneficial.",Theraputic History,Acute Symptoms
+She denies needing medications.,Theraputic History,Medications
+She has been applying ice and taking Ibuprofen without relief.,Theraputic History,Acute Symptoms
+"CURRENT MEDICATIONS:\n\nIbuprofen, digoxin.",Theraputic History,Personal History
+"who recommended discontinuing consumption of cow’s milk,",Theraputic History,Medications
+"She will be starting speech therapy in the next few weeks, and currently she is in occupational, feeding, and physical therapy.",Theraputic History,Medications
+"The patient drinks Ripple Pea Protein milk instead of cow’s milk, water and water mixed with a small amount of juice.",Theraputic History,Acute Assessment
+Patient reports use of Tylenol.,Theraputic History,Medications
+"Regarding her depression, she has been going to therapy once a week for the past year.",Theraputic History,Medications
+"he has continued to utilize Lisinopril 20 mg daily, as prescribed.",Theraputic History,Medications
+with weekly therapy,Theraputic History,Medications
+She has been compliant with lisinopril.,Theraputic History,Medications
+Her back and neck pain has been managed by a chiropractor for a few years.,Theraputic History,Medications
+CURRENT MEDICATIONS\n\nPropranolol for migraine prevention.,Theraputic History,Medications
+CURRENT MEDICATIONS\n\nLevothyroxine.\nLisinopril.\nSimvastatin 20 mg.\nMeclizine.\nAmlodipine.,Theraputic History,Discussion
+She is on simvastatin 20 mg.,Theraputic History,Medications
+and takes Norvasc 5 mg a day,Theraputic History,Discussion
+but has been well-controlled on Norvasc 5 mg daily based on home monitoring.,Theraputic History,Medications
+"who started him on a new medication Benicar HCT, which he has been using for the past month.",Theraputic History,Medications
+CURRENT MEDICATIONS\n\nBenicar HCT 40 mg/25 mg\nAmlodipine 10 mg daily.,Theraputic History,Acute Symptoms
+He is currently on maximal doses for 3 medications.,Theraputic History,Medications
+she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily,Theraputic History,Medications
+"She experienced side effects from lisinopril, such as headaches, âswooshingâ in her left ear, and lethargy",Theraputic History,Medications
+She took half a dose and did not experience the side effects.,Theraputic History,Acute Symptoms
+CURRENT MEDICATIONS\n\nLisinopril 20 mg tablet once daily.\nHydrochlorothiazide 12.5 mg once daily.,Theraputic History,Medications
+"He has been utilizing Tylenol, ibuprofen, heat, and ice for pain, which does not provide relief.",Theraputic History,Medications
+"The patient notes the ibuprofen is slightly more beneficial than the Tylenol, however it does not relieve his symptoms",Theraputic History,Medications
+He denies upset stomach with the use of ibuprofen,Theraputic History,Discussion
+"Additionally, he attempted physical therapy at his gym without any relief.",Theraputic History,Medications
+and was prescribed Keflex,Theraputic History,Medications
+"She states that the antibiotics improved her symptoms, however they did not resolve them.",Theraputic History,Medications
+The patient adds that she was last on Keflex 5 months ago,Theraputic History,Medications
+MEDICATIONS\n\naspirin 81 mg daily\nBrilinta 90 mg twice daily\nLipitor 80 mg daily\nToprol 50 mg daily\nlisinopril 20 mg daily\nmetformin,Theraputic History,Medications
+"The patient has been taking Tylenol, which has provided mild and temporary relief, as well as wrapping her knee with kinesiology tape.",Theraputic History,Acute Symptoms
+"She had a steroid injection for her herniated disc several months ago, which has been doing well.",Theraputic History,Medications
+He has been consistent with utilizing his Zoloft 50 mg a day,Theraputic History,Medications
+with Zoloft 50 mg daily.,Theraputic History,Medications
+"After the injury, she took ibuprofen and treated the wound, but the pain has persisted",Theraputic History,Medications

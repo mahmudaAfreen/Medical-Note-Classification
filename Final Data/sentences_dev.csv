@@ -1,0 +1,657 @@
+encounter_id,text_id,sentence,class
+D2N016,D2N016_1,CHIEF COMPLAINT\n\nFollow-up of chronic problems.,Acute Symptoms
+D2N016,D2N016_2,Edward Butler is a 59-year-old male,Personal Information
+D2N016,D2N016_3,"with a past medical history significant for depression, hypertension, and prior rotator cuff repair.",Personal History
+D2N016,D2N016_4,He presents for a follow-up of his chronic problems.,Acute Symptoms
+D2N016,D2N016_5,"Regarding his depression, he has been doing pretty well over the last 6 months.",Personal History
+D2N016,D2N016_6,The patient notes that he sees a counselor once a week.,Personal History
+D2N016,D2N016_7,He states that he has been swimming at the pool a lot this summer and fall.,Personal History
+D2N016,D2N016_8,The patient has preferred to avoid medications to treat this.,Personal History
+D2N016,D2N016_9,"Regarding his hypertension, he states that he has good days and bad days.",Personal History
+D2N016,D2N016_10,He adds that he takes his Norvasc daily.,Theraputic History
+D2N016,D2N016_11,The patient states that he checks his blood pressure at CVS about once weekly.,Personal History
+D2N016,D2N016_12,He does admit to occasionally drinking wine,Drug History
+D2N016,D2N016_13,and eating burgers.,Personal History
+D2N016,D2N016_14,The patient had his rotator cuff repaired about 8 months ago,Personal History
+D2N016,D2N016_15,He states that he is doing well.,Personal History
+D2N016,D2N016_16,He states that he is no longer seeing a physical therapist in this center,Personal History
+D2N016,D2N016_17,"however, he is progressing to exercises at home.",Theraputic History
+D2N016,D2N016_18,The patient notes that he stretches with a yoga ball and is getting stronger.,Theraputic History
+D2N016,D2N016_19,"He notes that he experiences mild swelling in his ankles, mainly near the end of the day",Personal History
+D2N016,D2N016_20,He states that the swelling resolves by the next morning.,Personal History
+D2N016,D2N016_21,"The patient denies nasal congestion, chest pain, or shortness of breath.",Vegetative History
+D2N016,D2N016_22,"REVIEW OF SYSTEMS\n\n• Ears, Nose, Mouth and Throat: Denies nasal congestion.\n• Cardiovascular: Denies chest pain or dyspnea on exertion.\n• Respiratory: Denies shortness of breath\n• Musculoskeletal: Bilateral ankle swelling.\n• Psychiatric: Endorses depression.",Vegetative History
+D2N016,D2N016_23,• Neurological/Psychological: Appropriate mood and affect.,Physical Examination
+D2N016,D2N016_24,"• Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.",Physical Examination
+D2N016,D2N016_25,"• Cardiovascular: Slight 3/6 systolic ejection murmur, stable.",Physical Examination
+D2N016,D2N016_26,• Musculoskeletal: 1-2+ pitting edema in the bilateral lower extremities.,Physical Examination
+D2N016,D2N016_27,VITALS REVIEWED\n\n• Blood Pressure: Elevated at 156/94 mmHg.,Physical Examination
+D2N016,D2N016_28,Labs: Creatinine is within normal limits.,Lab Examination
+D2N016,D2N016_29,Electrocardiogram is normal. No evidence of coronary artery disease.,Radiology Examination
+D2N016,D2N016_30,Edward Butler is a 59-year-old male,Personal Information
+D2N016,D2N016_31,"with a past medical history significant for depression, hypertension, and prior rotator cuff repair",Personal History
+D2N016,D2N016_32,He presents for a follow-up of his chronic problems.,Acute Symptoms
+D2N016,D2N016_33,Depression.\n- Medical Reasoning: He is doing well with therapy and physical activity,Reassessment
+D2N016,D2N016_34,He continues to decline medication for this.,Discussion
+D2N016,D2N016_35,Hypertension.\n• Medical Reasoning: This is uncontrolled at this time,Reassessment
+D2N016,D2N016_36,"He is compliant with Norvasc,",Theraputic History
+D2N016,D2N016_37,but admits to occasional dietary indiscretion.,Personal History
+D2N016,D2N016_38,8 months status post rotator cuff repair.\n• Medical Reasoning: He is doing well postoperatively,Reassessment
+D2N016,D2N016_39,He has progressed from formal physical therapy to solely home exercise.,Personal History
+D2N016,D2N016_40,Depression.\n Medical Treatment: Continue current management strategies.,Medications
+D2N016,D2N016_41,• Patient Education and Counseling: I encouraged him to contact me should he want to try medication.,Discussion
+D2N016,D2N016_42,Hypertension.\n• Additional Testing: We will order a lipid panel and an echocardiogram.,Diagnostic Testing
+D2N016,D2N016_43,• Medical Treatment: Increase Norvasc to 10 mg daily.,Medications
+D2N016,D2N016_44,8 months status post rotator cuff repair.\n• Medical Treatment: Continue with home exercise.,Other Treatments
+D2N016,D2N016_45,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N017,D2N017_1,CC:\n\nRight leg pain.,Acute Symptoms
+D2N017,D2N017_2,Ms. Peterson is a 43-year-old female,Personal Information
+D2N017,D2N017_3,who presents today for an evaluation of right leg pain.,Acute Symptoms
+D2N017,D2N017_4,She states she was bowling and hit her leg with the ball and fell.,Acute Symptoms
+D2N017,D2N017_5,She developed mild bruising.,Acute Symptoms
+D2N017,D2N017_6,She denies swelling,Acute Symptoms
+D2N017,D2N017_7,She has been walking very carefully.,Acute Symptoms
+D2N017,D2N017_8,She is alternating Tylenol and ibuprofen.,Theraputic History
+D2N017,D2N017_9,She has a history of atopic eczema,Personal History
+D2N017,D2N017_10,and takes Fluocinonide topical cream for it,Theraputic History
+D2N017,D2N017_11,She has a history of colectomy following diverticulosis.,Personal History
+D2N017,D2N017_12,Examination of the right leg shows significant tenderness to the lateral aspect of the right upper leg. No pain or tenderness with flexion or extension of the lower leg.,Physical Examination
+D2N017,D2N017_13,"X-rays of the right lower extremity is normal, no fractures or dislocations.",Radiology Examination
+D2N017,D2N017_14,Right leg contusion.,Acute Assessment
+D2N017,D2N017_15,"At this point, I discussed the diagnosis and treatment options with the patient.",Discussion
+D2N017,D2N017_16,I have recommended Mobic 15 mg once a day,Medications
+D2N017,D2N017_17,She will use ice for pain,Other Treatments
+D2N017,D2N017_18,She will follow up as needed.,Follow-up
+D2N019,D2N019_1,CC:\n\nRight elbow pain.,Acute Symptoms
+D2N019,D2N019_2,Ms. Hernandez is a 48-year-old female,Personal Information
+D2N019,D2N019_3,who presents today for an evaluation of right elbow pain,Acute Symptoms
+D2N019,D2N019_4,She states she was moving boxes from the truck into the house yesterday and felt a pop in her elbow.,Acute Symptoms
+D2N019,D2N019_5,"She has tried applying ice and taking Ibuprofen, but it does not help.",Theraputic History
+D2N019,D2N019_6,She has a history of anaphylaxis,Personal History
+D2N019,D2N019_7,and has an EpiPen,Theraputic History
+D2N019,D2N019_8,Her past surgical history is significant for neck surgery.,Personal History
+D2N019,D2N019_9,Examination of the right elbow shows tenderness over the lateral epicondyle. Swelling and redness are noted. Pain with flexion and extension of the elbow. Pain over the dorsal aspect of the forearm.,Physical Examination
+D2N019,D2N019_10,X-rays of the right elbow shows no obvious signs of acute fracture. Mild effusion about the lateral aspect.,Radiology Examination
+D2N019,D2N019_11,Right elbow lateral epicondylitis.,Acute Assessment
+D2N019,D2N019_12,"At this point, I discussed the diagnosis and treatment options with the patient",Discussion
+D2N019,D2N019_13,I have recommended a sling for comfort,Other Treatments
+D2N019,D2N019_14,We discussed ice and anti-inflammatory medications,Discussion
+D2N019,D2N019_15,"I will prescribe Motrin, 800 mg to take every 6 hours",Medications
+D2N019,D2N019_16,She will follow up with me as needed if she continues to have pain,Follow-up
+D2N019,D2N019_17,All questions were answered.,Discussion
+D2N031,D2N031_2,CHIEF COMPLAINT\n\nHistory of right ductal carcinoma in situ (DCIS),Acute Symptoms
+D2N031,D2N031_3,Sophia Brown is a 75 y.o. female,Personal Information
+D2N031,D2N031_4,who presents today for a new patient evaluation,Acute Symptoms
+D2N031,D2N031_5,due to her history of right DCIS,Personal History
+D2N031,D2N031_6,he is doing well but wishes to establish care today for continued monitoring.,Personal History
+D2N031,D2N031_7,The patient underwent a screening mammogram in 10/2019 and was found to have a calcification in the right breast.,Personal History
+D2N031,D2N031_8,"She then had a right breast ultrasound on 11/03/2019 which revealed a mass at the 2 o’clock position, 11 cm from the nipple, in the retroareolar region",Personal History
+D2N031,D2N031_10,The report states the mass was 0.4 by 2.0 by 3.0 centimeters,Personal History
+D2N031,D2N031_11,"She subsequently had an ultrasound-guided core needle biopsy on 12/05/2019 and pathology results revealed grade 2 ER-positive, PR-positive DCIS.",Personal History
+D2N031,D2N031_12,The patient then had a lumpectomy with lymphadenectomy performed on 01/20/2020.,Personal History
+D2N031,D2N031_13,The tumor was 8 mm with negative margins and the 5 lymph nodes removed were all benign. Pathology from the tumor confirmed DCIS.,Personal History
+D2N031,D2N031_14,Her lumpectomy was followed by adjuvant radiation therapy,Theraputic History
+D2N031,D2N031_15,Endocrine therapy was also offered but the patient declined,Theraputic History
+D2N031,D2N031_16,She has since had a mammogram in 01/2021 which was normal.,Personal History
+D2N031,D2N031_17,The patient also reports that she performs self-breast exams regularly at home.,Theraputic History
+D2N031,D2N031_18,Mrs. Brown is a G5P5 female and estimates that her last menstrual period was approximately 30 years ago.,Personal History
+D2N031,D2N031_19,She is not currently and has never been on hormone replacement therapy.,Personal History
+D2N031,D2N031_20,The patient’s last colonoscopy was done in 2018.,Personal History
+D2N031,D2N031_21,She had a sigmoid polypectomy at that time and pathology showed a tubular adenoma.,Personal History
+D2N031,D2N031_22,Her cholesterol was recently noted to be elevated and the patient reports that she is exercising and reducing fatty food intake accordingly.,Personal History
+D2N031,D2N031_23,This is being followed by her primary care provider.,Personal History
+D2N031,D2N031_24,"PAST HISTORY\n\nMedical\nHypercholesterolemia.\nStage 0 ER/PR-positive invasive ductal carcinoma of the right breast, status post lumpectomy and adjuvant radiation therapy.",Personal History
+D2N031,D2N031_25,"Surgical\nRight lumpectomy, lymphadenectomy x5, 01/20/2020.\nBilateral tubal ligation.",Personal History
+D2N031,D2N031_26,Alcohol: Socially. No history of heavier consumption.\nIllicit drug use: Never.\nTobacco: Former smoker. Quit approximately 30 years ago.,Drug History
+D2N031,D2N031_27,Patient has 5 children and multiple grandchildren.,Other Social
+D2N031,D2N031_28,"FAMILY HISTORY\n\nMother: Non-Hodgkin’s lymphoma.\nFather: Prostate cancer, heart disease.\nHer children are healthy. She has no siblings. Denies family history of breast cancer.",Family History
+D2N031,D2N031_29,CURRENT MEDICATIONS\n\nCo-Q 10.\nVitamin D.\nVitamin C.\nFish oil.\nElderberry fruit.,Theraputic History
+D2N031,D2N031_30,ALLERGIES\n\nPenicillin.,Personal History
+D2N031,D2N031_31,"EVIEW OF SYSTEMS\n\nNegative for weight loss, weight gain, headaches, bone pain, urinary symptoms, blood in the stools.",Vegetative History
+D2N031,D2N031_32,"Positive for back pain, joint pain, high cholesterol. Patient has sought care for these complaints",Personal History
+D2N031,D2N031_34,She reports that she was told the back pain and joint pain knee are age-related,Personal History
+D2N031,D2N031_35,She is being followed for the high cholesterol by her primary care provider.,Personal History
+D2N031,D2N031_36,The ECOG performance status today is grade 0.,Physical Examination
+D2N031,D2N031_37,"Breast: There are no palpable masses; however, there is some skin thickening at the medial inferior aspect of the right breast which may be radiation skin changes.",Physical Examination
+D2N031,D2N031_38,Stage 0 ER/PR-positive invasive ductal carcinoma of the right breast.,Reassessment
+D2N031,D2N031_39,The patient is status post lumpectomy with removal of 5 lymph nodes which were benign,Reassessment
+D2N031,D2N031_40,She also underwent adjuvant radiation therapy but declined endocrine therapy.,Personal History
+D2N031,D2N031_41,Today’s clinical examination shows no evidence of recurrent disease or other malignancy,Reassessment
+D2N031,D2N031_42,She also had a negative mammogram in 01/2021.,Reassessment
+D2N031,D2N031_43,1. We will continue to observe the patient.,Other Treatments
+D2N031,D2N031_44,2. She is due for a mammogram in 04/2022.,Diagnostic Testing
+D2N031,D2N031_45,3. She should follow up with me in 1 year after the mammogram.,Follow-up
+D2N066,D2N066_1,CHIEF COMPLAINT\n\nBack pain evaluation.,Acute Symptoms
+D2N066,D2N066_2,"The patient has a history of diabetes, hypertension, and high cholesterol.",Personal History
+D2N066,D2N066_3,He denies previous back surgeries.,Personal History
+D2N066,D2N066_4,The patient currently utilizes metformin 500 mg twice daily and Norvasc.,Theraputic History
+D2N066,D2N066_5,REVIEW OF SYSTEMS\n\nCardiovascular: Reports ankle swelling.,Vegetative History
+D2N066,D2N066_6,".\nMusculoskeletal: Reports lower back pain.\nNeurological: Reports tingling in left leg. Denies weakness or numbness in legs, or loss of bowl or bladder function.",Vegetative History
+D2N066,D2N066_7,Neurological\n- Orientation: Alert and oriented x3. Cranial nerves grossly intact. Normal gait.,Physical Examination
+D2N066,D2N066_8,Neck\n- General Examination: No JVD. No bruits.,Physical Examination
+D2N066,D2N066_9,"Respiratory\n- Auscultation of Lungs: No wheezes, rales.",Physical Examination
+D2N066,D2N066_10,"Cardiovascular\n- Auscultation of Heart: Regular rate and rhythm. 2/6 systolic ejection murmur. Otherwise, regular rate and rhythm.",Physical Examination
+D2N066,D2N066_11,Musculoskeletal\n- Examination: Tenderness on the left paraspinal area. Straight leg raise test is negative. Reflexes are normal. 1+ nonpitting edema of lower extremities. No calf tenderness. Negative Homan's sign.,Physical Examination
+D2N066,D2N066_12,1. Lower back pain.\n- Medical Reasoning: I believe this is more of a muscular sprain.,Acute Assessment
+D2N066,D2N066_13,2. Diabetes.,Reassessment
+D2N066,D2N066_14,Medical Reasoning: His most recent A1c was 7.1 and his blood sugar levels are typically between 120-140,Lab Examination
+D2N066,D2N066_15,3. Hypertension.\n- Medical Reasoning: He does have 1+ edema in his legs.,Acute Assessment
+D2N066,D2N066_16,1. Lower back pain.\n- Patient Education and Counseling: We discussed treatment options today.,Discussion
+D2N066,D2N066_17,- Medical Treatment: I am going to start him on Naprosyn 500 mg twice a day and Flexeril 10 mg twice a day,Medications
+D2N066,D2N066_18,I will refer him for physical therapy to help strengthen some of the muscles in his lower back.,Referral
+D2N066,D2N066_19,"Additional Testing: I do not think he needs an x-ray at this stage, however if he does not improve, we will order one for further evaluation.",Diagnostic Testing
+D2N066,D2N066_20,2. Diabetes.\n- Patient Education and Counseling: We discussed treatment options today.,Discussion
+D2N066,D2N066_21,Medical Treatment: He will continue the metformin 500 mg twice a day.,Medications
+D2N066,D2N066_22,Additional Testing: I am going to order another hemoglobin A1c,Diagnostic Testing
+D2N066,D2N066_23,3. Hypertension.\n- Patient Education and Counseling: We discussed treatment options today,Discussion
+D2N066,D2N066_24,I explained that his edema is likely caused by the Norvasc.,Reassessment
+D2N066,D2N066_25,- Medical Treatment: The patient will discontinue the use of Norvasc and we will start him on hydrochlorothiazide 10 mg once a day.,Medications
+D2N066,D2N066_26,Additional Testing: I will order a CBC and BMP ,Diagnostic Testing
+D2N066,D2N066_27,"Additionally, I will order a repeat EKG, as well as a chest x-ray.",Diagnostic Testing
+D2N066,D2N066_28,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N066,D2N066_29,"The patient will follow up in 2 weeks.\""",Follow-up
+D2N070,D2N070_1,CHIEF COMPLAINT\n\nBack pain.,Acute Symptoms
+D2N070,D2N070_2,Mr. Logan Walker is a 58-year-old male,Personal Information
+D2N070,D2N070_3,"with a past medical history significant for diabetes type 2, hypertension, and osteoarthritis,",Personal History
+D2N070,D2N070_4,who presents today with back pain.,Acute Symptoms
+D2N070,D2N070_5,Mr. Walker reports that he was helping his daughter move some heavy equipment and lifted some heavy boxes a little too quickly on Saturday.,Other Social
+D2N070,D2N070_6,He thought he heard a pop when he moved and he had to lie down for about an hour before his pain resolved.,Acute Symptoms
+D2N070,D2N070_7,He has had stiffness ever since.,Acute Symptoms
+D2N070,D2N070_8,The pain is located in his lower back.,Acute Symptoms
+D2N070,D2N070_9,"He took Tylenol, ibuprofen, and used Icy Hot on the area, but it did not seem to help",Theraputic History
+D2N070,D2N070_10,"The patient endorses some tingling in his toes on his right foot, which resolved Sunday afternoon.",Acute Symptoms
+D2N070,D2N070_11,"He finds it difficult to find a comfortable position to sleep at night, and he tends to lie on his right side, which seems to help a little bit.",Acute Symptoms
+D2N070,D2N070_12,"Regarding his diabetes type 2, Mr. Walker reports that he has not cooked a meal at home in weeks, due to travel.",Other Social
+D2N070,D2N070_13,"He notes that his diet has not been great, and he thinks he needs to eat clean for a couple of weeks.",Personal History
+D2N070,D2N070_14,He monitors his blood pressure at home and it is under control for the most part.,Personal History
+D2N070,D2N070_15,"Regarding his osteoarthritis, Mr. Walker reports occasional aggravation of his knee when he runs too much or lifts boxes that are too heavy.",Personal History
+D2N070,D2N070_16,"The patient denies chest pain, nausea, vomiting, fevers, and chills.",Vegetative History
+D2N070,D2N070_17,"REVIEW OF SYSTEMS\n\n• Constitutional: Denies fevers, chills.\n• Cardiovascular: Denies chest pain.\n• Musculoskeletal: Endorses back pain and stiffness. Endorses knee pain with exertion.\n• Neurological: Endorsed tingling in toes until Sunday, denies tingling today.",Vegetative History
+D2N070,D2N070_18,• Cardiovascular: Slight 2/6 systolic ejection murmur.,Physical Examination
+D2N070,D2N070_19,• Musculoskeletal: Pain to palpation of the lumbar spine. Pain with flexion and extension of the back. Negative straight leg raise.,Physical Examination
+D2N070,D2N070_20,VITALS REVIEWED\n\n• Blood Pressure: Elevated,Physical Examination
+D2N070,D2N070_21,Hemoglobin A1c is elevated at 8.,Lab Examination
+D2N070,D2N070_22,X-ray of the back is unremarkable. Normal bony alignment. No fracture present.,Radiology Examination
+D2N070,D2N070_23,Mr. Logan Walker is a 58-year-old male,Personal Information
+D2N070,D2N070_24,"with a past medical history significant for diabetes type 2, hypertension, and osteoarthritis,",Personal History
+D2N070,D2N070_25,who presents today with low back pain.,Acute Symptoms
+D2N070,D2N070_26,Lumbar strain.\n- Medical Reasoning: He injured his lower back while moving heavy boxes,Acute Symptoms
+D2N070,D2N070_27,His recent x-ray was unremarkable.,Radiology Examination
+D2N070,D2N070_28,Diabetes type 2.,Reassessment
+D2N070,D2N070_29,• Medical Reasoning: His recent hemoglobin A1c was elevated at 8,Lab Examination
+D2N070,D2N070_30,He does admit to some dietary indiscretion lately.,Personal History
+D2N070,D2N070_31,Hypertension.\n• Medical Reasoning: His blood pressures have been slightly elevated based on home monitoring and in clinic today.,Reassessment
+D2N070,D2N070_32,Osteoarthritis.\n• Medical Reasoning: This is mostly well controlled.,Reassessment
+D2N070,D2N070_33,Medical Treatment: Initiate meloxicam 15 mg once a day,Medications
+D2N070,D2N070_34,• Specialist Referrals: Referral to physical therapy.,Referral
+D2N070,D2N070_35,• Patient Education and Counseling: He was encouraged to continue icing the area and avoid strenuous activity.,Other Treatments
+D2N070,D2N070_36,Diabetes type 2.\n• Additional Testing: Repeat hemoglobin A1c in 6 months.,Diagnostic Testing
+D2N070,D2N070_37,• Medical Treatment: Increase metformin to 1000 mg twice a day.,Medications
+D2N070,D2N070_38,Hypertension.\n• Medical Treatment: Increase lisinopril from 10 mg to 20 mg a day.,Medications
+D2N070,D2N070_39,Osteoarthritis.\n• Medical Treatment: Continue to monitor the knee. No further work up is needed at this time.,Other Treatments
+D2N070,D2N070_40,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N074,D2N074_1,CHIEF COMPLAINT\n\nPituitary lesion.,Acute Symptoms
+D2N074,D2N074_2,Bruce Ward is a 52-year-old male,Personal Information
+D2N074,D2N074_3,with a pituitary lesion.,Acute Symptoms
+D2N074,D2N074_4,The patient is seen in consultation at the request of Dr. Henry Howard for possible surgical intervention.,Personal History
+D2N074,D2N074_5,"The patient presented to his primary care provider, Dr. Howard, on 03/01/2021",Personal Information
+D2N074,D2N074_6,complaining of worsening headaches over the past few months.,Acute Symptoms
+D2N074,D2N074_7,He denied any trouble with headaches in the past.,Personal History
+D2N074,D2N074_8,Further work up of headaches with MRI of the brain revealed the pituitary lesion.,Acute Symptoms
+D2N074,D2N074_9,"Mr. Ward reports headaches started about 3 months ago, at which point they were around 3 out of 10 in severity.",Acute Symptoms
+D2N074,D2N074_10,They have gradually worsened over time and now he rates them at about 6/10.,Acute Symptoms
+D2N074,D2N074_11,The headaches do tend to be worse in the morning and feel like a dull ache behind the eyes.,Acute Symptoms
+D2N074,D2N074_12,"They tend to last a few hours at a time, and nothing makes them particularly worse or better.",Acute Symptoms
+D2N074,D2N074_13,Tylenol failed to improve headaches.,Theraputic History
+D2N074,D2N074_14,"The patient endorses that recently he has been bumping into door frames, but no obvious problems with his balance or vision.",Personal History
+D2N074,D2N074_15,"He denies any recent sickness or feeling sick and negative for fever, rash, paresthesia, weakness, neck stiffness, or syncope.",Vegetative History
+D2N074,D2N074_16,PAST HISTORY\n\nMedical\nNewly diagnosed pituitary lesion.,Personal History
+D2N074,D2N074_17,FAMILY HISTORY\n\nNo known family history; adopted.,Family History
+D2N074,D2N074_18,Employment Status: Works as a computer programmer.,Other Social
+D2N074,D2N074_19,Marital Status: Married for 25 years.,Other Social
+D2N074,D2N074_20,"Living Arrangement: Lives with wife, recently purchased a new house.",Other Social
+D2N074,D2N074_21,Alcohol Use: None.\nTobacco Use: Non-smoker.\nRecreational Drugs: None.,Drug History
+D2N074,D2N074_22,"Neurological\nPatient alert, oriented to person, place, and time, affect appropriate and speech fluent. Cranial nerve examination grossly intact. No focal motor or sensory deficit in the upper or lower extremities.",Physical Examination
+D2N074,D2N074_23,Eyes\nVisual acuity and eye movements are normal. Pupils are equal and reactive. Visual field testing reveals bitemporal hemianopia. Color vision is normal.,Physical Examination
+D2N074,D2N074_24,"Labs reviewed, 03/03/2021: CBC, U&Es, coagulation, and CRP are all normal. Pituitary hormone profile demonstrates a low TSH, all other results were normal.",Lab Examination
+D2N074,D2N074_25,"Independent review and interpretation of MRI brain, 03/04/2021: The MRI reveals a pituitary lesion with elevation and compression of the optic chiasm. The ventricles are normal in size and no other abnormalities are noted.",Radiology Examination
+D2N074,D2N074_26,• Pituitary adenoma,Acute Assessment
+D2N074,D2N074_27,• Bitemporal hemianopia,Acute Assessment
+D2N074,D2N074_28,Mr. Ward is a very pleasant 52-year-old male,Personal Information
+D2N074,D2N074_29,who has a benign appearing pituitary adenoma discovered on work up for worsening headaches,Acute Symptoms
+D2N074,D2N074_30,"There is clinical and radiographical evidence of optic chiasmal compression, examination today revealed a bitemporal hemianopia.",Acute Assessment
+D2N074,D2N074_31,Radiographically this appears to be a benign pituitary adenoma but that there was no way to be sure without a pathological diagnosis.,Acute Assessment
+D2N074,D2N074_32,Surgical intervention to excise and decompress the pituitary fossa is indicated given optic chiasmal compression.,Other Treatments
+D2N074,D2N074_33,Pituitary adenoma.\nWe discussed the general indications for surgical intervention,Other Treatments
+D2N074,D2N074_34,"The risks, benefits to trans-sphenoidal resection were explained to the patient",Discussion
+D2N074,D2N074_35,"The risks of anesthesia including but not limited to the risks of heart attack, stroke, and death",Discussion
+D2N074,D2N074_37,"The risks of surgery including infection, need for further surgery, wound issues such as spinal fluid leak or infection which may require prolonged hospitalization or additional procedure, seizure, stroke, permanent numbness, weakness, difficulty speaking, or death",Discussion
+D2N074,D2N074_38,The patient voiced understanding and wishes to proceed with trans-sphenoidal resection of the adenoma.,Discussion
+D2N074,D2N074_39,Bitemporal hemianopia.\nWe will have the patient scheduled this week to have visual field testing with ophthalmology,Diagnostic Testing
+D2N074,D2N074_40,The preoperative visual field will serve as baseline for comparison of postoperative visual field testing to monitor for improvement in the bitemporal hemianopia,Discussion
+D2N074,D2N074_41,"Additionally, we discussed that unfortunately no guarantees could be given that his vision would return.",Discussion
+D2N074,D2N074_42,• Refer to ophthalmology for baseline visual field testing.,Referral
+D2N074,D2N074_43,• Schedule trans-sphenoidal resection of pituitary adenoma.,Other Treatments
+D2N096,D2N096_1,CC:\n\nLeft shoulder pain.,Acute Symptoms
+D2N096,D2N096_2,Ms. Anderson is a 44-year-old female,Personal Information
+D2N096,D2N096_3,who presents today for an evaluation of the left shoulder.,Acute Symptoms
+D2N096,D2N096_4,She states that she was in gymnastics 1 week ago.,Acute Symptoms
+D2N096,D2N096_5,The pain has been present since that time.,Acute Symptoms
+D2N096,D2N096_6,She has pain with any type of movement of her left shoulder.,Acute Symptoms
+D2N096,D2N096_7,She had taken Tylenol for 2 to 3 days with no improvement in her symptoms.,Theraputic History
+D2N096,D2N096_8,She has a surgical history significant for prior left upper extremity surgery.,Personal History
+D2N096,D2N096_9,Examination of the left shoulder shows pain with range of motion.,Physical Examination
+D2N096,D2N096_10,"X-rays of the left shoulder, 3 views obtained on today's visit show no obvious signs of fracture.",Radiology Examination
+D2N096,D2N096_11,"At this point, I discussed the diagnosis and treatment options with the patient",Discussion
+D2N096,D2N096_12,I have recommended taking ibuprofen 600 mg three times per day for one week,Medications
+D2N096,D2N096_13,If the patient does not have relief from the ibuprofen she will take Aleve,Medications
+D2N096,D2N096_14,The patient may also utilize ice or heat packs,Other Treatments
+D2N096,D2N096_15,She should rest her left arm and may not lift or carry heavy objects with her left arm,Discussion
+D2N096,D2N096_16,The patient should follow up in three to four weeks if the pain persists,Follow-up
+D2N096,D2N096_17,We may repeat the left shoulder x-ray at that time.,Diagnostic Testing
+D2N102,D2N102_1,CHIEF COMPLAINT\n\nHematuria.\nChronic urolithiasis.,Acute Symptoms
+D2N102,D2N102_2,Mrs. Kelly Wood is a 41-year-old female established patient,Personal Information
+D2N102,D2N102_3,with chronic urolithiasis,Personal History
+D2N102,D2N102_4,who returns in follow up for renal ultrasound due to hematuria.,Acute Symptoms
+D2N102,D2N102_5,The patient reports having intermittent episodes of gross hematuria over the past several months,Acute Symptoms
+D2N102,D2N102_6,she states she had multiple voids in one day where the color of her urine was like cherry Kool-Aid last week; then passed 2 small stone like structures.,Acute Symptoms
+D2N102,D2N102_7,Pain at the time was 8 out of 10 on a scale of 10.,Acute Symptoms
+D2N102,D2N102_8,she currently denies any flank pain.,Acute Symptoms
+D2N102,D2N102_9,CURRENT MEDICATIONS\n\nAlavert 10 mg tablet once daily.,Theraputic History
+D2N102,D2N102_10,ALLERGIES\n\nNo known drug allergies.,Personal History
+D2N102,D2N102_11,Genitourinary: Normal vaginal exam.,Physical Examination
+D2N102,D2N102_12,Renal Ultrasound\nImpression: Right kidney is 10 cm in length by 5 cm wide,Radiology Examination
+D2N102,D2N102_13,"There are no stones, masses, or hydronephrosis",Radiology Examination
+D2N102,D2N102_14,The left kidney is 10.8 cm in length and 5 cm wide,Radiology Examination
+D2N102,D2N102_15,"There is a 6 mm left renal stone, non-obstructing. 533 ml pre void and 0 ml post void.",Radiology Examination
+D2N102,D2N102_16,"Urine Dipstick without Micro\nColor: Yellow.\nAppearance: Clear.\nLeukocytes: Negative.\nNitrate: Negative.\nUrobilinogen: 0.2 EU/dL.\nProtein: Negative.\npH: 5.5\nBlood: Trace, intact.\nSpecific gravity: 1.020\nKetone: Negative.\nBilirubin: Negative.\nGlucose: Negative.",Lab Examination
+D2N102,D2N102_17,• Hematuria.,Acute Assessment
+D2N102,D2N102_18,• Chronic urolithiasis.,Reassessment
+D2N102,D2N102_19,Mrs. Wood presents today for renal ultrasound,Acute Symptoms
+D2N102,D2N102_20,The patient has had recurrent episodes of hematuria over the past few months secondary to chronic urolithiasis,Personal History
+D2N102,D2N102_21,Mrs. Wood reports passing two small stone like structures last week.,Acute Symptoms
+D2N102,D2N102_22,Urinalysis today was notable for only a trace amount of blood and the renal ultrasound revealed a 6 mm non-obstructing renal stone in the left kidney.,Acute Assessment
+D2N102,D2N102_23,"No surgical intervention is recommended, and the patient would like to discuss urolithiasis prevention",Discussion
+D2N102,D2N102_24,We had a very lengthy discussion with regards to urolithiasis formation and treating the underlying cause to prevent reoccurrence and associated potential dietary factors that could be involved with urolithiasis formation.,Discussion
+D2N102,D2N102_25,"It is recommended that the patient maintain a healthy diet; limit salt, and animal protein",Other Treatments
+D2N102,D2N102_26,she should increase fluid consumption; adequate intake is half of her body weight in ounces of water daily and avoid sugary drinks,Other Treatments
+D2N102,D2N102_27,A copy of the dietary recommendations and avoidances was provided to the patient for reference.,Discussion
+D2N102,D2N102_28,We will continue to monitor annually with renal ultrasound unless new symptoms develop,Follow-up
+D2N102,D2N102_29,The patient voiced understanding and agreed with the recommended medical treatment plan.,Discussion
+D2N102,D2N102_30,"Follow up in 1 year with renal ultrasound, sooner should symptoms arise",Follow-up
+D2N102,D2N102_31,Should you develop sudden onset of severe pain or gross hematuria go to the emergency room.,Discussion
+D2N114,D2N114_1,CHIEF COMPLAINT\n\nHeadaches.,Acute Symptoms
+D2N114,D2N114_2,Julie Jenkins is a pleasant 33-year-old female,Personal Information
+D2N114,D2N114_3,who presents to the clinic today for the evaluation of headaches.,Acute Symptoms
+D2N114,D2N114_4,The patient was referred from her primary care physician.,Personal History
+D2N114,D2N114_5,"The patient states that she was seen by Dr. White a few years ago and was going to obtain an MRI; however, Dr. White wanted her to see me first and urgently.",Personal History
+D2N114,D2N114_6,The onset of her headaches began when she was a teenager.,Acute Symptoms
+D2N114,D2N114_7,"Initially, her headaches appeared during menses, however she now experiences them more frequently and with more severity.",Acute Symptoms
+D2N114,D2N114_8,Her pain is aggravated by physical activities,Acute Symptoms
+D2N114,D2N114_9,The patient states that she has been trying to exercise more in order to lose weight,Other Social
+D2N114,D2N114_10,however she is unable to exercise for prolonged periods of time secondary to the headaches.,Acute Symptoms
+D2N114,D2N114_11,The patient locates her pain to the right side of her head and behind her eye.,Acute Symptoms
+D2N114,D2N114_12,She describes her pain as a pulsing sensation,Acute Symptoms
+D2N114,D2N114_13,She also reports intermittent ringing in her ears for the last few months,Acute Symptoms
+D2N114,D2N114_14,"Additionally, she reports intermittent blurred vision on the lateral aspect of her vision.",Acute Symptoms
+D2N114,D2N114_15,"She denies any numbness or tingling in her hands, feet, or face.",Acute Symptoms
+D2N114,D2N114_16,The patient enjoys running and wears either New Balance or Asics shoes.,Other Social
+D2N114,D2N114_17,"REVIEW OF SYSTEMS\n\nNeurological: Reports headaches. Denies numbness or tingling in her hands, feet, or face.",Vegetative History
+D2N114,D2N114_18,Vitals are within normal limits.,Physical Examination
+D2N114,D2N114_19,"CV: Normal head rhythm with no murmurs, rubs, or gallops.",Physical Examination
+D2N114,D2N114_20,"NEURO: Cranial nerves I through XII are intact distally, including a normal cranial reflex",Physical Examination
+D2N114,D2N114_21,MSK: Gait is normal.,Physical Examination
+D2N114,D2N114_22,Funduscopic exam: Positive for papilledema.,Physical Examination
+D2N114,D2N114_23,"Headaches, concern for idiopathic intracranial hypertension",Acute Assessment
+D2N114,D2N114_24,"After reviewing the patient's examination today, I have had a lengthy discussion with the patient in regard to her current symptoms",Discussion
+D2N114,D2N114_25,I have recommended that we obtain an urgent MRI of the brain to evaluate for any other condition that could be contributing to her symptoms,Diagnostic Testing
+D2N114,D2N114_26,We will contact her to schedule this after approved by insurance,Discussion
+D2N114,D2N114_27,"Once the MRI results are available for review and further discussion, I will also perform a spinal tap to evaluate the pressure in the brain",Diagnostic Testing
+D2N114,D2N114_28,I have also advised her to be seen by a neuro ophthalmologist for a complete eye exam,Referral
+D2N114,D2N114_29,Questions were invited and answered today,Discussion
+D2N114,D2N114_30,The patient agrees to the treatment plan.,Discussion
+D2N114,D2N114_31,The patient will follow up with me once the MRI results are available for review and further recommendations,Follow-up
+D2N121,D2N121_1,CHIEF COMPLAINT\n\nRight knee pain.,Acute Symptoms
+D2N121,D2N121_2,MEDICAL HISTORY\n\nPatient reports history of hypertension.,Personal History
+D2N121,D2N121_3,SURGICAL HISTORY\n\nPatient reports history of tonsillectomy.,Personal History
+D2N121,D2N121_4,Patient reports that he has a boat on Lake Martin,Other Social
+D2N121,D2N121_5,He is frequent water skier.,Other Social
+D2N121,D2N121_6,Patient reports taking lisinopril 20 mg once a day.,Theraputic History
+D2N121,D2N121_7,REVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right knee pain and swelling.\nNeurological: Denies numbness or tingling in the right foot.,Vegetative History
+D2N121,D2N121_8,VITALS\n\nBlood pressure: 120/77,Physical Examination
+D2N121,D2N121_9,Neck\n- General Examination: Neck is supple without lymphadenopathy.,Physical Examination
+D2N121,D2N121_10,Respiratory\n- Auscultation of Lungs: Clear bilaterally.,Physical Examination
+D2N121,D2N121_11,Cardiovascular\n- Auscultation of Heart: Regular rate and rhythm. No murmurs.,Physical Examination
+D2N121,D2N121_12,Musculoskeletal\n- Examination of the right knee: Ecchymosis noted. Effusion present. Pain to palpation medially. Decreased range of motion. Negative varus and valgus test. Negative Lachman sign. Palpable dorsalis pedis and posterior tibial pulse. There is otherwise no lower extremity edema.,Physical Examination
+D2N121,D2N121_13,Hematology/Lymphatic/Immunology\n- Palpation: No enlarged lymph nodes.,Physical Examination
+D2N121,D2N121_14,"1. Right knee pain.\n- Medical Reasoning: Based on the patient's symptoms and exam, I believe he has a medial collateral ligament strain.",Acute Assessment
+D2N121,D2N121_15,2. Hypertension.\n- Medical Reasoning: The patient is doing well on his current medication regimen. He is monitoring his blood pressure at home and has not had any elevated readings.,Reassessment
+D2N121,D2N121_16,1. Right knee pain.\n- Patient Education and Counseling: We discussed the nature of this injury as well as the expected recovery outcome,Discussion
+D2N121,D2N121_17,He was advised surgery is typically not needed and that physical therapy will be beneficial for strengthening to prevent future injuries.,Other Treatments
+D2N121,D2N121_18,He was also counseled to rest his knee until we at least receive his x-ray results in order to prevent further injury and to allow for a quicker recovery.,Other Treatments
+D2N121,D2N121_19,Medical Treatment: X-ray of the right knee was ordered for further evaluation,Diagnostic Testing
+D2N121,D2N121_20,Referral to physical therapy was provided for strengthening,Other Treatments
+D2N121,D2N121_21,A prescription for meloxicam 15 mg once a day for pain and swelling was also provided.,Medications
+D2N121,D2N121_22,2. Hypertension.\n- Medical Treatment: He will continue taking lisinopril 20 mg a day,Medications
+D2N121,D2N121_23,Lipid panel was ordered today.,Diagnostic Testing
+D2N121,D2N121_24,3. Health Maintenance.\n- Patient Education and Counseling: I advised the patient that his records indicate that he is due for a tetanus vaccine.,Discussion
+D2N121,D2N121_25,Medical Treatment: The patient will receive his tetanus vaccine in office today.,Other Treatments
+D2N121,D2N121_26,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N121,D2N121_27,"The patient will follow-up for his x-ray results.\""",Follow-up
+D2N125,D2N125_1,CHIEF COMPLAINT\n\nRight-sided facial pain.,Acute Symptoms
+D2N125,D2N125_2,REVIEW OF SYSTEMS\n\nEyes: Denies vision changes or weakness in right eye.,Vegetative History
+D2N125,D2N125_3,"HENT: Reports right sided facial pain. Denies left sided facial pain. Neurological: Reports headaches. Denies sensory loss, numbness, or tingling in the right cheek. Denies right sided facial weakness.",Acute Symptoms
+D2N125,D2N125_4,Neurological\n- Orientation: Light touch testing of the right side of the face reveals numbness when compared to the contralateral side. Pinprick testing is sharp on the left side of the face; dull on the right side of the face.,Physical Examination
+D2N125,D2N125_5,"Ears, Nose, Mouth, and Throat\nBilateral finger rub test is negative.\n- Examination of Mouth: Teeth are symmetric.",Physical Examination
+D2N125,D2N125_6,"MRI of the head is reviewed today. This demonstrates a small blood vessel that is abutting, and perhaps even pinching, the right trigeminal nerve.",Radiology Examination
+D2N125,D2N125_7,1. Trigeminal neuralgia.,Acute Assessment
+D2N125,D2N125_8,- Medical Reasoning: The patient has been experiencing facial pain for 2 to 3 months.,Acute Symptoms
+D2N125,D2N125_9,"A recent MRI revealed a small blood vessel abutting, or perhaps even pinching, the right trigeminal nerve.",Acute Assessment
+D2N125,D2N125_10,The root cause of his facial pain is the compression of the blood vessel against this nerve.,Acute Assessment
+D2N125,D2N125_11,1. Trigeminal neuralgia.\nPatient Education and Counseling: The patient and I discussed treatment options including medicating with gabapentin or Tegretol,Discussion
+D2N125,D2N125_12,"I explained the common side effects associated with these medications can include memory loss, tingling, and imbalance",Discussion
+D2N125,D2N125_13,We discussed the need for genetic testing due to the possible side effect of dermatologic reactions in people of East Asian descent,Diagnostic Testing
+D2N125,D2N125_14,"We also briefly discussed surgical treatment to decompress the nerve, but this is not recommended at this time.",Discussion
+D2N125,D2N125_15,Medical Treatment: A prescription for Tegretol will be sent to the patient’s pharmacy.,Medications
+D2N125,D2N125_16,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N125,D2N125_17,The patient will follow up with me in 1 month,Follow-up
+D2N125,D2N125_18,"If at that time his facial pain persists, we may further discuss surgical options",Discussion
+D2N126,D2N126_1,CHIEF COMPLAINT\n\nRight knee injury,Acute Symptoms
+D2N126,D2N126_2,Michelle King is a pleasant 44-year-old male,Personal Information
+D2N126,D2N126_3,who presents to the clinic today for the evaluation of a right knee injury.,Acute Symptoms
+D2N126,D2N126_4,Her injury was sustained while skiing in Vermont last weekend after she caught her ski when coming off of the lift and fell.,Acute Symptoms
+D2N126,D2N126_5,She reports a pop in her knee at the time of injury and has been experiencing pain since that time.,Acute Symptoms
+D2N126,D2N126_6,Due to her fall she was unable to weight bear and had to be taken down by the ski patrol,Acute Symptoms
+D2N126,D2N126_7,She locates her pain to the lateral aspect of her knee and also describes the feeling of instability as well as buckling.,Acute Symptoms
+D2N126,D2N126_8,"At this time she is experiencing difficulty with knee flexion; however, she states this was not a problem immediately after the injury",Acute Symptoms
+D2N126,D2N126_9,Full knee extension is also quite painful for her,Acute Symptoms
+D2N126,D2N126_10,The patient denies any numbness or tingling in her toes,Acute Symptoms
+D2N126,D2N126_11,She is currently utilizing crutches for ambulation which were provided to her by the ski patrol,Theraputic History
+D2N126,D2N126_12,"In terms of pain control, she is taking ibuprofen which is providing some relief.",Theraputic History
+D2N126,D2N126_13,Patient reports she is otherwise healthy and denies a history of high blood pressure or diabetes.,Personal History
+D2N126,D2N126_14,Patient reports she is very active with skiing and taking care of her 4-year-old twins,Other Social
+D2N126,D2N126_15,She mentions that she would like to get back into running at some point,Other Social
+D2N126,D2N126_16,"She states that her husband is home with her, but he also works a job where he has gone quite a bit.",Other Social
+D2N126,D2N126_17,Patient reports she is taking ibuprofen.,Theraputic History
+D2N126,D2N126_18,EVIEW OF SYSTEMS\n\nMusculoskeletal: Reports right knee pain and limited range of motion.\nNeurological: Denies numbness or tingling in toes.,Vegetative History
+D2N126,D2N126_19,GAIT: The patient is ambulating with crutches.,Physical Examination
+D2N126,D2N126_20,CV: Regular rate and rhythm. No murmur.,Physical Examination
+D2N126,D2N126_21,RESPIRATORY: Lungs are clear to auscultation.,Physical Examination
+D2N126,D2N126_22,MSK: Examination of the right knee: Edema and effusion noted. Pain with palpation of the lateral knee. Decreased flexion and extension. Positive Lachman's. Palpable dorsalis pedis and posterior tibial pulse. No ankle edema.,Physical Examination
+D2N126,D2N126_23,4 views of the right knee were taken today. These reveal no bony abnormalities.,Radiology Examination
+D2N126,D2N126_24,"Right knee pain, possible ACL tear.",Acute Assessment
+D2N126,D2N126_25,"After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to her current symptoms.",Discussion
+D2N126,D2N126_26,I have recommended that we obtain an MRI of the right knee to evaluate for a possible ACL tear,Diagnostic Testing
+D2N126,D2N126_27,"In the meantime, I have advised her to continue taking ibuprofen 600 to 800 mg every 8 hours as needed for pain.",Medications
+D2N126,D2N126_28,She will also be placed into a brace for increased knee support.,Other Treatments
+D2N126,D2N126_29,The patient will follow up with me once the MRI results are available for review and further discussion.,Follow-up
+D2N149,D2N149_1,CHIEF COMPLAINT\n\nShortness of breath with hemoptysis.,Acute Symptoms
+D2N149,D2N149_2,"Patient reports history of diabetes, hypertension, and asthma",Personal History
+D2N149,D2N149_3,He also has a long history of knee pain,Personal History
+D2N149,D2N149_4,Patient reports taking metformin and Norvasc.,Theraputic History
+D2N149,D2N149_5,"REVIEW OF SYSTEMS\n\nConstitutional: Denies fever.\nHENT: Denies bleeding gums.\nRespiratory: Reports shortness of breath, hemoptysis.\nMusculoskeletal: Reports knee pain. Denies lower extremity edema.\nHematologic/Lymphatic: Denies bruising.",Vegetative History
+D2N149,D2N149_6,VITALS\n\nPulse oxygenation: 94 percent. Blood pressure: 120/70 mm Hg.,Physical Examination
+D2N149,D2N149_7,Neck\n- General Examination: Neck is supple. No JVD. No carotid bruits.,Physical Examination
+D2N149,D2N149_8,"Respiratory\n- Auscultation of Lungs: Some rales and rhonchi, more on the right. No wheezing right now. There is some diminished breath sounds in the right as well.",Physical Examination
+D2N149,D2N149_9,"Cardiovascular\n- Auscultation of Heart: Regular rate. 2/6 systolic ejection murmur, unchanged from before.",Physical Examination
+D2N149,D2N149_10,Gastrointestinal\n- Examination of Abdomen: Soft.,Physical Examination
+D2N149,D2N149_11,Musculoskeletal\n- Examination: 1+ nonpitting edema on bilateral lower extremities. No calf tenderness. Negative Homan's sign.,Physical Examination
+D2N149,D2N149_12,Hematology/Lymphatic/Immunology\n- Examination: No bruising.,Physical Examination
+D2N149,D2N149_13,1. Shortness of breath.\n- Medical Reasoning: The patient has been coughing up blood.,Acute Assessment
+D2N149,D2N149_14,2. Diabetes.\n- Medical Reasoning: The patient's blood sugar has not been well controlled.,Reassessment
+D2N149,D2N149_15,3. Hypertension.\n- Medical Reasoning: His blood pressure has been running low for approximately 3 weeks,Reassessment
+D2N149,D2N149_16,I believe this could be caused by his shortness of breath,Acute Assessment
+D2N149,D2N149_17,I would like to get a better understanding of the cause of his shortness of breath prior to pursuing further treatment for his hypertension.,Discussion
+D2N149,D2N149_18,1. Shortness of breath.\n- Patient Education and Counseling: We discussed the importance of further testing as his symptoms could be as simple as a pneumonia or something more serious.,Discussion
+D2N149,D2N149_19,"Medical Treatment: I have ordered a chest x-ray, CT scan, and blood work to be done in the ER",Diagnostic Testing
+D2N149,D2N149_20,I have instructed the patient to go into the ER immediately after this appointment and I will call ahead.,Discussion
+D2N149,D2N149_21,2. Diabetes.\n- Medical Treatment: I have ordered an updated A1c today.,Diagnostic Testing
+D2N149,D2N149_22,He will increase his metformin to 750 mg twice daily.,Medications
+D2N149,D2N149_23,"3. Hypertension.\n- Medical Treatment: At this time, he will discontinue the use of Norvasc.",Medications
+D2N149,D2N149_24,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N149,D2N149_25,We will have him follow up in about 3 weeks to just discuss his diabetes and further treatment recommendations.,Follow-up
+D2N162,D2N162_1,CHIEF COMPLAINT\n\nRight ankle pain and swelling.,Acute Symptoms
+D2N162,D2N162_2,Gregory Hernandez is a pleasant 42-year-old male,Personal Information
+D2N162,D2N162_3,who presents to the clinic today for evaluation of right ankle pain and swelling,Acute Symptoms
+D2N162,D2N162_4,The onset of his pain began yesterday after he slipped and fell on the ice while taking out the trash,Acute Symptoms
+D2N162,D2N162_5,He states that he was unable to ambulate at the time of injury and that a friend had to help him up.,Acute Symptoms
+D2N162,D2N162_6,He then proceeded to ice and elevate his ankle throughout the night.,Theraputic History
+D2N162,D2N162_7,"His pain has since improved and he is able to bear more weight on his right ankle, however he is still limping",Acute Symptoms
+D2N162,D2N162_8,He denies experiencing any numbness to his right foot,Acute Symptoms
+D2N162,D2N162_9,"In addition to ice and elevation he has been taking ibuprofen for his pain, which has provided some relief.",Theraputic History
+D2N162,D2N162_10,He does not recall any other previous injury to his right ankle,Personal History
+D2N162,D2N162_11,Patient reports that he is very active and enjoys playing soccer,Other Social
+D2N162,D2N162_12,He currently plays for the community soccer league.,Other Social
+D2N162,D2N162_13,Musculoskeletal: Reports right ankle pain.,Acute Symptoms
+D2N162,D2N162_14,Vitals signs look good today.,Physical Examination
+D2N162,D2N162_15,CV: Mild edema,Physical Examination
+D2N162,D2N162_16,NEURO: Normal sensation.,Physical Examination
+D2N162,D2N162_17,MSK: Examination of the right ankle: Ecchymosis is present. There is swelling over the lateral malleolus. Tenderness to palpation anterolaterally in the soft tissue. No laxity on anterior drawer and inversion stress. No bony tenderness on palpation of the foot. Neurovascular intact. Capillary refill is less than 3 seconds with a strong dorsalis pedis pulse. Sensation is intact to light touch.,Physical Examination
+D2N162,D2N162_18,3 views of the right ankle were taken today. These reveal no evidence of fracture.,Radiology Examination
+D2N162,D2N162_19,Right ankle sprain.,Acute Assessment
+D2N162,D2N162_20,"After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient in regards to his current symptoms",Discussion
+D2N162,D2N162_21,We discussed that his x-rays did not reveal any signs of a fracture and that he sustained a right ankle sprain.,Acute Assessment
+D2N162,D2N162_22,Treatment options were discussed,Discussion
+D2N162,D2N162_23,"He was advised to keep his right lower extremity elevated, especially when seated",Other Treatments
+D2N162,D2N162_24,He will also continue to ice his right ankle,Other Treatments
+D2N162,D2N162_25,An Aircast was provided today to help stabilize his ankle.,Other Treatments
+D2N162,D2N162_26,He is to also utilize crutches for the next 1 to 2 days followed by weight-bearing as tolerated,Other Treatments
+D2N162,D2N162_27,For pain control he can continue to take NSAIDs as needed,Medications
+D2N162,D2N162_28,We discussed that he should see significant improvement in his symptoms over the next 2 weeks.,Discussion
+D2N162,D2N162_29,The patient will follow up with me in 2 weeks to assess his progress and to determine his return to play date,Follow-up
+D2N162,D2N162_30,He is advised to call the office should his symptoms change or worsen prior to his next appointment.,Discussion
+D2N165,D2N165_1,CHIEF COMPLAINT\n\nBilateral knee pain.,Acute Symptoms
+D2N165,D2N165_2,Sophia Jackson is a pleasant 30-year-old female,Personal Information
+D2N165,D2N165_3,who presents to the clinic today for the evaluation of bilateral knee pain,Acute Symptoms
+D2N165,D2N165_4,She was referred by her primary care provider,Personal History
+D2N165,D2N165_5,The onset of her pain began 6 months ago.,Personal History
+D2N165,D2N165_6,She denies any specific injury.,Personal History
+D2N165,D2N165_7,"The patient describes her pain as a deep, achy pain.",Acute Symptoms
+D2N165,D2N165_8,She locates her pain to the posterior aspect of her patellae,Acute Symptoms
+D2N165,D2N165_9,The patient also reports âcreakingâ in her knees.,Acute Symptoms
+D2N165,D2N165_10,She denies any swelling or redness in her knees.,Acute Symptoms
+D2N165,D2N165_11,Her pain is aggravated by transitioning from a seated position to standing as well as ascending and descending stairs,Acute Symptoms
+D2N165,D2N165_12,Her pain is alleviated by rest,Acute Symptoms
+D2N165,D2N165_13,The patient has been icing her knees and wrapping her knees with an ACE bandage.,Theraputic History
+D2N165,D2N165_14,She also takes ibuprofen or Aleve occasionally for pain,Theraputic History
+D2N165,D2N165_15,She states she tries to be as active as she can,Other Social
+D2N165,D2N165_16,She enjoys running outdoors,Other Social
+D2N165,D2N165_17,The patient adds that she would run 5 to 6 miles per day;,Other Social
+D2N165,D2N165_18,"however, she is unable to go 0.5 miles secondary to the pain",Acute Symptoms
+D2N165,D2N165_19,She denies any previous injuries to her knees.,Personal History
+D2N165,D2N165_20,She works from home.,Other Social
+D2N165,D2N165_21,Patient reports history of an upper extremity fracture when she was in 6th grade.,Personal History
+D2N165,D2N165_22,Musculoskeletal: Reports bilateral knee pain and crepitus. Denies swelling or redness in the bilateral knees.,Acute Symptoms
+D2N165,D2N165_23,All vital signs are within the normal limits.,Physical Examination
+D2N165,D2N165_24,"GAIT: Normal, no deformity present",Physical Examination
+D2N165,D2N165_25,CV: Auscultation of Heart: Regular rate and rhythm. No murmurs.\nNo edema,Physical Examination
+D2N165,D2N165_26,NEURO: Patella and Achilles reflexes are symmetrical.,Physical Examination
+D2N165,D2N165_27,"MSK: Examination of the bilateral lower extremities: Abduction strength is 3/5. Remainder of muscle strength is 5/5. Examination of the bilateral knees: No overlying erythema, ecchymosis, or warmth of the skin appreciated. No effusion. Tenderness to palpation of the bilateral retinaculum. Positive patellar grind test. Knee pain with squatting. Negative Lachman test bilaterally. Negative anterior and posterior drawer tests bilaterally. Negative McMurray test bilaterally.",Physical Examination
+D2N165,D2N165_28,X-rays of the bilateral knees were reviewed today. These demonstrate no evidence of any fractures or osteoarthritis.,Radiology Examination
+D2N165,D2N165_29,Bilateral knee patellofemoral pain syndrome.,Acute Assessment
+D2N165,D2N165_30,"After reviewing the patient's examination and radiographic findings today, I have had a lengthy discussion with the patient regarding her current symptoms",Discussion
+D2N165,D2N165_31,I have explained to her that her symptoms are consistent with patellofemoral pain syndrome,Acute Assessment
+D2N165,D2N165_32,We discussed treatment options,Discussion
+D2N165,D2N165_33,"and I have recommended that we begin with conservative treatment in the form of formal physical therapy to increase her lower extremity strength, mobility, and correct any incorrect running mechanics",Other Treatments
+D2N165,D2N165_34,I encouraged her to take running easy for now,Discussion
+D2N165,D2N165_35,She can continue taking ibuprofen or anti-inflammatories as needed for pain,Medications
+D2N165,D2N165_36,All questions were answered.,Discussion
+D2N165,D2N165_37,The patient will follow up with me soon,Follow-up
+D2N168,D2N168_1,CHIEF COMPLAINT\n\nEmergency room follow-up.,Acute Symptoms
+D2N168,D2N168_2,Ms. Diane Baker is a 28-year-old female,Personal Information
+D2N168,D2N168_3,"with a past medical history significant for depression, and hypertension",Personal History
+D2N168,D2N168_4,who presents for emergency room follow-up.,Acute Symptoms
+D2N168,D2N168_5,The patient went for a walk yesterday and began to feel lightheaded,Personal History
+D2N168,D2N168_6,"She started to fall, however she was with her boyfriend, who caught her",Personal History
+D2N168,D2N168_7,She presented to the emergency room after this,Personal History
+D2N168,D2N168_8,"While in the emergency room, her blood pressure was nearly 200 and she had a headache.",Personal History
+D2N168,D2N168_9,"Her blood pressure is typically normal, however will become elevated approximately one week a month",Personal History
+D2N168,D2N168_10,She notes it is typically elevated because she is traveling a lot that week for work,Other Social
+D2N168,D2N168_11,"While traveling, she is not eating as well and does not monitor her blood pressure.",Personal History
+D2N168,D2N168_12,The patient is taking her lisinopril as prescribed.,Theraputic History
+D2N168,D2N168_13,"Regarding her depression, she states she is doing well",Personal History
+D2N168,D2N168_14,"Last year she started therapy and she has been going once a week, which has helped.",Theraputic History
+D2N168,D2N168_15,"Her support system is great and includes her boyfriend, mom, and brother.",Other Social
+D2N168,D2N168_16,"The patient notes she has a little bit of nasal congestion, which she attributes to her seasonal allergies",Personal History
+D2N168,D2N168_17,She denies chest pain and shortness of breath.,Vegetative History
+D2N168,D2N168_18,"REVIEW OF SYSTEMS\n\nâ¢ Ears, Nose, Mouth and Throat: Endorses nasal congestion from seasonal allergies.\nâ¢ Cardiovascular: Denies chest pain or dyspnea.\nâ¢ Respiratory: Denies shortness of breath.\nâ¢ Neurological: Endorses lightheadedness and a headache.\nâ¢ Psychiatric: Endorses depression.",Vegetative History
+D2N168,D2N168_19,â¢ Neck: No carotid bruits appreciable.,Physical Examination
+D2N168,D2N168_20,"â¢ Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.",Physical Examination
+D2N168,D2N168_21,â¢ Cardiovascular: Slight 2/6 systolic ejection murmur.,Physical Examination
+D2N168,D2N168_22,â¢ Musculoskeletal: Trace pitting edema in the bilateral lower extremities.,Physical Examination
+D2N168,D2N168_23,VITALS REVIEWED\n\nâ¢ Blood Pressure: Elevated.,Physical Examination
+D2N168,D2N168_24,Electrocardiogram stable in comparison to last year.,Radiology Examination
+D2N168,D2N168_25,Echocardiogram demonstrates decreased ejection fraction. Stable heart murmur.,Radiology Examination
+D2N168,D2N168_26,Ms. Diane Baker is a 28-year-old female,Personal Information
+D2N168,D2N168_27,"with a past medical history significant for depression, and hypertension",Personal History
+D2N168,D2N168_28,who presents for emergency room follow-up.,Acute Symptoms
+D2N168,D2N168_29,Hypertension.\nâ¢ Medical Treatment: Increase lisinopril to 40 mg once a day.,Medications
+D2N168,D2N168_30,â¢ Patient Education and Counseling: She will continue to check her blood pressures and report them to me through the patient portal.,Discussion
+D2N168,D2N168_31,We will have to make adjustments if necessary.,Discussion
+D2N168,D2N168_32,Depression.\nâ¢ Medical Treatment: Continue current management strategies. No medication to start at this time.,Medications
+D2N168,D2N168_33,â¢ Patient Education and Counseling: She can contact me if she needs anything.,Discussion
+D2N168,D2N168_34,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N178,D2N178_1,"CHIEF COMPLAINT\n\nFollow-up for diabetes management, hypertension, hyperlipidemia, peripheral vascular disease.",Acute Symptoms
+D2N178,D2N178_2,Maria Martin is a 75-year-old female,Personal Information
+D2N178,D2N178_3,who presents today for follow-up for diabetes.,Acute Symptoms
+D2N178,D2N178_4,The patientâs blood glucose levels are poorly controlled and her most recent hemoglobin A1C is 9.9%,Personal History
+D2N178,D2N178_5,She denies increasing glimepiride to 4 mg twice a day as advised but confirms she is compliant with 2 mg twice a day,Theraputic History
+D2N178,D2N178_6,"She mostly denies reducing sugar and carbohydrate intake, although she opts for wheat bread, she does not have pasta at home, and she does not drink much soda and instead drinks club soda or seltzer water",Personal History
+D2N178,D2N178_7,She reports that her diabetic eye exams are up to date and she follows with Dr. Sanchez at Optimum Optometrists,Personal History
+D2N178,D2N178_8,"She recently underwent cataract surgery and received a new prescription for her glasses, noting improvement in her vision to one eye and displeasure with the lens in her other eye.",Personal History
+D2N178,D2N178_9,"She confirms compliancy with her blood pressure medications of metoprolol 50 mg daily, lisinopril/hydrochlorothiazide 20/25 mg daily, and amlodipine 10 mg daily.",Theraputic History
+D2N178,D2N178_10,The patient intermittently completes at home blood pressure checks and reported seeing a systolic BP of 116 a few weeks ago,Personal History
+D2N178,D2N178_11,She is also compliant with her atorvastatin for hyperlipidemia and reports tolerating it well.,Theraputic History
+D2N178,D2N178_12,"The patient is still experiencing bilateral hip, thigh, and foot pain related to peripheral neuropathy, noting her mobility is limited but she is walking as tolerated.",Personal History
+D2N178,D2N178_13,"Ms. Martin does continue to smoke cigarettes and denies interest in cessation, although she agreed to begin thinking about it.",Drug History
+D2N178,D2N178_14,She is currently experiencing a productive cough with clear sputum that she attributes to her recent congestion.,Acute Symptoms
+D2N178,D2N178_15,"The patient is also experiencing a slower urine stream, but it appears stable, and she contributes her urinary symptoms to aging",Acute Symptoms
+D2N178,D2N178_16,She also has nocturia on occasion which she contributes to her increased fluid intake in the evenings.,Acute Symptoms
+D2N178,D2N178_17,PAST HISTORY\n\nMedical\nType 2 diabetes mellitus.\nHypertension.\nHyperlipidemia.\nPeripheral vascular disease with neuropathy.,Personal History
+D2N178,D2N178_18,Current tobacco smoker.,Drug History
+D2N178,D2N178_19,CURRENT MEDICATIONS\n\nMetoprolol 50 mg tablet. Take 1 tablet daily.\nLisinopril/hydrochlorothiazide 20/25 mg tablet. Take 1 tablet daily.\nAmlodipine 10 mg tablet. Take 1 tablet daily.\nAtorvastatin tablet.\nMetformin.\nGlimepiride 4mg tablet. Take 2 tablets by oral route 2 times per day.,Theraputic History
+D2N178,D2N178_20,VITALS\n\nBlood pressure 140/60.,Physical Examination
+D2N178,D2N178_21,"Respiratory\nNo rasping, wheezing.",Physical Examination
+D2N178,D2N178_22,Cardiovascular\nNormal heart rate and regular rhythm. Carotids and pulses are normal. S1 and S2 are crisp. No murmurs.,Physical Examination
+D2N178,D2N178_23,Gastrointestinal\nNo nausea or vomiting.,Physical Examination
+D2N178,D2N178_24,Extremities\nBilateral Diabetic Foot Exam: No edema with palpable dorsalis pedis and posterior tibial pulses bilaterally. No skin breakdown. Thickened nails.\nSensory Examination: Mildly decreased sensation in the tips of the first and second toes bilaterally.,Physical Examination
+D2N178,D2N178_25,Hemoglobin A1C 9.9%.,Lab Examination
+D2N178,D2N178_26,â¢ Type 2 diabetes mellitus.,Reassessment
+D2N178,D2N178_27,â¢ Hypertension,Reassessment
+D2N178,D2N178_28,â¢ Hyperlipidemia.,Reassessment
+D2N178,D2N178_29,â¢ Peripheral vascular disease.,Reassessment
+D2N178,D2N178_30,Type 2 diabetes mellitus\nIncrease glimepiride to 4 mg tablets two times per day,Medications
+D2N178,D2N178_31,"I counselled patient on the signs and symptoms of hypoglycemia, although I donât think she is at a great risk of hypoglycemia",Discussion
+D2N178,D2N178_32,There will be no change to her metformin dose,Medications
+D2N178,D2N178_33,I counselled the patient on limiting her carbohydrate intake to support improved glycemia,Discussion
+D2N178,D2N178_34,We will recheck her Hemoglobin A1c and complete a kidney function test today.,Diagnostic Testing
+D2N178,D2N178_35,Peripheral vascular disease\nI counselled patient on improving frequency of moisturizing her feet,Discussion
+D2N178,D2N178_36,Improved glycemia would also benefit her neuropathy,Discussion
+D2N178,D2N178_37,"If symptoms worsen, we will consider medication to control symptoms, but not at this time due to the patient has already reached polypharmacy.",Discussion
+D2N178,D2N178_38,Hypertension\nBlood pressure appears to be well controlled based on checks completed at home,Reassessment
+D2N178,D2N178_39,"The patient will continue with amlodipine, metoprolol, and lisinopril/hydrochlorothiazide.",Medications
+D2N178,D2N178_40,Hyperlipidemia\nI will continue with atorvastatin as previously prescribed.,Medications
+D2N178,D2N178_41,"If patient were to improve her diet, this would likely be beneficial as well.",Discussion
+D2N178,D2N178_42,"\nFinish current prescription of glimepiride 2 mg, 2 tablets 2 times per day. Refill will be 4 mg tablet, 1 tablet 2 times per day",Medications
+D2N178,D2N178_43,Reduce carbohydrate intake overall to improve glycemia.,Discussion
+D2N178,D2N178_44,Call the office with questions or any signs or symptoms of hypoglycemia.,Discussion
+D2N185,D2N185_1,CHIEF COMPLAINT\n\nEvaluation of abnormal renal ultrasound with atrophic right kidney.,Acute Symptoms
+D2N185,D2N185_2,"Next patient Ashley James is a 14-year-old female, previously healthy,",Personal Information
+D2N185,D2N185_3,who is here for evaluation of abnormal renal ultrasound with atrophic right kidney.,Acute Symptoms
+D2N185,D2N185_4,The father details a history of the patient coming home sick one day with extreme right-sided abdominal pain,Personal History
+D2N185,D2N185_5,"Her parents brought her for evaluation, and they treated her for a stomach virus and administered fluids prior to sending her home.",Personal History
+D2N185,D2N185_6,"The next day, the patient's pain was more severe",Personal History
+D2N185,D2N185_7,The patient returned to the doctor's office and an ultrasound and additional testing was performed which revealed left kidney hypertrophy,Personal History
+D2N185,D2N185_8,"At that time, they were encouraged to follow-up with her primary care physician.",Personal History
+D2N185,D2N185_9,"The patient was seen briefly by her physician the next day, which was insignificant",Personal History
+D2N185,D2N185_10,"Ashley was still experiencing stomach pain and vomiting, her father brought her to another facility in Jacksonville.",Personal History
+D2N185,D2N185_11,"At that location, the patient's family received information that her right kidney was nonfunctioning, atrophic, and smaller than her left kidney. Additionally, cysts on her kidneys, ovaries, and other locations were found.",Personal History
+D2N185,D2N185_12,"Her lymph nodes were swollen, and she had \""a lot of infections\""",Personal History
+D2N185,D2N185_13,The patient was sent back to follow-up with her primary care physician,Personal History
+D2N185,D2N185_14,The patient was unable to follow back up with her primary care physician as he was still out of town.,Personal History
+D2N185,D2N185_15,"The patient came to Atlanta, remained here for 4 days, was evaluated and treated with subsequent improvement of her symptoms.",Personal History
+D2N185,D2N185_16,She has not vomited since.,Personal History
+D2N185,D2N185_17,"Prior to her current medical complaints, the patient was healthy",Acute Symptoms
+D2N185,D2N185_18,"The etiology of her kidney issues is believed to have been caused by some severe infection the patient experienced, possibly as a child.",Personal History
+D2N185,D2N185_19,"When the patient was 4 years old, she was hospitalized 3 or 4 times, for up to 2-3 days each time",Personal History
+D2N185,D2N185_20,"She received fluids and antibiotics, and then discharged",Theraputic History
+D2N185,D2N185_21,Her father reports that no workup was ever performed to rule out infections during these hospitalizations,Personal History
+D2N185,D2N185_22,A week or 2 post-discharge the fever and symptoms would return,Personal History
+D2N185,D2N185_23,This kept recurring for approximately 2 months and then it spontaneously resolved.,Personal History
+D2N185,D2N185_24,The patient is still experiencing some stomach burning.,Acute Symptoms
+D2N185,D2N185_25,She reports hesitancy while urinating and she states she has to wait for her urinary flow to commence,Acute Symptoms
+D2N185,D2N185_26,She endorses occasional dysuria.,Acute Symptoms
+D2N185,D2N185_27,Ashley denies hematuria,Acute Symptoms
+D2N185,D2N185_28,"Some beverages are associated with dysuria, thus the patient drinks mainly water, Gatorade and V8 juice.",Personal History
+D2N185,D2N185_29,The patient plays on softball team and is interested in joining a drill team over the summer.,Other Social
+D2N185,D2N185_30,Paternal Grandfather: Deceased approximately 47. Myocardial Infarction. Posterior Urethral Valves. Obstructive Neuropathy. End Stage Chronic Kidney Disease was Dialysis dependent. Failed Renal Transplant.,Family History
+D2N185,D2N185_31,Paternal Great Aunt: End Stage Chronic Kidney Disease is Dialysis dependent. Type II Diabetes. Hypertension.,Family History
+D2N185,D2N185_32,No family history of polycystic kidney disease.,Family History
+D2N185,D2N185_33,CURRENT MEDICATIONS\n\nPepcid 40 mg once daily.\nClaritin as needed for allergies.,Theraputic History
+D2N185,D2N185_34,"Constitutional\nWell-appearing female adolescent, sitting comfortably on the exam table in no acute distress.",Physical Examination
+D2N185,D2N185_35,Neurological\nAlert.,Physical Examination
+D2N185,D2N185_36,"Abdominal ultrasound, 03/22/2021.\nCT abdomen and pelvis, 03/22/2021.\nCMP, 03/22/2021.",Radiology Examination
+D2N185,D2N185_37,Ashley is a 14-year-old female who presents today for evaluation of abnormal renal ultrasound with atrophic right kidney,Acute Symptoms
+D2N185,D2N185_38,She has right-sided renal hypoplasia with a small atrophic right kidney discovered incidentally on imaging for abdominal pain,Acute Assessment
+D2N185,D2N185_39,Imaging shows compensatory hypertrophy of her left kidney.,Acute Assessment
+D2N185,D2N185_40,"Otherwise, she shows no sequelae of chronic kidney disease and enjoys normal blood pressure",Acute Assessment
+D2N185,D2N185_41,Her urinalysis is without sediment.,Acute Assessment
+D2N185,D2N185_42,"She has normal kidney function with creatinine of 0.62, which equates to an estimated GFR of greater than 90 mL/min per 1.73 mÂ², and normal serum electrolytes and acid base status.",Acute Assessment
+D2N185,D2N185_43,"Ashley is at higher risk of hypertension and proteinuria, which will need to be followed annually.",Acute Assessment
+D2N185,D2N185_44,Yearly ultrasound to monitor the hypertrophic left kidney and atrophic right kidney,Diagnostic Testing
+D2N185,D2N185_45,"Also, on an annual basis I recommend completion of a urinalysis to assess for proteinuria and blood pressure checks",Diagnostic Testing
+D2N185,D2N185_46,The patient should avoid use of nonsteroidal anti-inflammatory medications and use Tylenol for pain and fever,Medications
+D2N185,D2N185_47,"It is also recommended that she stay well hydrated, avoiding dehydration, especially while participating in sports, by consuming 2 L of water per day",Discussion
+D2N185,D2N185_48,I counseled the patient and family about the importance of a healthy diet and remaining active to avoid future comorbidities that may put her at increased risk for chronic kidney disease as in adult.,Discussion
+D2N185,D2N185_49,The patient does not need to follow up with a pediatric nephrologist but can instead follow up with her primary care physician or an adult nephrologist closer to home.,Follow-up
+D2N185,D2N185_50,Schedule follow up appointment with local adult nephrologist or primary care physician.,Follow-up
+D2N197,D2N197_1,CHIEF COMPLAINT\n\nHeadache.,Acute Symptoms
+D2N197,D2N197_2,Patient reports history of hypertension and diabetes,Personal History
+D2N197,D2N197_3,She has migraines rarely every 1 to 2 years.,Personal History
+D2N197,D2N197_4,Patient reports she walks for exercise.,Other Social
+D2N197,D2N197_5,Patient reports history of seasonal allergies.,Personal History
+D2N197,D2N197_6,Patient reports taking lisinopril 20 mg once a day and Tylenol.,Theraputic History
+D2N197,D2N197_7,REVIEW OF SYSTEMS\n\nHENT: Denies congestion or runny nose.\nRespiratory: Denies cough.\nGenitourinary: Denies polyuria.\nNeurological: Reports headaches.,Vegetative History
+D2N197,D2N197_8,Head and Face\n- No frontal or maxillary sinus tenderness.,Physical Examination
+D2N197,D2N197_9,Neck\n- General Examination: Neck is supple without lymphadenopathy.,Physical Examination
+D2N197,D2N197_10,Hematology/Lymphatic/Immunology\n- Palpation: No enlarged lymph nodes.,Physical Examination
+D2N197,D2N197_11,1. Hypertension with headaches.\n- Medical Reasoning: Patient presents today with complaints of increasing headaches and elevated blood pressure readings at home.,Reassessment
+D2N197,D2N197_12,2. Diabetes.\n- Medical Reasoning: Patient has been experiencing slightly elevated glucose levels with her home monitoring.,Reassessment
+D2N197,D2N197_13,1. Hypertension with headaches.\n- Patient Education and Counseling: We discussed it is safe for her to exercise and she has been encouraged to continue her walking program.,Discussion
+D2N197,D2N197_14, Medical Treatment: Patient will continue to take Tylenol for pain management,Medications
+D2N197,D2N197_15,Her lisinopril was increased to 40 mg once a day,Medications
+D2N197,D2N197_16,Routine blood work was ordered for further evaluation.,Diagnostic Testing
+D2N197,D2N197_17,She will also continue monitoring her blood pressure at home.,Discussion
+D2N197,D2N197_18,2. Diabetes.\n- Patient Education and Counseling: She was provided with diabetic education which she will review.,Discussion
+D2N197,D2N197_19,Medical Treatment: Hemoglobin A1c was ordered,Diagnostic Testing
+D2N197,D2N197_20,Patient Agreements: The patient understands and agrees with the recommended medical treatment plan.,Discussion
+D2N197,D2N197_21,"Patient will return for follow-up to see myself or Dr. Ruth to review her lab work and further treatment plan to get her blood pressure under control.\""",Follow-up
+D2N206,D2N206_1,CHIEF COMPLAINT\n\nRight flank pain.,Acute Symptoms
+D2N206,D2N206_2,Joshua Reyes is a pleasant 18-year-old male,Personal Information
+D2N206,D2N206_3,who presents to the clinic today for evaluation of right flank pain.,Acute Symptoms
+D2N206,D2N206_4,"For the last 2 weeks, the patient has been experiencing pain that starts in his right flank and radiates down into his groin.",Acute Symptoms
+D2N206,D2N206_5,He also recalls one episode in which the pain radiated down into one of his testicles.,Acute Symptoms
+D2N206,D2N206_6,"Although his pain is intermittent depending on his fluid intake and activity level, he rates the pain as a 4/10 at its worst",Acute Symptoms
+D2N206,D2N206_7,"Otherwise, the pain is a 1-2/10",Acute Symptoms
+D2N206,D2N206_8,"He denies any pain with urination, hematuria, nausea, vomiting, or fevers, but recalls possibly having chills at one point",Vegetative History
+D2N206,D2N206_9,Over-the-counter ibuprofen provides partial relief of his pain,Theraputic History
+D2N206,D2N206_10,"Of note, the patient has a personal history of kidney stones, some which were passed independently, usually within a week, while others required surgical intervention or lithotripsy.",Personal History
+D2N206,D2N206_11,He also has several family members with a histories of kidney stones.,Family History
+D2N206,D2N206_12,"The patient has a personal history of kidney stones treated conservatively, surgically, and with lithotripsy.",Personal History
+D2N206,D2N206_13,The patient has a significant family history of kidney stones.,Family History
+D2N206,D2N206_14,REVIEW OF SYSTEMS\n\nConstitutional: Reports chills. Denies fever\nGastrointestinal: Denies nausea or vomiting.\nGenitourinary: Reports right flank pain. Denies dysuria or hematuria.,Vegetative History
+D2N206,D2N206_15,VITALS\n\nBlood pressure: Slightly elevated,Physical Examination
+D2N206,D2N206_16,GI/GU: No tenderness to palpation of the abdomen.,Physical Examination
+D2N206,D2N206_17,MSK: Examination of the right flank: CVA tenderness.,Physical Examination
+D2N206,D2N206_18,"CT scan of the right flank was reviewed today, 05/06/2022. It revealed a kidney stone measuring 0.5 cm in size, located on the proximal right ureter. There is no evidence of hydronephrosis.",Radiology Examination
+D2N206,D2N206_19,"Kidney stone, right side.",Acute Assessment
+D2N206,D2N206_20,"After reviewing the patient's examination and CT scan findings today, we discussed the diagnosis and treatment plan",Discussion
+D2N206,D2N206_21,I recommend that we treat the patient conservatively at this point.,Discussion
+D2N206,D2N206_22,I advised him to continue drinking plenty of fluids so he can hopefully pass the stone,Other Treatments
+D2N206,D2N206_23,He has been controlling his pain with over-the-counter ibuprofen and should continue to do so,Medications
+D2N206,D2N206_24,I also prescribed tramadol 50 mg for any breakthrough pain.,Medications
+D2N206,D2N206_25,His primary care physician provided him with a strainer and I advised him to continue using this as well.,Other Treatments
+D2N206,D2N206_26,"I want to order a BMP, a urinalysis, and a urine culture to rule out any need for antibiotics",Diagnostic Testing
+D2N206,D2N206_27,We will have him follow up in 2 weeks for re-evaluation,Follow-up
+D2N206,D2N206_28,"If he has not passed the kidney stone at that time, we can consider proceeding with lithotripsy.",Discussion
+D2N206,D2N206_29,The patient will follow up in 2 weeks.,Follow-up

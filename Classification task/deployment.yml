@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workvolume
+  namespace: s91031
+  labels:
+    app: workvolume
+spec:
+  replicas: 1 
+  template:
+    metadata:
+      labels:
+        app: workvolume
+    spec:
+      containers:
+        - name: workvolume
+          image: workvolume
+          ports:
+            - name: client-port
+              containerPort: 27017
+          volumeMounts:
+            - name: my-working-pvc
+              mountPath: "/data/db"
+          resources:
+            requests:
+              cpu: "2"
+              memory: "16Gi"
+            limits:
+              cpu: "4"
+              memory: "32Gi"
+      volumes:
+        - name: my-working-pvc
+          persistentVolumeClaim:
+            claimName: my-working-pvc
+  selector:
+    matchLabels:
+      app: workvolume

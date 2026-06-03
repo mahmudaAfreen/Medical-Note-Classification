@@ -1,0 +1,6 @@
+text,true_label,predicted_label
+I am going to refer her to physical therapy,Referral,Medications
+ Specialist Referrals: Physical therapy.,Referral,Medications
+and a referral was provided for this today.,Referral,Medications
+I am going to refer her to cardiac rehab for education and to gain confidence to resume exercising regularly.,Referral,Medications
+The patient received a referral to nutrition counseling to consider what other diet options might be available to her.,Referral,Medications

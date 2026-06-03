@@ -1,0 +1,5 @@
+text,true_label,predicted_label
+Lyme titer: elevated.,Lab Examination,Medications
+Rapid strep test: positive.,Lab Examination,Medications
+Thyroid profile 03/01/2021.,Lab Examination,Medications
+CMP and CBC were essentially unremarkable.,Lab Examination,Medications

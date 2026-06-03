@@ -1,0 +1,66 @@
+text,true_label,predicted_label
+"Neck\n• General Examination: Neck is supple, mild thyromegaly noted.",Physical Examination,Vegetative History
+Respiratory\n• Auscultation of Lungs: Clear bilaterally.,Physical Examination,Medications
+Cardiovascular\n• Auscultation of Heart: Regular rate and rhythm.,Physical Examination,Medications
+Gastrointestinal\n• Examination of Abdomen: Soft.,Physical Examination,Medications
+Musculoskeletal\n• Examination: Right knee shows some erythema and insect bite with associated fluctuance. Trace edema in the right lower extremity.ß,Physical Examination,Discussion
+"Mr. Clark does report a history of a left finger injury, stating “it rarely works Constitutional\nElderly Caucasian male in no apparent distress. Presents in wheelchair.",Physical Examination,Acute Symptoms
+"Neurologic\nUpper extremities: 1+ bilateral biceps, triceps, brachioradialis, reflexes bilaterally, negative. Negative Hoffman's\nGait: Not assessed today.",Physical Examination,Medications
+"Strength\nUpper extremities: Normal throughout the biceps, triceps, deltoid, grip strength, and finger abduction, bilaterally.\nSensation: Intact to light touch throughout the upper and lower extremities.",Physical Examination,Acute Symptoms
+"Musculoskeletal\nCervical: Nontender over cervical spine. Mildly restricted cervical extension and right and left lateral rotation, which is symmetric, which gives him mild lateral neck pain, but no radicular pain. Spurling's maneuver is benign.",Physical Examination,Medications
+Gastrointestinal\n- Examination of Abdomen: There is slight tenderness to palpation of the left lower quadrant. No rebounding or guarding.,Physical Examination,Medications
+"Pelvic\n- Examination: There are no external lesions on the labia. The vaginal vault is within normal limits. The cervix is pink without lesions. On bimanual exam, I appreciate a left adnexal mass. No masses on the right.",Physical Examination,Acute Symptoms
+"MSK: Examination of the right knee: Mild effusion. The patient ambulated with an antalgic gait. Pain with dorsiflexion, but not with plantarflexion.",Physical Examination,Medications
+Examination of the right knee shows pain with flexion. Tenderness over the medial joint line. No pain in the calf. Pain with valgus stress. Sensation is intact.,Physical Examination,Medications
+"Constitutional\nWell-nourished female, slightly fussy when examined.",Physical Examination,Medications
+Eyes\nPresences of microphthalmia.,Physical Examination,Medications
+Genitourinary\nNormal external female genitalia.,Physical Examination,Medications
+Musculoskeletal\nExtremities: Presence of mild hypotonia of lower extremities and the arms.,Physical Examination,Medications
+Gastrointestinal\n- Examination of Abdomen: No masses or tenderness to palpation. No rebound or guarding. No peritoneal signs. Positive CVA tenderness on the right flank.,Physical Examination,Medications
+• Neck: No carotid bruits appreciable.,Physical Examination,Medications
+"• Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi",Physical Examination,Medications
+"• Cardiovascular: Slight 2/6 systolic ejection murmur, stable.",Physical Examination,Medications
+• Musculoskeletal: Trace lower extremity edema bilaterally.,Physical Examination,Discussion
+"He is irritable and having trouble falling asleep, described “like he is fighting it Temperature 100.3 degrees.",Physical Examination,Theraputic History
+"Ears, Eyes, Nose, Throat\nNasal congestion, clear mucus, rhinorrhea. Bilateral pulling of ears, no sore throat or hoarseness.",Physical Examination,Medications
+Respiratory\nPositive for cough.,Physical Examination,Medications
+VITALS\n\nBSA 2.65,Physical Examination,Medications
+Breasts\nInspection reveals asymmetrical breasts with severe ptosis bilaterally,Physical Examination,Personal History
+There is no nipple retraction or discharge bilaterally,Physical Examination,Medications
+"No breast tenderness, masses, or axillary lymphadenopathy is palpable.",Physical Examination,Medications
+"Constitutional\nElderly, no acute distress.",Physical Examination,Medications
+"Cardiovascular\nNormal S1, S2 preserved, irregular rhythm and normal rate. 4/6 systolic murmur at the RUSB with mild radiation to the caro",Physical Examination,Medications
+Musculoskeletal\nLower extremity edema,Physical Examination,Medications
+Neurologic\nGait normal for age.,Physical Examination,Medications
+Neck\n General Examination: Neck is supple without thyromegaly.,Physical Examination,Vegetative History
+"Respiratory\n Auscultation of Lungs: Clear bilaterally. No wheezes, rales, or rhonchi.",Physical Examination,Medications
+Cardiovascular\n Auscultation of Heart: Regular rate and rhythm.,Physical Examination,Medications
+Musculoskeletal\n Left knee: Slight erythema and edema. Small effusion present. Decreased flexion and extension. Strength in lower extremities is good.,Physical Examination,Discussion
+Constitutional\nNo distress. No fever. No tobacco or other substance use.,Physical Examination,Medications
+Neurological\nAlert.,Physical Examination,Medications
+"Psychological\nShe does not appear anxious, agitated or depressed.",Physical Examination,Medications
+Neck\nJVP flat with a head at 90 degrees.,Physical Examination,Vegetative History
+Respiratory\nNo cough or shortness of breath. Chest clear to percussion and auscultation. Unlabored breathing.,Physical Examination,Medications
+Cardiovascular\nNo CVA tenderness. Cardiac rhythm regular. No murmur. No gallop.,Physical Examination,Medications
+Musculoskeletal\nNo ankle edema.,Physical Examination,Medications
+Integumentary\nSkin is moist. Good trigger.,Physical Examination,Other Social
+VITALS\n\nTemperature: Normal.\nBlood pressure: 117/56 mm Hg.\nHeart rate: 68 BPM.\nOxygenation: 95% on room air.,Physical Examination,Medications
+NECK: Bony protuberance of the C5-C6. No pain to palpation of the C5-C6,Physical Examination,Theraputic History
+MSK: Examination of the Lumbar spine: No pain to palpation of the lumbar spine. Decreased flexion and extension of the lower back. Positive straight leg raise. Spasm of the paraspinal muscles of the lumbar spine. Strength is equal bilaterally.,Physical Examination,Medications
+No fever noted. Vitals look good today.,Physical Examination,Medications
+"MSK: Examination of the right foot: There is a 1.0 cm x 2.0 cm wound on the dorsal aspect of the lateral right foot, just proximal to the 5th MTP joint. I do see some yellow slough that is present with minimal granulation tissue. No surrounding erythema or cellulitis. There is no evidence of fluid collection. I do not see necrosis. No odor. I do not appreciate any bony exposure. No pain to palpation.",Physical Examination,Medications
+VITALS\n\nWithin normal limits,Physical Examination,Medications
+Neck\n- General Examination: No jugular venous distention.,Physical Examination,Acute Symptoms
+Respiratory\n- Auscultation of Lungs: Clear bilaterally.,Physical Examination,Medications
+"Cardiovascular\n- Auscultation of Heart: No carotid bruits. A 3/6 systolic ejection murmur is heard at the left base.\n- Examination: Right radial artery cath site is clean, dry, and intact without hematoma. Radial artery pulses are palpable.",Physical Examination,Medications
+Musculoskeletal\n- Examination: Bilateral lower limb edema. Pitting 1+.,Physical Examination,Medications
+MSK: Examination of the left knee: Edema and effusion noted. Moderate ROM. Pain with flexion and extension of the knee. Negative Lachman's. Negative valgus and varus stress test.,Physical Examination,Medications
+â¢ Neck: No carotid bruits appreciable.,Physical Examination,Discussion
+"â¢ Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.",Physical Examination,Medications
+â¢ Cardiovascular: Slight 3/6 systolic ejection murmur.,Physical Examination,Medications
+â¢ Integumentary: Well-healed surgical scars on her right wrist.,Physical Examination,Medications
+"â¢ Respiratory: Lungs are clear to auscultation bilaterally. No wheezes, rales, or rhonchi.",Physical Examination,Medications
+â¢ Cardiovascular: Regular rate. Grade 2 systolic ejection murmur. No gallops or rubs. No extra heart sounds.,Physical Examination,Medications
+"SKIN: Warm, dry and intact",Physical Examination,Medications
+"MSK: \nExamination of the right knee: Tenderness along the medial joint line. Pes bursa is nontender. The epicondyle and posterior aspect of her knee are soft. Popliteal space is nontender. The lateral aspect of her knee is nontender. There is a dime-sized abrasion that is dry and appears to be 1 week old, over the medial patella. No scars. Full extension. Full symmetric flexion. No deformity. Valgus stress of the medial and lateral collateral ligament are intact. Laxity with posterior drawer testing. 1+ posterior drawer test. Negative Lachman test. Patella tracks fine. No crepitus. Negative McMurray test.",Physical Examination,Medications
+Examination of the left knee: Full symmetric flexion. No deformity. Valgus stress of the medial collateral ligament is intact. Lateral collateral ligament is intact.,Physical Examination,Discussion
