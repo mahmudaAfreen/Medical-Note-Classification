@@ -1,0 +1,3 @@
+text,true_label,predicted_label
+The patient has attempted non-surgical treatments with minimal relief,Radiology Examination,Theraputic History
+"Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable",Radiology Examination,Other Treatments

@@ -1,0 +1,13 @@
+text,true_label,predicted_label
+"prescribed gabapentin and prednisone, and referred the patient to us.",Theraputic History,Medications
+He denies any blood thinners,Theraputic History,Vegetative History
+"who recommended discontinuing consumption of cow’s milk,",Theraputic History,Other Treatments
+"She will be starting speech therapy in the next few weeks, and currently she is in occupational, feeding, and physical therapy.",Theraputic History,Other Treatments
+with weekly therapy,Theraputic History,Medications
+Her back and neck pain has been managed by a chiropractor for a few years.,Theraputic History,Personal History
+"who started him on a new medication Benicar HCT, which he has been using for the past month.",Theraputic History,Acute Symptoms
+She took half a dose and did not experience the side effects.,Theraputic History,Personal History
+"She states that the antibiotics improved her symptoms, however they did not resolve them.",Theraputic History,Personal History
+The patient adds that she was last on Keflex 5 months ago,Theraputic History,Personal History
+MEDICATIONS\n\naspirin 81 mg daily\nBrilinta 90 mg twice daily\nLipitor 80 mg daily\nToprol 50 mg daily\nlisinopril 20 mg daily\nmetformin,Theraputic History,Medications
+with Zoloft 50 mg daily.,Theraputic History,Medications

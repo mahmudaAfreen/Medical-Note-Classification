@@ -1,0 +1,8 @@
+text,true_label,predicted_label
+Dandruff\nThe patient is experiencing worsening symptoms of dandruff,Discussion,Acute Symptoms
+"An extensive discussion of breast reduction surgery was performed with the patient with consideration of the patient's age, co-morbidities, previous surgical history, body habitus, BMI, and smoking history",Discussion,Personal History
+The patient will be switching to a different insurance policy in 07/2021,Discussion,Personal History
+Next medication to consider adding is carvedilol,Discussion,Medications
+Target BP is 130-140/70-80.,Discussion,Lab Examination
+I explained that there are healthier alternatives available to reduce the amount of preserved meats she consumes.,Discussion,Other Treatments
+I have advised her to refrain from running for the next 3 weeks,Discussion,Other Treatments

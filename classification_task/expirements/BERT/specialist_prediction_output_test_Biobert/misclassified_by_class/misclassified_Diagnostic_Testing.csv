@@ -1,0 +1,8 @@
+text,true_label,predicted_label
+I also want her to undergo genetic counseling and testing to see if she has a genetic predisposition for developing ovarian cancer,Diagnostic Testing,Discussion
+"I recommend we perform a hysterectomy and oophorectomy, as well as a lymph node dissection to remove any involved lymph nodes",Diagnostic Testing,Other Treatments
+Healthcare maintenance.\n• Additional Testing: We will order a mammogram for her.,Diagnostic Testing,Medications
+"Depending on results as well as the severity of her aortic stenosis, we will need to consider an ischemic evaluation or possibly a heart monitor to assess the overall burden of PVCs",Diagnostic Testing,Discussion
+"At this point, she is asymptomatic, so we will start with the echocardiogram only.",Diagnostic Testing,Discussion
+We will consider a monitor but start with the echocardiogram first as noted above.,Diagnostic Testing,Discussion
+"MRI, right knee",Diagnostic Testing,Acute Assessment

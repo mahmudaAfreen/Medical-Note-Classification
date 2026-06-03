@@ -1,0 +1,8 @@
+text,true_label,predicted_label
+She is having bilateral leg pain over the past month,Reassessment,Acute Symptoms
+"This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP",Reassessment,Discussion
+â¢ Alcohol use disorder.,Reassessment,Drug History
+3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.,Reassessment,Acute Assessment
+Herniated disc.\nâ¢ Medical Reasoning: She has been asymptomatic since receiving a steroid injection several months ago. I do not think we need to refer her for any further steroid injections or physical therapy at this time.,Reassessment,Discussion
+Coronary artery disease.\nâ¢ Medical Reasoning: She reports a burning chest pain with exertion approximately 3 times per week for the past month.,Reassessment,Acute Symptoms
+Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.,Reassessment,Acute Assessment

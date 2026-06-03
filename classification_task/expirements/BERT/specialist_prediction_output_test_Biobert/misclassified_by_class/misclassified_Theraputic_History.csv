@@ -1,0 +1,7 @@
+text,true_label,predicted_label
+"prescribed gabapentin and prednisone, and referred the patient to us.",Theraputic History,Discussion
+He denies any blood thinners,Theraputic History,Vegetative History
+She denies needing medications.,Theraputic History,Personal History
+"who recommended discontinuing consumption of cow’s milk,",Theraputic History,Other Social
+"She will be starting speech therapy in the next few weeks, and currently she is in occupational, feeding, and physical therapy.",Theraputic History,Other Treatments
+"Regarding her depression, she has been going to therapy once a week for the past year.",Theraputic History,Personal History

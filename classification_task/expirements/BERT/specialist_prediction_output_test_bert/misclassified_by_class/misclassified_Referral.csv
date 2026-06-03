@@ -1,0 +1,3 @@
+text,true_label,predicted_label
+I am going to refer her to physical therapy,Referral,Other Treatments
+I am going to refer her to cardiac rehab for education and to gain confidence to resume exercising regularly.,Referral,Other Treatments

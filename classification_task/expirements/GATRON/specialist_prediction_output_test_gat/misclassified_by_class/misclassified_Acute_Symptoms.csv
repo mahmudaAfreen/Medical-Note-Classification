@@ -1,0 +1,20 @@
+text,true_label,predicted_label
+"The patient states he has been taking his blood sugars at home, and they have been in the 300 's.",Acute Symptoms,Personal History
+She experiences limping with ambulation.,Acute Symptoms,Vegetative History
+"The patient did consume a 7 ounce bottle this morning, but mostly denied the next offered bottle and declined cereal.",Acute Symptoms,Personal History
+"Current breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup",Acute Symptoms,Theraputic History
+"Current breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup. No prior pregnancies, potentially planning on pregnancies in the future, and unsure of breast feeding.",Acute Symptoms,Vegetative History
+"She denies chest pain, syncope, palpitations, fevers, or chills.",Acute Symptoms,Vegetative History
+"She reports shortness of breath if she walks too fast, too long, or tries to drink a whole glass of water without stopping",Acute Symptoms,Vegetative History
+The patient requires a walker and can walk around her cul-de-sac or to the end of the driveway without shortness of breath,Acute Symptoms,Other Treatments
+"Compared to 6 months ago, her functioning has declined 20-30%.",Acute Symptoms,Personal History
+"Prior to 6 months, symptoms were absent.",Acute Symptoms,Personal History
+"For the past month she has been experiencing severe, bilateral leg pain, which was limiting her mobility.",Acute Symptoms,Personal History
+"Occasionally, she feels dizzy but takes medication for this and it subsides",Acute Symptoms,Personal History
+She also reports feeling “overly tired” but attributes this to her polypharmacy.,Acute Symptoms,Personal History
+"The patient reports she has been doing stair workouts, which she thought was building muscle on her knees",Acute Symptoms,Personal History
+She denies any pins and needles in her feet or swelling in her legs,Acute Symptoms,Personal History
+The patient notes that she would look out for those symptoms because she has diabetes,Acute Symptoms,Personal History
+"Physical Examination\n\nCardiovascular\nNormal rate, regular rhythm, S2 normal, normal heart sounds, and normal pulses.\n\nPulmonary/Chest\nBreath sounds normal. \n\nAbdominal\nThere is no tenderness.\n\nMusculoskeletal\nThere is no edema.",Acute Symptoms,Physical Examination
+She presents for her annual exam.,Acute Symptoms,Personal History
+She presents for her annual exam.,Acute Symptoms,Personal History

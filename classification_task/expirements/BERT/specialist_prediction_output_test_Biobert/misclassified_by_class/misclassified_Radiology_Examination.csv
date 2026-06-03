@@ -1,0 +1,7 @@
+text,true_label,predicted_label
+CT scan of the abdomen was reviewed and demonstrated a 3 cm left ovarian mass with associated localized lymph node involvement. There is no evidence of gross peritoneal or metastatic disease.,Radiology Examination,Acute Assessment
+The patient has attempted non-surgical treatments with minimal relief,Radiology Examination,Theraputic History
+"Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable",Radiology Examination,Discussion
+EKG\nImpression: Sinus rhythm with frequent PVCs as well as anterior septal infarct pattern.,Radiology Examination,Personal History
+EKG is reviewed and demonstrates a normal sinus rhythm. Good R wave progression. Evolutionary changes that are anticipated after a STEMI.,Radiology Examination,Reassessment
+ECG prior coronary artery disease. No new changes.,Radiology Examination,Personal History

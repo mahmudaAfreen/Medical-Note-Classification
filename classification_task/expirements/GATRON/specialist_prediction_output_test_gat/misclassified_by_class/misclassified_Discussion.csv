@@ -1,0 +1,16 @@
+text,true_label,predicted_label
+although the exact level will be pending the MRI results,Discussion,Lab Examination
+I will call patient with results and possible next steps.,Discussion,Follow-up
+Viral infection\nThe patient presents with a viral infection and does not need antibiotics currently.,Discussion,Personal History
+Dandruff\nThe patient is experiencing worsening symptoms of dandruff,Discussion,Acute Symptoms
+Relief of the patient's current symptoms related to macromastia was not guaranteed though is expected to improve,Discussion,Acute Symptoms
+The patient will be switching to a different insurance policy in 07/2021,Discussion,Other Social
+"Once we get the new insurance information from the patient, we will submit it to her insurance company",Discussion,Other Social
+Return to clinic prior to scheduled surgery date for preoperative counseling and consent.,Discussion,Follow-up
+"She has no known CAD but if we were to do a TAVR evaluation and this was discovered, a statin would be indicated.",Discussion,Personal History
+Next medication to consider adding is carvedilol,Discussion,Medications
+The potential benefit of alcohol cessation would be highly beneficial to the patient.,Discussion,Drug History
+Quite possibly her blood pressure will improve significantly if she is able to completely stop consuming alcohol,Discussion,Drug History
+Target BP is 130-140/70-80.,Discussion,Follow-up
+"Recommend upgrading influenza vaccination and Shingrix #2, she defers this.",Discussion,Personal History
+I explained that there are healthier alternatives available to reduce the amount of preserved meats she consumes.,Discussion,Other Treatments

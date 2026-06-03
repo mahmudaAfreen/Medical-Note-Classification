@@ -1,0 +1,3 @@
+text,true_label,predicted_label
+Tobacco: No prior history.\nAlcohol: Socially. One glass per week.\nDrug: No prior history.,Drug History,Personal History
+History includes significant alcohol use disorder and mild hypercholesterolemia,Drug History,Personal History
