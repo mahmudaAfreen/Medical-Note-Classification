@@ -1,0 +1,23 @@
+text,true_label,predicted_label
+"The patient states he has been taking his blood sugars at home, and they have been in the 300 's.",Acute Symptoms,Personal History
+He does not have a barky cough or a sore throat.,Acute Symptoms,Personal History
+His rectal temperature was 100.3 degrees.,Acute Symptoms,Reassessment
+"The patient did consume a 7 ounce bottle this morning, but mostly denied the next offered bottle and declined cereal.",Acute Symptoms,Personal History
+"Current breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup",Acute Symptoms,Theraputic History
+"Current breast size is a G cup, although she primarily wears a 34 E sports bra for comfort, and desired breast size is a B or C cup. No prior pregnancies, potentially planning on pregnancies in the future, and unsure of breast feeding.",Acute Symptoms,Physical Examination
+"She endorses the following symptoms because of her macromastia for 7 years:\n\nChronic upper back pain: Yes.\nBra strap grooving in shoulders or indentation on lateral chest wall: Occasionally.\nNeck pain: Yes.\nNipple pain or numbness: Yes.\nParesthesia of the hands or arms: Yes.\nIntertrigo, rash or yeast or other skin problems beneath breasts: Yes, persistent sweating.\nStooped posture: Yes.\nPhysical activity limited by breast size: Yes.\n\nThe patient has undergone the following therapies:\nPhysical therapy: No.\n\nSpecial bras: Yes.\nNon-narcotic pain medication: No.\nNarcotic pain medication: No.\n\nHer previous breast surgery includes:\nPrevious reconstruction: No.",Acute Symptoms,Physical Examination
+with symptomatic macromastia presenting for evaluation of breast reduction,Acute Symptoms,Acute Assessment
+"Ms. Scott has been recently diagnosed with a “new, worrisome” heart murmur",Acute Symptoms,Personal History
+"She denies chest pain, syncope, palpitations, fevers, or chills.",Acute Symptoms,Vegetative History
+The patient requires a walker and can walk around her cul-de-sac or to the end of the driveway without shortness of breath,Acute Symptoms,Other Social
+"Compared to 6 months ago, her functioning has declined 20-30%.",Acute Symptoms,Personal History
+"Prior to 6 months, symptoms were absent.",Acute Symptoms,Personal History
+"Occasionally, she feels dizzy but takes medication for this and it subsides",Acute Symptoms,Theraputic History
+"The patient reports she has been doing stair workouts, which she thought was building muscle on her knees",Acute Symptoms,Other Social
+She denies any pins and needles in her feet or swelling in her legs,Acute Symptoms,Vegetative History
+The patient notes that she would look out for those symptoms because she has diabetes,Acute Symptoms,Personal History
+"Physical Examination\n\nCardiovascular\nNormal rate, regular rhythm, S2 normal, normal heart sounds, and normal pulses.\n\nPulmonary/Chest\nBreath sounds normal. \n\nAbdominal\nThere is no tenderness.\n\nMusculoskeletal\nThere is no edema.",Acute Symptoms,Physical Examination
+Mrs. Taylor presents for a follow-up for hypertension,Acute Symptoms,Personal History
+The pain will resolve with repositioning.,Acute Symptoms,Other Treatments
+She presents for her annual exam.,Acute Symptoms,Personal History
+She presents for her annual exam.,Acute Symptoms,Personal History

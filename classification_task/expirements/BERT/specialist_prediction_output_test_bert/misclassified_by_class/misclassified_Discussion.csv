@@ -1,0 +1,21 @@
+text,true_label,predicted_label
+although the exact level will be pending the MRI results,Discussion,Lab Examination
+After reviewing the patient's examination and radiographic findings today,Discussion,Acute Symptoms
+I will call patient with results and possible next steps.,Discussion,Follow-up
+We will defer medication at this time.,Discussion,Medications
+Viral infection\nThe patient presents with a viral infection and does not need antibiotics currently.,Discussion,Acute Symptoms
+I also provided counseling to the mother to avoid giving honey to the patient for his first year of life due to botulism spores,Discussion,Other Treatments
+Dandruff\nThe patient is experiencing worsening symptoms of dandruff,Discussion,Acute Symptoms
+I counseled the mother that she should be careful not to get the shampoo in the patient eyes and to not use the extra strength shampoos,Discussion,Other Treatments
+Relief of the patient's current symptoms related to macromastia was not guaranteed though is expected to improve,Discussion,Medications
+I explained the expected outcomes of using a free nipple graft such as an insensate nipple and an inability to breast feed,Discussion,Other Treatments
+The patient will be switching to a different insurance policy in 07/2021,Discussion,Other Treatments
+Next medication to consider adding is carvedilol,Discussion,Medications
+I provided and reviewed with Mr. Roberts the American Heart association website heart.org and encouraged him to access for tips on lowering his salt intake and increasing his potassium intake,Discussion,Referral
+The potential benefit of alcohol cessation would be highly beneficial to the patient.,Discussion,Other Treatments
+Quite possibly her blood pressure will improve significantly if she is able to completely stop consuming alcohol,Discussion,Other Treatments
+Target BP is 130-140/70-80.,Discussion,Lab Examination
+"Recommend upgrading influenza vaccination and Shingrix #2, she defers this.",Discussion,Medications
+"We discussed doing a debridement in office today, which she agreed to.",Discussion,Other Treatments
+I advised the patient that this should be continued until we see the ulcer decrease in size.,Discussion,Medications
+I have advised her to refrain from running for the next 3 weeks,Discussion,Other Treatments

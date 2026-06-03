@@ -1,0 +1,19 @@
+text,true_label,predicted_label
+After reviewing the patient's examination and radiographic findings today,Discussion,Acute Assessment
+"If she is not better at that time, we will obtain an MRI. All questions were answered.",Discussion,Diagnostic Testing
+I will call patient with results and possible next steps.,Discussion,Follow-up
+We will defer medication at this time.,Discussion,Medications
+Viral infection\nThe patient presents with a viral infection and does not need antibiotics currently.,Discussion,Theraputic History
+I also provided counseling to the mother to avoid giving honey to the patient for his first year of life due to botulism spores,Discussion,Other Treatments
+Dandruff\nThe patient is experiencing worsening symptoms of dandruff,Discussion,Theraputic History
+I counseled the mother that she should be careful not to get the shampoo in the patient eyes and to not use the extra strength shampoos,Discussion,Medications
+Relief of the patient's current symptoms related to macromastia was not guaranteed though is expected to improve,Discussion,Acute Symptoms
+The patient will be switching to a different insurance policy in 07/2021,Discussion,Other Social
+"She is unsure if she would be interested in this, but we will assess first with the echocardiogram and then discuss further at follow-up.",Discussion,Follow-up
+Next medication to consider adding is carvedilol,Discussion,Medications
+I provided and reviewed with Mr. Roberts the American Heart association website heart.org and encouraged him to access for tips on lowering his salt intake and increasing his potassium intake,Discussion,Referral
+Target BP is 130-140/70-80.,Discussion,Physical Examination
+"Recommend upgrading influenza vaccination and Shingrix #2, she defers this.",Discussion,Theraputic History
+"After reviewing the patient's examination and radiographic findings today, I have discussed with the patient",Discussion,Acute Assessment
+I have advised her to refrain from running for the next 3 weeks,Discussion,Other Treatments
+"If her pain does not improve with the immobilizer, I will recommend obtaining an MRI.",Discussion,Diagnostic Testing

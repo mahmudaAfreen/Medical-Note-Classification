@@ -1,0 +1,4 @@
+text,true_label,predicted_label
+Healthcare maintenance.\n• Additional Testing: We will order a mammogram for her.,Diagnostic Testing,Medications
+"Depending on results as well as the severity of her aortic stenosis, we will need to consider an ischemic evaluation or possibly a heart monitor to assess the overall burden of PVCs",Diagnostic Testing,Discussion
+"MRI, right knee",Diagnostic Testing,Radiology Examination

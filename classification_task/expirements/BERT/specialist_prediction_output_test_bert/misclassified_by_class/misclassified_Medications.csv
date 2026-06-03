@@ -1,0 +1,5 @@
+text,true_label,predicted_label
+"If a croup cough develops, the patient will receive a 0.5 teaspoon.",Medications,Discussion
+Lightheadedness/dizziness\nShe is on meclizine for this,Medications,Physical Examination
+I have added spironolactone to his regimen which will require monitoring of his potassium and sodium,Medications,Other Treatments
+she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily,Medications,Theraputic History

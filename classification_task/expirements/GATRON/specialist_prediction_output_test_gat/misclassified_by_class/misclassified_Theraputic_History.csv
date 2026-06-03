@@ -1,0 +1,15 @@
+text,true_label,predicted_label
+"prescribed gabapentin and prednisone, and referred the patient to us.",Theraputic History,Medications
+He denies any blood thinners,Theraputic History,Personal History
+She denies needing medications.,Theraputic History,Personal History
+"who recommended discontinuing consumption of cow’s milk,",Theraputic History,Other Treatments
+"She will be starting speech therapy in the next few weeks, and currently she is in occupational, feeding, and physical therapy.",Theraputic History,Other Treatments
+"The patient drinks Ripple Pea Protein milk instead of cow’s milk, water and water mixed with a small amount of juice.",Theraputic History,Drug History
+"Regarding her depression, she has been going to therapy once a week for the past year.",Theraputic History,Personal History
+with weekly therapy,Theraputic History,Other Treatments
+Her back and neck pain has been managed by a chiropractor for a few years.,Theraputic History,Personal History
+"She experienced side effects from lisinopril, such as headaches, âswooshingâ in her left ear, and lethargy",Theraputic History,Personal History
+"The patient notes the ibuprofen is slightly more beneficial than the Tylenol, however it does not relieve his symptoms",Theraputic History,Acute Symptoms
+"She states that the antibiotics improved her symptoms, however they did not resolve them.",Theraputic History,Personal History
+"She had a steroid injection for her herniated disc several months ago, which has been doing well.",Theraputic History,Personal History
+"After the injury, she took ibuprofen and treated the wound, but the pain has persisted",Theraputic History,Acute Symptoms

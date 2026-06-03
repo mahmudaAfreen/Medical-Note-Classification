@@ -1,0 +1,5 @@
+text,true_label,predicted_label
+The patient states that she normally skis 3 times per week.,Other Social,Acute Symptoms
+She has been to multiple events now that she has been able to get vaccinated for COVID-19.,Other Social,Theraputic History
+She reports that she has been able to see her grandchildren again and attend birthday parties.,Other Social,Personal History
+"She reports that she is starting to go in person rather than virtual, which has helped even more",Other Social,Acute Symptoms

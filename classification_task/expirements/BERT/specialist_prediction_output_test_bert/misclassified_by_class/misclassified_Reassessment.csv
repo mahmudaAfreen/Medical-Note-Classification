@@ -1,0 +1,5 @@
+text,true_label,predicted_label
+She is having bilateral leg pain over the past month,Reassessment,Acute Symptoms
+"This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP",Reassessment,Medications
+1. Coronary artery disease.\n- Medical Reasoning: The patient has a history of coronary artery disease that we will continue to monitor.,Reassessment,Diagnostic Testing
+3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.,Reassessment,Acute Assessment

@@ -1,0 +1,17 @@
+text,true_label,predicted_label
+His previous CT scan was reviewed and demonstrates a 0.5 cm kidney stone located in the proximal right ureter without evidence of hydronephrosis.,Acute Assessment,Radiology Examination
+• Macromastia.,Acute Assessment,Reassessment
+and is an ideal candidate for bilateral reduction mammoplasty,Acute Assessment,Reassessment
+"Given her extremely large breasts and the measurements above, there is potential for using a free nipple graft.",Acute Assessment,Other Treatments
+• Cardiac murmur.,Acute Assessment,Reassessment
+• Lightheadedness/dizziness.,Acute Assessment,Physical Examination
+Cardiac murmur\nDiana has a 4/6 systolic murmur at the RUSB with mild radiation to the carotids,Acute Assessment,Physical Examination
+"She does have symptoms including a significant increase in fatigue over the last 6 months, shortness of breath, and some lightheadedness",Acute Assessment,Vegetative History
+She does not appear significantly volume overloaded today.,Acute Assessment,Personal History
+PVCs\nHer referral mentions tachycardia,Acute Assessment,Acute Symptoms
+Her EKG today shows sinus rhythm with frequent PVCs as well as anterior septal infarct pattern,Acute Assessment,Radiology Examination
+She does not have any significant palpitations,Acute Assessment,Acute Symptoms
+â¢ Resistant hypertension.,Acute Assessment,Reassessment
+"Mr. Roberts presents with resistant hypertension, with systolic blood pressure readings between 146-155",Acute Assessment,Personal History
+After presenting at 150/100,Acute Assessment,Acute Symptoms
+Given her history. it will improve over time.,Acute Assessment,Discussion

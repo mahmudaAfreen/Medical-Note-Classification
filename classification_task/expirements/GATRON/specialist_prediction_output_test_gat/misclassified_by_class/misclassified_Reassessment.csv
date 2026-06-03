@@ -1,0 +1,4 @@
+text,true_label,predicted_label
+She is having bilateral leg pain over the past month,Reassessment,Personal History
+"This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP",Reassessment,Discussion
+Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.,Reassessment,Acute Assessment

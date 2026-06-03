@@ -1,0 +1,5 @@
+text,true_label,predicted_label
+"He endorses joint pain in his right knee; however, he notes that he just noticed the joint pain when asked.",Vegetative History,Acute Symptoms
+He states he was nauseous for a couple of days,Vegetative History,Personal History
+He has no problems laying flat.,Vegetative History,Other Social
+"He is sleeping okay at night, occasionally waking up at 5 a.m",Vegetative History,Acute Symptoms

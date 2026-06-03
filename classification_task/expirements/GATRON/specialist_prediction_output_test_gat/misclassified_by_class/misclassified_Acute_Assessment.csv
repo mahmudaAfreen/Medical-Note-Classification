@@ -1,0 +1,27 @@
+text,true_label,predicted_label
+Hyperglycemia\n- Medical Reasoning: This is likely related to an inflammatory response as the patient had an elevated Lyme titer and positive rapid strep test.,Acute Assessment,Reassessment
+I have explained to her that her x-rays did not reveal any signs of a fracture,Acute Assessment,Discussion
+with Smith-Magenis syndrome.,Acute Assessment,Acute Symptoms
+Several organ systems can be affected by this chromosomal deletion syndrome and congenital anomalies of the kidney and urinary tract have been reported in the literature.,Acute Assessment,Vegetative History
+• Viral infection\n• Dandruff,Acute Assessment,Reassessment
+• Macromastia.,Acute Assessment,Reassessment
+and is an ideal candidate for bilateral reduction mammoplasty,Acute Assessment,Discussion
+"Given her extremely large breasts and the measurements above, there is potential for using a free nipple graft.",Acute Assessment,Discussion
+• Cardiac murmur.,Acute Assessment,Physical Examination
+• PVCs.,Acute Assessment,Reassessment
+• Lightheadedness/dizziness.,Acute Assessment,Vegetative History
+Cardiac murmur\nDiana has a 4/6 systolic murmur at the RUSB with mild radiation to the carotids,Acute Assessment,Physical Examination
+"She does have symptoms including a significant increase in fatigue over the last 6 months, shortness of breath, and some lightheadedness",Acute Assessment,Vegetative History
+"This could be due to severe aortic stenosis, however, her S2 is relatively preserved which would be more consistent with moderate",Acute Assessment,Reassessment
+She does not appear significantly volume overloaded today.,Acute Assessment,Acute Symptoms
+PVCs\nHer referral mentions tachycardia,Acute Assessment,Acute Symptoms
+Her EKG today shows sinus rhythm with frequent PVCs as well as anterior septal infarct pattern,Acute Assessment,Radiology Examination
+She does not have any significant palpitations,Acute Assessment,Personal History
+"She is also having some PVCs on her EKG, which could be contributing, but she does not feel palpitations.",Acute Assessment,Personal History
+â¢ Resistant hypertension.,Acute Assessment,Reassessment
+"Mr. Roberts presents with resistant hypertension, with systolic blood pressure readings between 146-155",Acute Assessment,Personal History
+After presenting at 150/100,Acute Assessment,Acute Symptoms
+His x-rays did not reveal any signs of a fracture,Acute Assessment,Acute Symptoms
+"She was able to be treated in the cath lab in a timely manner, so I think that the muscle is just stunned",Acute Assessment,Personal History
+Given her history. it will improve over time.,Acute Assessment,Personal History
+I explained that her x-rays did not reveal any signs of a fracture,Acute Assessment,Discussion

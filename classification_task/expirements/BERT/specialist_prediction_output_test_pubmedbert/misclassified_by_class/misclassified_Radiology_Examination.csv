@@ -1,0 +1,5 @@
+text,true_label,predicted_label
+Previous CT scan of the abdomen ordered by the patient's PCP is reviewed and demonstrates a 0.5 cm kidney stone located in the proximal right ureter. There is no evidence of hydronephrosis.,Radiology Examination,Diagnostic Testing
+The patient has attempted non-surgical treatments with minimal relief,Radiology Examination,Theraputic History
+"Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable",Radiology Examination,Discussion
+"Views: Four views left knee.\nIndication: Knee pain.\nInterpretation: There are no fractures, dislocations, or other abnormalities.",Radiology Examination,Physical Examination
