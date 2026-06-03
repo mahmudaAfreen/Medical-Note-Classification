@@ -1,33 +1,40 @@
 # Medical-Note-Classification
 
-Utilities for annotation, training, and evaluation on medical-note span intent
-classification.
+Utilities for annotation, encoder training/evaluation, and LLM experiments on
+medical-note sentence intent classification.
+
+## Encoder Experiments
+
+The encoder task code lives in `classification_task/src`. The released sentence
+splits live in `final_data`:
+
+- `sentences_train.csv`, `sentences_dev.csv`, `sentences_test.csv`
+- `sentences_train_SOAP.csv`, `sentences_dev_SOAP.csv`, `sentences_test_SOAP.csv`
+
+The `_SOAP.csv` files include the same sentence-level labels plus a SOAP section
+column. LLM experiments use these SOAP-aware splits by default so results are
+aligned with the encoder train/dev/test data.
 
 ## LLM Experiments
 
 The LLM experiment code lives in `src/llm_experiments`. It reuses the
-zero-shot/few-shot prompting idea from `medical-intent-classification`, but the
-label space is generated from this repository's annotation CSV files instead of
-being hard-coded.
+zero-shot/few-shot prompting idea from `medical-intent-classification`, but wraps
+it around this repository's encoder splits instead of making a new split from
+raw annotation files.
 
-Prepare deterministic span-level splits:
+Prepare LLM JSONL files from the encoder splits:
 
 ```bash
 python -m src.llm_experiments.data \
-  --data-dir data_files \
+  --source encoder \
+  --data-dir final_data \
   --output-dir data_files/llm_splits
 ```
 
-This explodes the Potato/Label Studio `label` span JSON into one example per
-annotated span, preserves `encounter_id` for grouped splitting, and writes
-`train.jsonl`, `dev.jsonl`, `test.jsonl`, and `labels.json`. By default it maps
-annotation variants to canonical labels:
-
-- `Medications` -> `Medication`
-- `Other Social` -> `Other Socials`
-- `Theraputic History` -> `Therapeutic History`
-
-Use `--keep-raw-labels` if you need exact raw annotation labels.
+This writes `train.jsonl`, `dev.jsonl`, `test.jsonl`, and `labels.json` using
+the exact encoder examples and raw encoder labels, including `Medications`,
+`Other Social`, and `Theraputic History`. Use `--canonicalize-labels` only for
+exploratory runs where you intentionally want cleaned label names.
 
 Preview prompts without loading a model:
 
@@ -56,7 +63,12 @@ python -m src.llm_experiments.evaluate_prompting \
 
 Predictions are saved as JSONL with raw model responses and parsed labels.
 Metrics are saved as JSON with accuracy, macro/weighted F1, per-label metrics,
-and per-section reports.
+and per-section reports. Each run also writes encoder-style artifacts under
+`outputs/llm_prompting/<run_name>/`:
+
+- `per_class_metrics_test.csv`
+- `confusion_matrix_test.csv`
+- `misclassified_by_class/misclassified_<Class>.csv`
 
 Export chat-style SFT rows for LoRA/QLoRA tooling:
 
@@ -67,3 +79,12 @@ python -m src.llm_experiments.export_sft_data \
 ```
 
 Keep experiments local unless the data has been approved for external API use.
+
+The older raw annotation span parser remains available for exploration:
+
+```bash
+python -m src.llm_experiments.data \
+  --source annotations \
+  --data-dir data_files \
+  --output-dir data_files/llm_annotation_splits
+```

@@ -43,27 +43,30 @@ LABEL_DESCRIPTIONS = {
 
 
 SYSTEM_PROMPT = (
-    "You are a medical NLP classifier. Classify annotated spans from clinical "
-    "notes into exactly one intent label. Use only the allowed labels. Return "
-    "valid JSON and do not add explanations."
+    "You are a medical NLP classifier. Classify sentences from clinical notes "
+    "into exactly one intent label. Use only the allowed labels. Return valid "
+    "JSON and do not add explanations."
 )
 
 
+def description_for_label(label: str) -> str:
+    canonical = LABEL_ALIASES.get(label, label)
+    return LABEL_DESCRIPTIONS.get(canonical, "Medical note intent label.")
+
+
 def labels_block(labels: list[str]) -> str:
-    lines = []
-    for label in labels:
-        description = LABEL_DESCRIPTIONS.get(label, "Medical note intent label.")
-        lines.append(f"- {label}: {description}")
-    return "\n".join(lines)
+    return "\n".join(
+        f"- {label}: {description_for_label(label)}" for label in labels
+    )
 
 
 def build_user_prompt(example: dict[str, Any], labels: list[str]) -> str:
-    section = normalize_whitespace(example.get("section")) or "Unknown"
+    section = normalize_whitespace(example.get("section")) or "UNKNOWN"
     text = normalize_whitespace(example.get("text"))
     return (
-        "Classify this annotated medical-note span.\n\n"
+        "Classify this medical-note sentence.\n\n"
         f"SOAP section: {section}\n"
-        f"Span text: {text}\n\n"
+        f"Sentence: {text}\n\n"
         "Allowed labels:\n"
         f"{labels_block(labels)}\n\n"
         'Return JSON only in this exact shape: {"label": "<one allowed label>"}'
@@ -131,10 +134,24 @@ def _extract_json_object(text: str) -> dict[str, Any] | None:
 
 
 def _normalize_for_matching(value: str) -> str:
-    value = canonical_label(value, canonicalize=True)
+    value = canonical_label(value, canonicalize=False)
     value = value.lower()
     value = re.sub(r"[^a-z0-9]+", " ", value)
     return normalize_whitespace(value)
+
+
+def _allowed_label_variants(labels: list[str]) -> dict[str, str]:
+    variants: dict[str, str] = {}
+    for allowed_label in labels:
+        raw_variants = {allowed_label}
+        if allowed_label in LABEL_ALIASES:
+            raw_variants.add(LABEL_ALIASES[allowed_label])
+        for raw_label, canonical in LABEL_ALIASES.items():
+            if allowed_label == canonical:
+                raw_variants.add(raw_label)
+        for variant in raw_variants:
+            variants[_normalize_for_matching(variant)] = allowed_label
+    return variants
 
 
 def parse_label_from_response(
@@ -142,12 +159,7 @@ def parse_label_from_response(
     labels: list[str],
 ) -> tuple[str | None, str]:
     """Return ``(label, parse_status)`` from a raw model response."""
-    allowed_by_norm = {_normalize_for_matching(label): label for label in labels}
-    alias_by_norm = {
-        _normalize_for_matching(raw): canonical
-        for raw, canonical in LABEL_ALIASES.items()
-        if canonical in labels
-    }
+    allowed_by_norm = _allowed_label_variants(labels)
 
     parsed = _extract_json_object(response)
     if parsed is not None:
@@ -156,17 +168,15 @@ def parse_label_from_response(
             normalized = _normalize_for_matching(raw_label)
             if normalized in allowed_by_norm:
                 return allowed_by_norm[normalized], "json"
-            if normalized in alias_by_norm:
-                return alias_by_norm[normalized], "json_alias"
 
     normalized_response = _normalize_for_matching(response)
     matches = []
     for normalized_label, label in allowed_by_norm.items():
         if re.search(rf"\b{re.escape(normalized_label)}\b", normalized_response):
             matches.append(label)
-    if len(matches) == 1:
-        return matches[0], "text_match"
-    if len(matches) > 1:
-        matches.sort(key=len, reverse=True)
-        return matches[0], "ambiguous_text_match"
+    unique_matches = sorted(set(matches), key=len, reverse=True)
+    if len(unique_matches) == 1:
+        return unique_matches[0], "text_match"
+    if len(unique_matches) > 1:
+        return unique_matches[0], "ambiguous_text_match"
     return None, "invalid"

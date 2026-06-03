@@ -1,8 +1,9 @@
-"""Run zero-shot or few-shot LLM prompting for span classification."""
+"""Run zero-shot or few-shot LLM prompting for sentence classification."""
 
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 from pathlib import Path
@@ -16,6 +17,9 @@ from src.llm_experiments.prompts import (
     parse_label_from_response,
 )
 from src.llm_experiments.retrieval import FewShotRetriever
+
+
+INVALID_LABEL = "__INVALID__"
 
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
@@ -115,7 +119,8 @@ def generate_local(
         generation_kwargs["do_sample"] = False
 
     responses: list[str] = []
-    for batch_index, prompt_batch in enumerate(batched(prompts, batch_size), start=1):
+    prompt_batches = batched(prompts, batch_size)
+    for batch_index, prompt_batch in enumerate(prompt_batches, start=1):
         tokenize_kwargs: dict[str, Any] = {
             "return_tensors": "pt",
             "padding": True,
@@ -136,8 +141,88 @@ def generate_local(
             skip_special_tokens=True,
         )
         responses.extend(text.strip() for text in decoded)
-        print(f"generated batch {batch_index}/{len(batched(prompts, batch_size))}")
+        print(f"generated batch {batch_index}/{len(prompt_batches)}")
     return responses, prompts
+
+
+def write_encoder_style_reports(
+    report_dir: Path,
+    results: list[dict[str, Any]],
+    labels: list[str],
+    report: dict[str, Any],
+) -> None:
+    report_dir.mkdir(parents=True, exist_ok=True)
+
+    per_class_path = report_dir / "per_class_metrics_test.csv"
+    with per_class_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(["class_id", "class_name", "precision", "recall", "f1_score", "support"])
+        for class_id, label in enumerate(labels):
+            row = report["per_label"][label]
+            writer.writerow(
+                [
+                    class_id,
+                    label,
+                    row["precision"],
+                    row["recall"],
+                    row["f1"],
+                    row["support"],
+                ]
+            )
+
+    matrix_labels = labels + [INVALID_LABEL]
+    confusion = {
+        truth: {pred: 0 for pred in matrix_labels}
+        for truth in labels
+    }
+    for row in results:
+        truth = row["label"]
+        pred = row.get("predicted_label") if row.get("predicted_label") in labels else INVALID_LABEL
+        confusion[truth][pred] += 1
+
+    cm_path = report_dir / "confusion_matrix_test.csv"
+    with cm_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.writer(handle)
+        writer.writerow([""] + [f"Pred_{label}" for label in matrix_labels])
+        for truth in labels:
+            writer.writerow(
+                [f"True_{truth}"] + [confusion[truth][pred] for pred in matrix_labels]
+            )
+
+    misclassified_dir = report_dir / "misclassified_by_class"
+    misclassified_dir.mkdir(exist_ok=True)
+    for label in labels:
+        path = misclassified_dir / f"misclassified_{safe_name(label)}.csv"
+        with path.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(
+                handle,
+                fieldnames=[
+                    "text",
+                    "true_label",
+                    "predicted_label",
+                    "section",
+                    "encounter_id",
+                    "text_id",
+                    "parse_status",
+                    "raw_response",
+                ],
+            )
+            writer.writeheader()
+            for row in results:
+                if row["label"] != label or row.get("predicted_label") == label:
+                    continue
+                writer.writerow(
+                    {
+                        "text": row["text"],
+                        "true_label": row["label"],
+                        "predicted_label": row.get("predicted_label") or INVALID_LABEL,
+                        "section": row.get("section", ""),
+                        "encounter_id": row.get("encounter_id", ""),
+                        "text_id": row.get("text_id", ""),
+                        "parse_status": row.get("parse_status", ""),
+                        "raw_response": row.get("raw_response", ""),
+                    }
+                )
 
 
 def parse_args() -> argparse.Namespace:
@@ -262,9 +347,8 @@ def main() -> None:
     report["split"] = args.split
     report["candidate_splits"] = candidate_splits
 
-    run_name = (
-        f"{args.split}_{args.setting}_{args.backend}_{safe_name(args.model_name)}"
-    )
+    run_name = f"{args.split}_{args.setting}_{args.backend}_{safe_name(args.model_name)}"
+    report_dir = args.output_dir / run_name
     args.output_dir.mkdir(parents=True, exist_ok=True)
     predictions_path = args.output_dir / f"{run_name}_predictions.jsonl"
     metrics_path = args.output_dir / f"{run_name}_metrics.json"
@@ -272,9 +356,11 @@ def main() -> None:
     with metrics_path.open("w", encoding="utf-8") as handle:
         json.dump(report, handle, indent=2, ensure_ascii=False)
         handle.write("\n")
+    write_encoder_style_reports(report_dir, results, labels, report)
 
     print(f"Wrote predictions: {predictions_path}")
     print(f"Wrote metrics: {metrics_path}")
+    print(f"Wrote encoder-style reports: {report_dir}")
     print(
         "accuracy={accuracy:.4f} macro_f1={macro_f1:.4f} invalid={invalid}".format(
             accuracy=report["accuracy"],

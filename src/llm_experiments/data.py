@@ -1,8 +1,11 @@
-"""Prepare span-level examples from Potato/Label Studio note annotations.
+"""Prepare LLM examples from the encoder split files.
 
-The raw CSV files contain one row per SOAP section and a JSON ``label`` field
-with annotated spans. This module explodes those spans into classification
-examples and creates deterministic encounter-level train/dev/test splits.
+The encoder experiments use sentence-level CSV splits in ``final_data``. This
+module converts those same splits to JSONL so LLM prompting and SFT runs evaluate
+on the exact same examples and raw label spellings.
+
+The older Potato/Label Studio annotation parser is still available with
+``--source annotations`` for exploratory span-level work.
 """
 
 from __future__ import annotations
@@ -25,6 +28,12 @@ DEFAULT_DATA_FILES = (
     "Subjective_potato.csv",
 )
 
+SPLIT_FILE_STEMS = {
+    "train": "sentences_train",
+    "dev": "sentences_dev",
+    "test": "sentences_test",
+}
+
 LABEL_ALIASES = {
     "Medications": "Medication",
     "Other Social": "Other Socials",
@@ -34,12 +43,17 @@ LABEL_ALIASES = {
 
 def normalize_whitespace(value: Any) -> str:
     """Collapse repeated whitespace while preserving the text content."""
-    if value is None or (isinstance(value, float) and pd.isna(value)):
+    if value is None:
         return ""
+    try:
+        if pd.isna(value):
+            return ""
+    except TypeError:
+        pass
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
-def canonical_label(label: str, canonicalize: bool = True) -> str:
+def canonical_label(label: str, canonicalize: bool = False) -> str:
     label = normalize_whitespace(label)
     if not canonicalize:
         return label
@@ -62,10 +76,72 @@ def infer_section(path: Path, row_section: Any) -> str:
     return path.stem.replace("_potato", "")
 
 
-def iter_span_examples(
+def iter_encoder_split_examples(
+    data_dir: Path,
+    split: str,
+    use_soap: bool = True,
+    canonicalize_labels: bool = False,
+) -> list[dict[str, Any]]:
+    stem = SPLIT_FILE_STEMS[split]
+    file_name = f"{stem}{'_SOAP' if use_soap else ''}.csv"
+    path = data_dir / file_name
+    frame = pd.read_csv(path)
+
+    required = {"sentence", "class", "encounter_id", "text_id"}
+    missing = sorted(required - set(frame.columns))
+    if missing:
+        raise ValueError(f"{path} is missing required columns: {missing}")
+
+    examples: list[dict[str, Any]] = []
+    skipped = 0
+    for row_index, row in frame.iterrows():
+        text = normalize_whitespace(row.get("sentence"))
+        raw_label = normalize_whitespace(row.get("class"))
+        if not text or not raw_label:
+            skipped += 1
+            continue
+
+        text_id = normalize_whitespace(row.get("text_id")) or f"{split}_{row_index}"
+        examples.append(
+            {
+                "example_id": f"{split}:{text_id}",
+                "text": text,
+                "label": canonical_label(raw_label, canonicalize_labels),
+                "raw_label": raw_label,
+                "section": normalize_whitespace(row.get("section")) or "UNKNOWN",
+                "encounter_id": normalize_whitespace(row.get("encounter_id")),
+                "text_id": text_id,
+                "row_id": normalize_whitespace(row.get("id")),
+                "split": split,
+                "source_file": file_name,
+            }
+        )
+
+    if skipped:
+        print(f"Skipped {skipped} empty rows in {file_name}.")
+    return examples
+
+
+def load_encoder_splits(
+    data_dir: Path,
+    use_soap: bool = True,
+    canonicalize_labels: bool = False,
+) -> dict[str, list[dict[str, Any]]]:
+    return {
+        split: iter_encoder_split_examples(
+            data_dir=data_dir,
+            split=split,
+            use_soap=use_soap,
+            canonicalize_labels=canonicalize_labels,
+        )
+        for split in ("train", "dev", "test")
+    }
+
+
+def iter_annotation_span_examples(
     data_dir: Path,
     data_files: tuple[str, ...] = DEFAULT_DATA_FILES,
-    canonicalize_labels: bool = True,
+    canonicalize_labels: bool = False,
     include_context: bool = False,
     include_note: bool = False,
 ) -> list[dict[str, Any]]:
@@ -86,14 +162,14 @@ def iter_span_examples(
                     continue
 
                 for label_index, raw_label in enumerate(labels):
-                    label = canonical_label(str(raw_label), canonicalize_labels)
+                    raw_label_text = normalize_whitespace(raw_label)
                     example = {
                         "example_id": (
                             f"{file_name}:{row_index}:{span_index}:{label_index}"
                         ),
                         "text": span_text,
-                        "label": label,
-                        "raw_label": normalize_whitespace(raw_label),
+                        "label": canonical_label(raw_label_text, canonicalize_labels),
+                        "raw_label": raw_label_text,
                         "section": section,
                         "encounter_id": normalize_whitespace(row.get("encounter_id")),
                         "row_id": normalize_whitespace(row.get("id")),
@@ -103,9 +179,7 @@ def iter_span_examples(
                         "span_end": span.get("end"),
                     }
                     if include_context:
-                        example["section_content"] = normalize_whitespace(
-                            row.get("content")
-                        )
+                        example["section_content"] = normalize_whitespace(row.get("content"))
                     if include_note:
                         example["note"] = normalize_whitespace(row.get("note"))
                     examples.append(example)
@@ -113,6 +187,10 @@ def iter_span_examples(
     if skipped_empty_spans:
         print(f"Skipped {skipped_empty_spans} empty labeled spans.")
     return examples
+
+
+# Backward-compatible name used by older notes/scripts.
+iter_span_examples = iter_annotation_span_examples
 
 
 def split_by_group(
@@ -161,8 +239,8 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
 def summarize_split(rows: list[dict[str, Any]]) -> dict[str, Any]:
     return {
         "examples": len(rows),
-        "encounters": len({row["encounter_id"] for row in rows}),
-        "sections": dict(sorted(Counter(row["section"] for row in rows).items())),
+        "encounters": len({row["encounter_id"] for row in rows if row.get("encounter_id")}),
+        "sections": dict(sorted(Counter(row.get("section", "") for row in rows).items())),
         "labels": dict(sorted(Counter(row["label"] for row in rows).items())),
     }
 
@@ -170,22 +248,30 @@ def summarize_split(rows: list[dict[str, Any]]) -> dict[str, Any]:
 def write_metadata(
     output_dir: Path,
     splits: dict[str, list[dict[str, Any]]],
+    source: str,
     canonicalize_labels: bool,
-    seed: int,
-    train_ratio: float,
-    dev_ratio: float,
+    use_soap: bool,
+    seed: int | None = None,
+    train_ratio: float | None = None,
+    dev_ratio: float | None = None,
 ) -> dict[str, Any]:
     labels = sorted({row["label"] for rows in splits.values() for row in rows})
     raw_labels = sorted({row["raw_label"] for rows in splits.values() for row in rows})
     metadata = {
+        "source": source,
         "labels": labels,
         "raw_labels": raw_labels,
         "label_aliases": LABEL_ALIASES if canonicalize_labels else {},
         "canonicalize_labels": canonicalize_labels,
+        "use_soap": use_soap,
         "split_seed": seed,
         "train_ratio": train_ratio,
         "dev_ratio": dev_ratio,
-        "test_ratio": round(1.0 - train_ratio - dev_ratio, 6),
+        "test_ratio": (
+            round(1.0 - train_ratio - dev_ratio, 6)
+            if train_ratio is not None and dev_ratio is not None
+            else None
+        ),
         "splits": {split: summarize_split(rows) for split, rows in splits.items()},
     }
     with (output_dir / "labels.json").open("w", encoding="utf-8") as handle:
@@ -197,10 +283,16 @@ def write_metadata(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
+        "--source",
+        choices=("encoder", "annotations"),
+        default="encoder",
+        help="Use encoder final_data splits or explode original annotation spans.",
+    )
+    parser.add_argument(
         "--data-dir",
         type=Path,
-        default=Path("data_files"),
-        help="Directory containing *_potato.csv files.",
+        default=Path("final_data"),
+        help="Directory containing final_data split CSVs or *_potato.csv files.",
     )
     parser.add_argument(
         "--output-dir",
@@ -212,19 +304,29 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--train-ratio", type=float, default=0.8)
     parser.add_argument("--dev-ratio", type=float, default=0.1)
     parser.add_argument(
+        "--no-soap",
+        action="store_true",
+        help="Use final_data/sentences_{split}.csv instead of *_SOAP.csv.",
+    )
+    parser.add_argument(
+        "--canonicalize-labels",
+        action="store_true",
+        help="Map raw encoder labels to canonical variants for exploratory runs.",
+    )
+    parser.add_argument(
         "--keep-raw-labels",
         action="store_true",
-        help="Do not map spelling/plural variants to canonical intent labels.",
+        help="Deprecated alias for the default behavior; raw labels are kept unless --canonicalize-labels is used.",
     )
     parser.add_argument(
         "--include-context",
         action="store_true",
-        help="Include the full SOAP section text in each split row.",
+        help="Annotation source only: include the full SOAP section text.",
     )
     parser.add_argument(
         "--include-note",
         action="store_true",
-        help="Include the full note text in each split row.",
+        help="Annotation source only: include the full note text.",
     )
     return parser.parse_args()
 
@@ -233,32 +335,49 @@ def main() -> None:
     args = parse_args()
     output_dir = args.output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
+    canonicalize = bool(args.canonicalize_labels and not args.keep_raw_labels)
 
-    examples = iter_span_examples(
-        data_dir=args.data_dir,
-        canonicalize_labels=not args.keep_raw_labels,
-        include_context=args.include_context,
-        include_note=args.include_note,
-    )
-    splits = split_by_group(
-        examples,
-        train_ratio=args.train_ratio,
-        dev_ratio=args.dev_ratio,
-        seed=args.seed,
-    )
+    if args.source == "encoder":
+        splits = load_encoder_splits(
+            data_dir=args.data_dir,
+            use_soap=not args.no_soap,
+            canonicalize_labels=canonicalize,
+        )
+        metadata_seed = None
+        train_ratio = None
+        dev_ratio = None
+    else:
+        examples = iter_annotation_span_examples(
+            data_dir=args.data_dir,
+            canonicalize_labels=canonicalize,
+            include_context=args.include_context,
+            include_note=args.include_note,
+        )
+        splits = split_by_group(
+            examples,
+            train_ratio=args.train_ratio,
+            dev_ratio=args.dev_ratio,
+            seed=args.seed,
+        )
+        metadata_seed = args.seed
+        train_ratio = args.train_ratio
+        dev_ratio = args.dev_ratio
 
     for split, rows in splits.items():
         write_jsonl(output_dir / f"{split}.jsonl", rows)
     metadata = write_metadata(
         output_dir,
         splits,
-        canonicalize_labels=not args.keep_raw_labels,
-        seed=args.seed,
-        train_ratio=args.train_ratio,
-        dev_ratio=args.dev_ratio,
+        source=args.source,
+        canonicalize_labels=canonicalize,
+        use_soap=not args.no_soap if args.source == "encoder" else False,
+        seed=metadata_seed,
+        train_ratio=train_ratio,
+        dev_ratio=dev_ratio,
     )
 
     print(f"Wrote LLM splits to {output_dir}")
+    print(f"source: {metadata['source']}")
     for split, summary in metadata["splits"].items():
         print(
             f"{split}: {summary['examples']} examples, "
