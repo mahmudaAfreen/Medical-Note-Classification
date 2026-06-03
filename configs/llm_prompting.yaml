@@ -1,0 +1,18 @@
+data:
+  source: encoder
+  data_dir: final_data
+  splits_dir: data_files/llm_splits
+  use_soap: true
+  canonicalize_labels: false
+
+prompting:
+  backend: dry_run
+  model_name: Qwen/Qwen2.5-7B-Instruct
+  split: test
+  setting: few_shot
+  num_shots: 3
+  section_aware_few_shot: true
+  batch_size: 2
+  max_new_tokens: 64
+  temperature: 0.0
+  output_dir: outputs/llm_prompting
