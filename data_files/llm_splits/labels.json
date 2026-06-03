@@ -1,0 +1,149 @@
+{
+  "labels": [
+    "Acute Assessment",
+    "Acute Symptoms",
+    "Diagnostic Testing",
+    "Discussion",
+    "Drug History",
+    "Family History",
+    "Follow-up",
+    "Lab Examination",
+    "Medication",
+    "Other Socials",
+    "Other Treatments",
+    "Personal History",
+    "Personal Information",
+    "Physical Examination",
+    "Radiology Examination",
+    "Reassessment",
+    "Referral",
+    "Therapeutic History",
+    "Vegetative History"
+  ],
+  "raw_labels": [
+    "Acute Assessment",
+    "Acute Symptoms",
+    "Diagnostic Testing",
+    "Discussion",
+    "Drug History",
+    "Family History",
+    "Follow-up",
+    "Lab Examination",
+    "Medications",
+    "Other Social",
+    "Other Treatments",
+    "Personal History",
+    "Personal Information",
+    "Physical Examination",
+    "Radiology Examination",
+    "Reassessment",
+    "Referral",
+    "Theraputic History",
+    "Vegetative History"
+  ],
+  "label_aliases": {
+    "Medications": "Medication",
+    "Other Social": "Other Socials",
+    "Theraputic History": "Therapeutic History"
+  },
+  "canonicalize_labels": true,
+  "split_seed": 13,
+  "train_ratio": 0.8,
+  "dev_ratio": 0.1,
+  "test_ratio": 0.1,
+  "splits": {
+    "train": {
+      "examples": 5156,
+      "encounters": 166,
+      "sections": {
+        "ASSESSMENT": 627,
+        "OBJECTIVE": 732,
+        "PLAN": 1460,
+        "SUBJECTIVE": 2337
+      },
+      "labels": {
+        "Acute Assessment": 233,
+        "Acute Symptoms": 830,
+        "Diagnostic Testing": 178,
+        "Discussion": 498,
+        "Drug History": 44,
+        "Family History": 43,
+        "Follow-up": 118,
+        "Lab Examination": 72,
+        "Medication": 320,
+        "Other Socials": 183,
+        "Other Treatments": 203,
+        "Personal History": 711,
+        "Personal Information": 183,
+        "Physical Examination": 562,
+        "Radiology Examination": 123,
+        "Reassessment": 213,
+        "Referral": 53,
+        "Therapeutic History": 349,
+        "Vegetative History": 240
+      }
+    },
+    "dev": {
+      "examples": 685,
+      "encounters": 21,
+      "sections": {
+        "ASSESSMENT": 91,
+        "OBJECTIVE": 96,
+        "PLAN": 211,
+        "SUBJECTIVE": 287
+      },
+      "labels": {
+        "Acute Assessment": 34,
+        "Acute Symptoms": 115,
+        "Diagnostic Testing": 23,
+        "Discussion": 88,
+        "Drug History": 2,
+        "Family History": 3,
+        "Follow-up": 20,
+        "Lab Examination": 4,
+        "Medication": 56,
+        "Other Socials": 18,
+        "Other Treatments": 18,
+        "Personal History": 86,
+        "Personal Information": 22,
+        "Physical Examination": 75,
+        "Radiology Examination": 20,
+        "Reassessment": 30,
+        "Referral": 6,
+        "Therapeutic History": 36,
+        "Vegetative History": 29
+      }
+    },
+    "test": {
+      "examples": 610,
+      "encounters": 20,
+      "sections": {
+        "ASSESSMENT": 60,
+        "OBJECTIVE": 90,
+        "PLAN": 162,
+        "SUBJECTIVE": 298
+      },
+      "labels": {
+        "Acute Assessment": 32,
+        "Acute Symptoms": 100,
+        "Diagnostic Testing": 14,
+        "Discussion": 77,
+        "Drug History": 10,
+        "Family History": 6,
+        "Follow-up": 9,
+        "Lab Examination": 5,
+        "Medication": 27,
+        "Other Socials": 25,
+        "Other Treatments": 22,
+        "Personal History": 100,
+        "Personal Information": 21,
+        "Physical Examination": 67,
+        "Radiology Examination": 18,
+        "Reassessment": 14,
+        "Referral": 3,
+        "Therapeutic History": 36,
+        "Vegetative History": 24
+      }
+    }
+  }
+}

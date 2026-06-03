@@ -1,0 +1,18 @@
+data:
+  data_dir: data_files
+  splits_dir: data_files/llm_splits
+  seed: 13
+  train_ratio: 0.8
+  dev_ratio: 0.1
+  canonicalize_labels: true
+
+prompting:
+  backend: dry_run
+  model_name: Qwen/Qwen2.5-7B-Instruct
+  split: test
+  setting: few_shot
+  num_shots: 3
+  section_aware_few_shot: true
+  batch_size: 2
+  max_new_tokens: 64
+  temperature: 0.0
