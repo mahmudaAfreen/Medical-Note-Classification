@@ -1,0 +1,25 @@
+.git
+.gitignore
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local/generated experiment artifacts
+outputs/
+data_files/llm_sft/
+data_files/llm_annotation_splits/
+
+# Large local environments and caches
+.venv/
+venv/
+env/
+Classification task/.venv/
+classification_task/.venv/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo

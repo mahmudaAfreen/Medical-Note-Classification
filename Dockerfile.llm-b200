@@ -1,0 +1,92 @@
+# CUDA 13.0 + cuDNN development image for NVIDIA Blackwell/B200 experiments.
+# Host tested target from user: NVIDIA driver 580.159.03, CUDA shown by nvidia-smi: 13.0.
+#
+# Build:
+#   docker build -f Dockerfile.llm-b200 -t medical-note-llm:b200-cu130 .
+#
+# Smoke test:
+#   docker run --rm --gpus all medical-note-llm:b200-cu130 nvidia-smi
+#
+# Interactive run from repo root:
+#   docker run --rm -it --gpus all --ipc=host \
+#     -v "$PWD:/workspace/Medical-Note-Classification" \
+#     -v /pvc/huggingface_cache:/pvc/huggingface_cache \
+#     medical-note-llm:b200-cu130
+
+FROM nvidia/cuda:13.0.0-cudnn-devel-ubuntu24.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+ARG PYTHON_VERSION=3.12
+ARG PYTORCH_VERSION=2.11.0
+ARG TORCHVISION_VERSION=0.26.0
+ARG TORCHAUDIO_VERSION=2.11.0
+
+ENV LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    VIRTUAL_ENV=/opt/venv \
+    HF_HOME=/pvc/huggingface_cache \
+    HUGGINGFACE_HUB_CACHE=/pvc/huggingface_cache/hub \
+    TRANSFORMERS_CACHE=/pvc/huggingface_cache/transformers \
+    HF_HUB_ENABLE_HF_TRANSFER=1 \
+    TOKENIZERS_PARALLELISM=false \
+    CUDA_MODULE_LOADING=LAZY \
+    PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+    TORCH_CUDA_ARCH_LIST="10.0" \
+    NVIDIA_VISIBLE_DEVICES=all \
+    NVIDIA_DRIVER_CAPABILITIES=compute,utility
+
+ENV PATH="${VIRTUAL_ENV}/bin:${PATH}"
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      bash \
+      build-essential \
+      ca-certificates \
+      curl \
+      git \
+      git-lfs \
+      less \
+      libaio1t64 \
+      libgl1 \
+      libglib2.0-0 \
+      libgomp1 \
+      libsndfile1 \
+      python${PYTHON_VERSION} \
+      python${PYTHON_VERSION}-dev \
+      python${PYTHON_VERSION}-venv \
+      tmux \
+      vim \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN python${PYTHON_VERSION} -m venv "${VIRTUAL_ENV}" \
+    && python -m pip install --upgrade pip setuptools wheel
+
+# Install CUDA 13.0 PyTorch wheels before the project requirements so the
+# unpinned "torch" entry in requirements-llm.txt resolves to this GPU build.
+RUN python -m pip install \
+      torch==${PYTORCH_VERSION} \
+      torchvision==${TORCHVISION_VERSION} \
+      torchaudio==${TORCHAUDIO_VERSION} \
+      --index-url https://download.pytorch.org/whl/cu130
+
+WORKDIR /workspace/Medical-Note-Classification
+
+COPY requirements-llm.txt ./requirements-llm.txt
+RUN python -m pip install -r requirements-llm.txt \
+    && python -m pip install \
+      "datasets>=3.0" \
+      "peft>=0.13" \
+      sentencepiece \
+      protobuf \
+      safetensors \
+      "trl>=0.11" \
+      "huggingface_hub[hf_transfer]>=0.26"
+
+COPY . .
+
+RUN python -c "import torch; print('torch', torch.__version__, 'cuda', torch.version.cuda)" \
+    && python -c "import transformers, accelerate, pandas; print('llm deps ok')"
+
+CMD ["/bin/bash"]

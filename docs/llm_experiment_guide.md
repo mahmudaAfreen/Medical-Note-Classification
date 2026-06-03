@@ -9,6 +9,92 @@ Run all commands from the repository root:
 cd /pvc/tom_workspace/Medical-Note-Classification
 ```
 
+
+## Docker On B200 GPUs
+
+A CUDA 13.0 Dockerfile for B200/Blackwell runs is provided at:
+
+```text
+Dockerfile.llm-b200
+```
+
+It uses `nvidia/cuda:13.0.0-cudnn-devel-ubuntu24.04`, installs Python 3.12,
+and installs PyTorch CUDA 13.0 wheels. It is intended for hosts where
+`nvidia-smi` reports a CUDA 13.0-capable 580-series driver, for example:
+
+```text
+NVIDIA-SMI 580.159.03
+Driver Version: 580.159.03
+CUDA Version: 13.0
+```
+
+Build the image from the repository root:
+
+```bash
+docker build -f Dockerfile.llm-b200 -t medical-note-llm:b200-cu130 .
+```
+
+Smoke-test GPU visibility:
+
+```bash
+docker run --rm --gpus all medical-note-llm:b200-cu130 nvidia-smi
+```
+
+Start an interactive experiment shell:
+
+```bash
+docker run --rm -it --gpus all --ipc=host \
+  -v "$PWD:/workspace/Medical-Note-Classification" \
+  -v /pvc/huggingface_cache:/pvc/huggingface_cache \
+  medical-note-llm:b200-cu130
+```
+
+Inside the container, run the normal experiment commands from:
+
+```bash
+/workspace/Medical-Note-Classification
+```
+
+For example, rebuild LLM splits:
+
+```bash
+python -m src.llm_experiments.data \
+  --source encoder \
+  --data-dir final_data \
+  --output-dir data_files/llm_splits
+```
+
+Run a dry-run prompt check:
+
+```bash
+python -m src.llm_experiments.evaluate_prompting \
+  --splits-dir data_files/llm_splits \
+  --split test \
+  --setting few_shot \
+  --num-shots 3 \
+  --backend dry_run \
+  --save-prompts \
+  --limit 5
+```
+
+Run local LLM inference:
+
+```bash
+python -m src.llm_experiments.evaluate_prompting \
+  --splits-dir data_files/llm_splits \
+  --split test \
+  --setting few_shot \
+  --num-shots 3 \
+  --backend local \
+  --model-name Qwen/Qwen2.5-7B-Instruct \
+  --batch-size 2 \
+  --max-new-tokens 64 \
+  --temperature 0.0
+```
+
+If Docker cannot see the GPU, verify the host has NVIDIA Container Toolkit
+installed and that containers are launched with `--gpus all`.
+
 ## 1. Confirm The Encoder Data Is Present
 
 The LLM suite uses the same sentence-level split files as the encoder models.
