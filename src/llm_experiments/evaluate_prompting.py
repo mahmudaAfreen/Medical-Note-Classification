@@ -94,6 +94,7 @@ def generate_local(
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer.padding_side = "left"
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     prompts = [messages_to_prompt(tokenizer, messages) for messages in all_messages]
@@ -111,6 +112,7 @@ def generate_local(
     generation_kwargs: dict[str, Any] = {
         "max_new_tokens": max_new_tokens,
         "pad_token_id": tokenizer.eos_token_id,
+        "eos_token_id": tokenizer.eos_token_id,
     }
     if temperature > 0:
         generation_kwargs["do_sample"] = True
@@ -135,12 +137,20 @@ def generate_local(
         with torch.no_grad():
             output_ids = model.generate(**encoded, **generation_kwargs)
 
-        prompt_length = encoded["input_ids"].shape[1]
-        decoded = tokenizer.batch_decode(
-            output_ids[:, prompt_length:],
-            skip_special_tokens=True,
-        )
-        responses.extend(text.strip() for text in decoded)
+        decoded = []
+
+        for i in range(len(output_ids)):
+            input_len = encoded["attention_mask"][i].sum().item()
+
+            generated_ids = output_ids[i][encoded["input_ids"].shape[1]:]
+            text = tokenizer.decode(
+                generated_ids,
+                skip_special_tokens=True,
+            ).strip()
+
+            decoded.append(text)
+            print("MODEL OUTPUT:", repr(text))
+        responses.extend(decoded)
         print(f"generated batch {batch_index}/{len(prompt_batches)}")
     return responses, prompts
 

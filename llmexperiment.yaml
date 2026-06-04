@@ -1,0 +1,77 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: llmprompting
+  labels:
+    app: llmprompting
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app: llmprompting
+    spec:
+      containers:
+        - name: llmprompting
+          # Replace this with the image that contains:
+          # - this repository's src/llm_experiments package
+          # - pandas, torch, transformers, accelerate
+          image: registry.datexis.com/troehr/medical_note_classification
+          command: [
+            "python", "-m", "src.llm_experiments.evaluate_prompting",
+                "--splits-dir", "/pvc/llm_splits",
+                "--split", "test",
+                "--setting", "few_shot",
+                "--num-shots", "3",
+                "--output-dir", "/pvc/llm_results/qwen25_fewshot_3shots",
+                "--backend", "local",
+                "--model-name","Qwen/Qwen2.5-7B-Instruct",
+                "--batch-size", "1",
+                "--max-new-tokens", "64",
+                "--temperature", "0.0",
+                "--device-map", "auto",
+                "--torch-dtype", "auto",
+          ]
+          env: 
+            - name: LANG
+              value: 'C.UTF-8'
+            - name: TOKENIZERS_PARALLELISM
+              value: 'false'
+            - name: NCCL_DEBUG
+              value: 'INFO'
+            - name: TRANSFORMERS_CACHE
+              value: "/pvc/huggingface_cache"
+            - name: HF_HOME
+              value: "/pvc/huggingface_cache"
+            - name: HF_DATASETS_CACHE
+              value: "/pvc/huggingface_datasets_cache"
+            - name: HF_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hf-token
+                  key: HF_TOKEN
+          resources:
+            requests:
+              cpu: "4"
+            limits:
+              nvidia.com/gpu: "1"
+          volumeMounts:
+            - name: llm-data-pvc
+              mountPath: /pvc
+            - name: dshm
+              mountPath: /dev/shm
+      nodeSelector:
+        kubernetes.io/hostname: cl-worker27
+        gpu: a100
+      volumes:
+        - name: llm-data-pvc
+          persistentVolumeClaim:
+            claimName: llm-data-pvc
+        - name: dshm
+          emptyDir:
+            medium: Memory
+      imagePullSecrets:
+        - name: private-registry-auth
+      restartPolicy: Never
+      
+      

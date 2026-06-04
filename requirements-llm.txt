@@ -1,4 +1,12 @@
 pandas>=2.0
+
 torch
-transformers>=4.40
-accelerate
+transformers==4.46.3
+accelerate==1.0.1
+
+sentencepiece
+safetensors
+protobuf
+
+datasets
+scikit-learn

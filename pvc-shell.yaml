@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvc-shell
+spec:
+  containers:
+  - name: shell
+    image: ubuntu
+    command: ["/bin/bash", "-c", "sleep infinity"]
+    volumeMounts:
+    - mountPath: /pvc
+      name: data
+  volumes:
+  - name: data
+    persistentVolumeClaim:
+      claimName: llm-data-pvc

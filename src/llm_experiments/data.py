@@ -38,6 +38,8 @@ LABEL_ALIASES = {
     "Medications": "Medication",
     "Other Social": "Other Socials",
     "Theraputic History": "Therapeutic History",
+    "Review of Systems": "Vegetative History",
+    "ROS": "Vegetative History",
 }
 
 

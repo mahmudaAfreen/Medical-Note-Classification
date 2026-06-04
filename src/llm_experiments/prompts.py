@@ -43,9 +43,19 @@ LABEL_DESCRIPTIONS = {
 
 
 SYSTEM_PROMPT = (
-    "You are a medical NLP classifier. Classify sentences from clinical notes "
-    "into exactly one intent label. Use only the allowed labels. Return valid "
-    "JSON and do not add explanations."
+    "You are a medical NLP classifier.\n"
+    "Choose exactly one label from the provided allowed labels.\n"
+    "The label value must exactly match one allowed label string.\n"
+    "Do not invent new labels.\n"
+    "Do not copy words from the sentence as the label.\n"
+    "Do not output SOAP section names such as Subjective, Objective, Assessment, or Plan.\n"
+    "If none of the labels is perfect, choose the closest allowed label.\n"
+    "Return ONLY a JSON object.\n"
+    'Format: {"label":"LABEL_NAME"}\n'
+    "Do not explain your answer.\n"
+    "Do not repeat the sentence.\n"
+    "Do not output markdown.\n"
+    "Do not output code fences.\n"
 )
 
 
@@ -69,7 +79,9 @@ def build_user_prompt(example: dict[str, Any], labels: list[str]) -> str:
         f"Sentence: {text}\n\n"
         "Allowed labels:\n"
         f"{labels_block(labels)}\n\n"
+        "The JSON label must be copied exactly from the allowed labels above."\n"
         'Return JSON only in this exact shape: {"label": "<one allowed label>"}'
+       
     )
 
 

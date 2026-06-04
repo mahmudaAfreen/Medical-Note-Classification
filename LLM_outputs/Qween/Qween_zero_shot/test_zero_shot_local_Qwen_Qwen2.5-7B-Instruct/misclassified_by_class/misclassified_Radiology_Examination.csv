@@ -1,0 +1,6 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Electrocardiogram stable in comparison to last year.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N097,D2N097_1_5,json,"{""label"": ""Diagnostic Testing""}"
+The patient has attempted non-surgical treatments with minimal relief,Radiology Examination,Other Treatments,ASSESSMENT,D2N101,D2N101_2_4,json,"{""label"": ""Other Treatments""}"
+"Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable",Radiology Examination,Reassessment,ASSESSMENT,D2N101,D2N101_2_6,json,"{""label"": ""Reassessment""}"
+EKG\nImpression: Sinus rhythm with frequent PVCs as well as anterior septal infarct pattern.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N105,D2N105_1_5,json,"{""label"": ""Diagnostic Testing""}"
+ECG prior coronary artery disease. No new changes.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N171,D2N171_1_6,json,"{""label"": ""Diagnostic Testing""}"

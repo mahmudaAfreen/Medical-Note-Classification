@@ -1,0 +1,2 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+History includes significant alcohol use disorder and mild hypercholesterolemia,Drug History,Personal History,SUBJECTIVE,D2N142,D2N142_0_4,json,"{""label"": ""Personal History""}"
