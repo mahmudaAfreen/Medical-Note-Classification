@@ -79,9 +79,8 @@ def build_user_prompt(example: dict[str, Any], labels: list[str]) -> str:
         f"Sentence: {text}\n\n"
         "Allowed labels:\n"
         f"{labels_block(labels)}\n\n"
-        "The JSON label must be copied exactly from the allowed labels above."\n"
+        "The JSON label must be copied exactly from the allowed labels above.\n"
         'Return JSON only in this exact shape: {"label": "<one allowed label>"}'
-       
     )
 
 
