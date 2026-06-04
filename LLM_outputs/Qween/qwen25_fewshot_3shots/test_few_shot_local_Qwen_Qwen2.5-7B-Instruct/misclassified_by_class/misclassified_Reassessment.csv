@@ -1,0 +1,12 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Depression.\n- Medical Reasoning: She is doing well,Reassessment,Acute Assessment,ASSESSMENT,D2N097,D2N097_2_4,json,"{""label"": ""Acute Assessment""}"
+• Hyperlipidemia.,Reassessment,Acute Assessment,ASSESSMENT,D2N105,D2N105_2_4,json,"{""label"": ""Acute Assessment""}"
+She is having bilateral leg pain over the past month,Reassessment,Acute Symptoms,PLAN,D2N105,D2N105_3_19,json,"{""label"": ""Acute Symptoms""}"
+"This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP",Reassessment,Discussion,PLAN,D2N105,D2N105_3_20,json,"{""label"": ""Discussion""}"
+"Diabetes type II.\n Medical Reasoning: Her hemoglobin a1C is slightly elevated, but her blood glucose levels have been well-controlled.",Reassessment,Lab Examination,ASSESSMENT,D2N136,D2N136_2_6,json,"{""label"": ""Lab Examination""}"
+â¢ Alcohol use disorder.,Reassessment,Acute Assessment,ASSESSMENT,D2N142,D2N142_2_1,json,"{""label"": ""Acute Assessment""}"
+3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.,Reassessment,Acute Assessment,ASSESSMENT,D2N156,D2N156_2_5,json,"{""label"": ""Acute Assessment""}"
+Herniated disc.\nâ¢ Medical Reasoning: She has been asymptomatic since receiving a steroid injection several months ago. I do not think we need to refer her for any further steroid injections or physical therapy at this time.,Reassessment,Acute Assessment,ASSESSMENT,D2N171,D2N171_2_6,json,"{""label"": ""Acute Assessment""}"
+Coronary artery disease.\nâ¢ Medical Reasoning: She reports a burning chest pain with exertion approximately 3 times per week for the past month.,Reassessment,Acute Symptoms,ASSESSMENT,D2N171,D2N171_2_7,json,"{""label"": ""Acute Symptoms""}"
+Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.,Reassessment,Diagnostic Testing,ASSESSMENT,D2N171,D2N171_2_8,json,"{""label"": ""Diagnostic Testing""}"
+Depression.\nâ¢ Medical Reasoning: He is doing well,Reassessment,Acute Assessment,ASSESSMENT,D2N172,D2N172_2_5,json,"{""label"": ""Acute Assessment""}"

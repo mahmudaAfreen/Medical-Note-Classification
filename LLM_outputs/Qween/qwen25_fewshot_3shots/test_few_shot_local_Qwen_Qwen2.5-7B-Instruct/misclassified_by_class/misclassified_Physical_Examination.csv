@@ -1,0 +1,12 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Constitutional\nElderly Caucasian male in no apparent distress. Presents in wheelchair.,Physical Examination,Personal Information,OBJECTIVE,D2N026,D2N026_1_1,json,"{""label"": ""Personal Information""}"
+Eyes\nPresences of microphthalmia.,Physical Examination,Acute Assessment,OBJECTIVE,D2N076,D2N076_1_2,json,"{""label"": ""Acute Assessment""}"
+"Ears, Eyes, Nose, Throat\nNasal congestion, clear mucus, rhinorrhea. Bilateral pulling of ears, no sore throat or hoarseness.",Physical Examination,Acute Symptoms,OBJECTIVE,D2N099,D2N099_1_2,json,"{""label"": ""Acute Symptoms""}"
+Respiratory\nPositive for cough.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N099,D2N099_1_3,json,"{""label"": ""Acute Symptoms""}"
+VITALS\n\nBSA 2.65,Physical Examination,Lab Examination,OBJECTIVE,D2N101,D2N101_1_1,json,"{""label"": ""Lab Examination""}"
+Musculoskeletal\nLower extremity edema,Physical Examination,Acute Symptoms,OBJECTIVE,D2N105,D2N105_1_3,json,"{""label"": ""Acute Symptoms""}"
+Constitutional\nNo distress. No fever. No tobacco or other substance use.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N142,D2N142_1_1,json,"{""label"": ""Acute Symptoms""}"
+"Psychological\nShe does not appear anxious, agitated or depressed.",Physical Examination,Acute Assessment,OBJECTIVE,D2N142,D2N142_1_3,json,"{""label"": ""Acute Assessment""}"
+Respiratory\nNo cough or shortness of breath. Chest clear to percussion and auscultation. Unlabored breathing.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N142,D2N142_1_5,json,"{""label"": ""Acute Symptoms""}"
+Musculoskeletal\nNo ankle edema.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N142,D2N142_1_7,json,"{""label"": ""Acute Symptoms""}"
+No fever noted. Vitals look good today.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N155,D2N155_1_1,json,"{""label"": ""Acute Symptoms""}"

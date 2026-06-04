@@ -1,0 +1,7 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+but that was because he was sitting in the back of a car.,Other Social,Acute Symptoms,SUBJECTIVE,D2N010,D2N010_0_11,json,"{""label"": ""Acute Symptoms""}"
+She denies any other exercises outside of intense gym and ski events.,Other Social,Other Treatments,SUBJECTIVE,D2N067,D2N067_0_20,json,"{""label"": ""Other Treatments""}"
+"She reports that she is starting to go in person rather than virtual, which has helped even more",Other Social,Discussion,SUBJECTIVE,D2N097,D2N097_0_10,json,"{""label"": ""Discussion""}"
+SOCIAL HISTORY\n\nRequires a walker to ambulate.,Other Social,Physical Examination,SUBJECTIVE,D2N105,D2N105_0_18,json,"{""label"": ""Physical Examination""}"
+He also walks on his treadmill as often as he can.,Other Social,Other Treatments,SUBJECTIVE,D2N139,D2N139_0_10,json,"{""label"": ""Other Treatments""}"
+however he did not undergo this secondary to insurance issues.,Other Social,Diagnostic Testing,SUBJECTIVE,D2N148,D2N148_0_10,json,"{""label"": ""Diagnostic Testing""}"

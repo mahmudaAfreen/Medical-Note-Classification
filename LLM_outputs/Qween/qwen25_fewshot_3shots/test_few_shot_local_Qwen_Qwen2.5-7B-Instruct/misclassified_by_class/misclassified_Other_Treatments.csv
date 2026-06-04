@@ -1,0 +1,8 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+He will continue his home exercise program as well as twice daily gabapentin,Other Treatments,Medications,PLAN,D2N026,D2N026_3_5,json,"{""label"": ""Medications""}"
+Continue home exercise program and twice daily gabapentin.,Other Treatments,Medications,PLAN,D2N026,D2N026_3_9,json,"{""label"": ""Medications""}"
+Any concerning tissue will be biopsied and sent to pathology for staging.,Other Treatments,Diagnostic Testing,PLAN,D2N046,D2N046_3_8,json,"{""label"": ""Diagnostic Testing""}"
+"After she has recovered from surgery, she will start chemotherapy treatment with cisplatin and Taxol",Other Treatments,Medications,PLAN,D2N046,D2N046_3_9,json,"{""label"": ""Medications""}"
+She should discontinue the use of her THC gummies while taking these medications.,Other Treatments,Drug History,PLAN,D2N067,D2N067_3_7,json,"{""label"": ""Drug History""}"
+and home monitoring,Other Treatments,Follow-up,PLAN,D2N136,D2N136_3_6,json,"{""label"": ""Follow-up""}"
+4. Hypertension.\n- Patient Education and Counseling: I encouraged the patient to continue exercising and to be cognizant of her diet,Other Treatments,Discussion,PLAN,D2N156,D2N156_3_9,json,"{""label"": ""Discussion""}"

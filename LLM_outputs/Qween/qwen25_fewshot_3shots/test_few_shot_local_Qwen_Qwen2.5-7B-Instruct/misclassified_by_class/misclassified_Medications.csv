@@ -1,0 +1,3 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+and epidural injection.,Medications,Other Treatments,PLAN,D2N026,D2N026_3_11,json,"{""label"": ""Other Treatments""}"
+Diabetes type II.\n Medical Treatment: Continue metformin 500 mg twice a day.,Medications,Acute Assessment,PLAN,D2N136,D2N136_3_9,json,"{""label"": ""Acute Assessment""}"
