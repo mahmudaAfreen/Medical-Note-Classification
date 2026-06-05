@@ -1,0 +1,868 @@
+{
+  "accuracy": 0.5811836115326252,
+  "macro_f1": 0.5305871795112302,
+  "weighted_f1": 0.5323646098982501,
+  "micro_f1": 0.5811836115326252,
+  "invalid_predictions": 0,
+  "total": 659,
+  "per_label": {
+    "Acute Assessment": {
+      "precision": 0.375,
+      "recall": 0.06818181818181818,
+      "f1": 0.11538461538461538,
+      "support": 44,
+      "predicted": 8
+    },
+    "Acute Symptoms": {
+      "precision": 0.4817073170731707,
+      "recall": 0.797979797979798,
+      "f1": 0.6007604562737643,
+      "support": 99,
+      "predicted": 164
+    },
+    "Diagnostic Testing": {
+      "precision": 0.6756756756756757,
+      "recall": 0.9615384615384616,
+      "f1": 0.7936507936507937,
+      "support": 26,
+      "predicted": 37
+    },
+    "Discussion": {
+      "precision": 0.8421052631578947,
+      "recall": 0.49230769230769234,
+      "f1": 0.6213592233009708,
+      "support": 65,
+      "predicted": 38
+    },
+    "Drug History": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "support": 3,
+      "predicted": 9
+    },
+    "Family History": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1": 0.9,
+      "support": 9,
+      "predicted": 11
+    },
+    "Follow-up": {
+      "precision": 0.3888888888888889,
+      "recall": 1.0,
+      "f1": 0.56,
+      "support": 14,
+      "predicted": 36
+    },
+    "Lab Examination": {
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1": 0.28571428571428575,
+      "support": 4,
+      "predicted": 10
+    },
+    "Medications": {
+      "precision": 0.4625,
+      "recall": 1.0,
+      "f1": 0.6324786324786326,
+      "support": 37,
+      "predicted": 80
+    },
+    "Other Social": {
+      "precision": 1.0,
+      "recall": 0.3157894736842105,
+      "f1": 0.4799999999999999,
+      "support": 19,
+      "predicted": 6
+    },
+    "Other Treatments": {
+      "precision": 0.48484848484848486,
+      "recall": 0.5333333333333333,
+      "f1": 0.507936507936508,
+      "support": 30,
+      "predicted": 33
+    },
+    "Personal History": {
+      "precision": 0.75,
+      "recall": 0.4158415841584158,
+      "f1": 0.535031847133758,
+      "support": 101,
+      "predicted": 56
+    },
+    "Personal Information": {
+      "precision": 0.7575757575757576,
+      "recall": 1.0,
+      "f1": 0.8620689655172413,
+      "support": 25,
+      "predicted": 33
+    },
+    "Physical Examination": {
+      "precision": 0.6813186813186813,
+      "recall": 0.9538461538461539,
+      "f1": 0.7948717948717949,
+      "support": 65,
+      "predicted": 91
+    },
+    "Radiology Examination": {
+      "precision": 0.6111111111111112,
+      "recall": 0.6111111111111112,
+      "f1": 0.6111111111111112,
+      "support": 18,
+      "predicted": 18
+    },
+    "Reassessment": {
+      "precision": 0.2857142857142857,
+      "recall": 0.09090909090909091,
+      "f1": 0.13793103448275862,
+      "support": 22,
+      "predicted": 7
+    },
+    "Referral": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 5,
+      "predicted": 10
+    },
+    "Theraputic History": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 43,
+      "predicted": 0
+    },
+    "Vegetative History": {
+      "precision": 0.8333333333333334,
+      "recall": 0.3333333333333333,
+      "f1": 0.47619047619047616,
+      "support": 30,
+      "predicted": 12
+    }
+  },
+  "by_section": {
+    "ASSESSMENT": {
+      "accuracy": 0.3,
+      "macro_f1": 0.19978316373053218,
+      "weighted_f1": 0.28115077096327096,
+      "micro_f1": 0.3,
+      "invalid_predictions": 0,
+      "total": 80,
+      "per_label": {
+        "Acute Assessment": {
+          "precision": 0.375,
+          "recall": 0.10344827586206896,
+          "f1": 0.16216216216216217,
+          "support": 29,
+          "predicted": 8
+        },
+        "Acute Symptoms": {
+          "precision": 0.22727272727272727,
+          "recall": 0.625,
+          "f1": 0.3333333333333333,
+          "support": 8,
+          "predicted": 22
+        },
+        "Diagnostic Testing": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Discussion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Drug History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Family History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Follow-up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 3
+        },
+        "Lab Examination": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "support": 1,
+          "predicted": 4
+        },
+        "Medications": {
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "support": 1,
+          "predicted": 7
+        },
+        "Other Social": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted": 1
+        },
+        "Other Treatments": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 3
+        },
+        "Personal History": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5714285714285714,
+          "f1": 0.6153846153846153,
+          "support": 7,
+          "predicted": 6
+        },
+        "Personal Information": {
+          "precision": 0.7777777777777778,
+          "recall": 1.0,
+          "f1": 0.8750000000000001,
+          "support": 7,
+          "predicted": 9
+        },
+        "Physical Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 7
+        },
+        "Radiology Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "predicted": 2
+        },
+        "Reassessment": {
+          "precision": 0.3333333333333333,
+          "recall": 0.10526315789473684,
+          "f1": 0.16,
+          "support": 19,
+          "predicted": 6
+        },
+        "Referral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Theraputic History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5,
+          "predicted": 0
+        },
+        "Vegetative History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        }
+      }
+    },
+    "OBJECTIVE": {
+      "accuracy": 0.8809523809523809,
+      "macro_f1": 0.11141569200779726,
+      "weighted_f1": 0.9167355599647267,
+      "micro_f1": 0.8809523809523809,
+      "invalid_predictions": 0,
+      "total": 84,
+      "per_label": {
+        "Acute Assessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Acute Symptoms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Diagnostic Testing": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 4
+        },
+        "Discussion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Drug History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Family History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Follow-up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Lab Examination": {
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "f1": 0.3333333333333333,
+          "support": 3,
+          "predicted": 3
+        },
+        "Medications": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Other Social": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Other Treatments": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Personal History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Personal Information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Physical Examination": {
+          "precision": 0.9841269841269841,
+          "recall": 0.9538461538461539,
+          "f1": 0.96875,
+          "support": 65,
+          "predicted": 63
+        },
+        "Radiology Examination": {
+          "precision": 1.0,
+          "recall": 0.6875,
+          "f1": 0.8148148148148148,
+          "support": 16,
+          "predicted": 11
+        },
+        "Reassessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Referral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Theraputic History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Vegetative History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        }
+      }
+    },
+    "PLAN": {
+      "accuracy": 0.6515151515151515,
+      "macro_f1": 0.2839006907252442,
+      "weighted_f1": 0.6371701847695808,
+      "micro_f1": 0.6515151515151515,
+      "invalid_predictions": 0,
+      "total": 198,
+      "per_label": {
+        "Acute Assessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 15,
+          "predicted": 0
+        },
+        "Acute Symptoms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 7
+        },
+        "Diagnostic Testing": {
+          "precision": 0.8333333333333334,
+          "recall": 0.9615384615384616,
+          "f1": 0.8928571428571429,
+          "support": 26,
+          "predicted": 30
+        },
+        "Discussion": {
+          "precision": 0.9411764705882353,
+          "recall": 0.49230769230769234,
+          "f1": 0.6464646464646465,
+          "support": 65,
+          "predicted": 34
+        },
+        "Drug History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Family History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Follow-up": {
+          "precision": 0.4375,
+          "recall": 1.0,
+          "f1": 0.6086956521739131,
+          "support": 14,
+          "predicted": 32
+        },
+        "Lab Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Medications": {
+          "precision": 0.6792452830188679,
+          "recall": 1.0,
+          "f1": 0.8089887640449438,
+          "support": 36,
+          "predicted": 53
+        },
+        "Other Social": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0
+        },
+        "Other Treatments": {
+          "precision": 0.6956521739130435,
+          "recall": 0.5333333333333333,
+          "f1": 0.6037735849056605,
+          "support": 30,
+          "predicted": 23
+        },
+        "Personal History": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "predicted": 1
+        },
+        "Personal Information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Physical Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 4
+        },
+        "Radiology Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 5
+        },
+        "Reassessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "predicted": 1
+        },
+        "Referral": {
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333,
+          "support": 5,
+          "predicted": 7
+        },
+        "Theraputic History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "predicted": 0
+        },
+        "Vegetative History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        }
+      }
+    },
+    "SUBJECTIVE": {
+      "accuracy": 0.5244755244755245,
+      "macro_f1": 0.2458554412054176,
+      "weighted_f1": 0.5267469649617508,
+      "micro_f1": 0.5244755244755245,
+      "invalid_predictions": 0,
+      "total": 286,
+      "per_label": {
+        "Acute Assessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Acute Symptoms": {
+          "precision": 0.556390977443609,
+          "recall": 0.8131868131868132,
+          "f1": 0.6607142857142857,
+          "support": 91,
+          "predicted": 133
+        },
+        "Diagnostic Testing": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 2
+        },
+        "Discussion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 4
+        },
+        "Drug History": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 3,
+          "predicted": 6
+        },
+        "Family History": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6,
+          "predicted": 6
+        },
+        "Follow-up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Lab Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 3
+        },
+        "Medications": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 20
+        },
+        "Other Social": {
+          "precision": 1.0,
+          "recall": 0.29411764705882354,
+          "f1": 0.45454545454545453,
+          "support": 17,
+          "predicted": 5
+        },
+        "Other Treatments": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 7
+        },
+        "Personal History": {
+          "precision": 0.7555555555555555,
+          "recall": 0.38636363636363635,
+          "f1": 0.5112781954887219,
+          "support": 88,
+          "predicted": 45
+        },
+        "Personal Information": {
+          "precision": 0.782608695652174,
+          "recall": 1.0,
+          "f1": 0.878048780487805,
+          "support": 18,
+          "predicted": 23
+        },
+        "Physical Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 16
+        },
+        "Radiology Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Reassessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Referral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 3
+        },
+        "Theraputic History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 35,
+          "predicted": 0
+        },
+        "Vegetative History": {
+          "precision": 0.8333333333333334,
+          "recall": 0.35714285714285715,
+          "f1": 0.5,
+          "support": 28,
+          "predicted": 12
+        }
+      }
+    },
+    "UNKNOWN": {
+      "accuracy": 0.5454545454545454,
+      "macro_f1": 0.07456140350877193,
+      "weighted_f1": 0.5075757575757575,
+      "micro_f1": 0.5454545454545454,
+      "invalid_predictions": 0,
+      "total": 11,
+      "per_label": {
+        "Acute Assessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Acute Symptoms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Diagnostic Testing": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Discussion": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Drug History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Family History": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999,
+          "support": 3,
+          "predicted": 5
+        },
+        "Follow-up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Lab Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Medications": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Other Social": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Other Treatments": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Personal History": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665,
+          "support": 5,
+          "predicted": 4
+        },
+        "Personal Information": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Physical Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 1
+        },
+        "Radiology Examination": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Reassessment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Referral": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "predicted": 0
+        },
+        "Theraputic History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "predicted": 0
+        },
+        "Vegetative History": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "predicted": 0
+        }
+      }
+    }
+  },
+  "setting": "zero_shot",
+  "backend": "local",
+  "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "split": "test",
+  "candidate_splits": [
+    "train",
+    "dev"
+  ]
+}

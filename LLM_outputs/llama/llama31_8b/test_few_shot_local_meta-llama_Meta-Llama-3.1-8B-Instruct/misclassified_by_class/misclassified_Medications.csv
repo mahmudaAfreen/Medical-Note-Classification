@@ -1,0 +1,4 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+and epidural injection.,Medications,Other Treatments,PLAN,D2N026,D2N026_3_11,json,"{""label"": ""Other Treatments""}"
+"I recommended Head and Shoulders shampoo, Selsun Blue, or Nizoral A-D 2 times per week, combined with his usual shampoo",Medications,Other Treatments,PLAN,D2N099,D2N099_3_7,json,"{""label"": ""Other Treatments""}"
+Alcohol use disorder\nI will start her on naltrexone which we have previously discussed,Medications,Drug History,PLAN,D2N142,D2N142_3_1,json,"{""label"": ""Drug History""}"

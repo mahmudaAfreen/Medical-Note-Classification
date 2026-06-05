@@ -20,8 +20,7 @@ spec:
                 "--splits-dir", "/pvc/llm_splits",
                 "--split", "test",
                 "--setting", "zero_shot",
-                
-                "--output-dir", "/pvc/llm_results/llama31_8b_fewshot_3shots",
+                "--output-dir", "/pvc/llm_results/llama31_8b_zero_shot",
                 "--backend", "local",
                 "--model-name", "meta-llama/Meta-Llama-3.1-8B-Instruct",
                 "--batch-size", "1",

@@ -1,0 +1,20 @@
+,Pred_Acute Assessment,Pred_Acute Symptoms,Pred_Diagnostic Testing,Pred_Discussion,Pred_Drug History,Pred_Family History,Pred_Follow-up,Pred_Lab Examination,Pred_Medications,Pred_Other Social,Pred_Other Treatments,Pred_Personal History,Pred_Personal Information,Pred_Physical Examination,Pred_Radiology Examination,Pred_Reassessment,Pred_Referral,Pred_Theraputic History,Pred_Vegetative History,Pred___INVALID__
+True_Acute Assessment,3,14,0,1,0,0,1,1,0,0,1,2,0,10,6,4,1,0,0,0
+True_Acute Symptoms,0,79,1,0,0,0,2,0,0,0,0,6,4,6,0,0,0,0,1,0
+True_Diagnostic Testing,0,0,25,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+True_Discussion,0,2,3,32,0,0,14,0,6,0,6,0,0,0,1,0,1,0,0,0
+True_Drug History,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+True_Family History,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+True_Follow-up,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0
+True_Lab Examination,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+True_Medications,0,0,0,0,0,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0
+True_Other Social,0,5,0,1,0,0,1,0,0,6,0,3,1,2,0,0,0,0,0,0
+True_Other Treatments,0,0,2,1,0,0,3,0,8,0,16,0,0,0,0,0,0,0,0,0
+True_Personal History,0,31,1,2,0,2,1,3,2,0,3,42,2,8,0,0,3,0,1,0
+True_Personal Information,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0
+True_Physical Examination,0,1,0,0,1,0,0,0,0,0,0,0,1,62,0,0,0,0,0,0
+True_Radiology Examination,0,0,2,0,0,0,0,2,0,0,1,0,0,1,11,1,0,0,0,0
+True_Reassessment,5,7,1,0,1,0,0,2,4,0,0,0,0,0,0,2,0,0,0,0
+True_Referral,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0
+True_Theraputic History,0,8,0,1,4,0,0,0,23,0,5,2,0,0,0,0,0,0,0,0
+True_Vegetative History,0,17,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,10,0

@@ -1,0 +1,3 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Respiratory\nPositive for cough.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N099,D2N099_1_3,json,"{""label"": ""Acute Symptoms""}"
+"Psychological\nShe does not appear anxious, agitated or depressed.",Physical Examination,Vegetative History,OBJECTIVE,D2N142,D2N142_1_3,json,"{""label"": ""Vegetative History""}"

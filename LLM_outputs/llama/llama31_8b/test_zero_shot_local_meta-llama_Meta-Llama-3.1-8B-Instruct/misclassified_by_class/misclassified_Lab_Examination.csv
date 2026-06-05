@@ -1,0 +1,3 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Rapid strep test: positive.,Lab Examination,Diagnostic Testing,OBJECTIVE,D2N010,D2N010_1_7,json,"{""label"": ""Diagnostic Testing""}"
+Thyroid profile 03/01/2021.,Lab Examination,Diagnostic Testing,OBJECTIVE,D2N139,D2N139_1_1,json,"{""label"": ""Diagnostic Testing""}"

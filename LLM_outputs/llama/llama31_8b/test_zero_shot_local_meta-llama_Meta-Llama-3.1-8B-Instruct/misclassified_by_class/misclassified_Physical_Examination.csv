@@ -1,0 +1,4 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Constitutional\nElderly Caucasian male in no apparent distress. Presents in wheelchair.,Physical Examination,Personal Information,OBJECTIVE,D2N026,D2N026_1_1,json,"{""label"": ""Personal Information""}"
+Respiratory\nPositive for cough.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N099,D2N099_1_3,json,"{""label"": ""Acute Symptoms""}"
+Constitutional\nNo distress. No fever. No tobacco or other substance use.,Physical Examination,Drug History,OBJECTIVE,D2N142,D2N142_1_1,json,"{""label"": ""Drug History""}"
