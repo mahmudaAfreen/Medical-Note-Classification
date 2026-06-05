@@ -1,0 +1,10 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+We will tentatively plan for a left C7-T1 epidural afterwards,Other Treatments,__INVALID__,PLAN,D2N026,D2N026_3_3,invalid,"{""label"": ""Plan""}"
+He will continue his home exercise program as well as twice daily gabapentin,Other Treatments,Medications,PLAN,D2N026,D2N026_3_5,json,"{""label"": ""Medications""}"
+Continue home exercise program and twice daily gabapentin.,Other Treatments,Medications,PLAN,D2N026,D2N026_3_9,json,"{""label"": ""Medications""}"
+Any concerning tissue will be biopsied and sent to pathology for staging.,Other Treatments,Diagnostic Testing,PLAN,D2N046,D2N046_3_8,json,"{""label"": ""Diagnostic Testing""}"
+We may also consider intraperitoneal chemotherapy.,Other Treatments,Diagnostic Testing,PLAN,D2N046,D2N046_3_10,json,"{""label"": ""Diagnostic Testing""}"
+I have recommended that we treat the patient conservatively with continued bracing.,Other Treatments,Discussion,PLAN,D2N067,D2N067_3_4,json,"{""label"": ""Discussion""}"
+She should discontinue the use of her THC gummies while taking these medications.,Other Treatments,Drug History,PLAN,D2N067,D2N067_3_7,json,"{""label"": ""Drug History""}"
+1. Acute nephrolithiasis.\nMedical Treatment: I have recommended that he push fluids in order to help facilitate urination to help pass the stone,Other Treatments,Discussion,PLAN,D2N085,D2N085_3_1,json,"{""label"": ""Discussion""}"
+4. Hypertension.\n- Patient Education and Counseling: I encouraged the patient to continue exercising and to be cognizant of her diet,Other Treatments,Discussion,PLAN,D2N156,D2N156_3_9,json,"{""label"": ""Discussion""}"

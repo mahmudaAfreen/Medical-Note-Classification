@@ -1,0 +1,2 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+"I recommend we perform a hysterectomy and oophorectomy, as well as a lymph node dissection to remove any involved lymph nodes",Diagnostic Testing,Other Treatments,PLAN,D2N046,D2N046_3_7,json,"{""label"": ""Other Treatments""}"

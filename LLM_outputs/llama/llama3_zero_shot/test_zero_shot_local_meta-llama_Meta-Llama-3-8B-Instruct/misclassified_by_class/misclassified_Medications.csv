@@ -1,0 +1,3 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+I have added spironolactone to his regimen which will require monitoring of his potassium and sodium,Medications,Follow-up,PLAN,D2N139,D2N139_3_1,json,"{""label"": ""Follow-up""}"
+She will take the injectable form and start on May 17,Medications,Follow-up,PLAN,D2N142,D2N142_3_2,json,"{""label"": ""Follow-up""}"

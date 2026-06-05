@@ -1,12 +1,9 @@
 pandas>=2.0
-
-torch>=2.4
-transformers>=4.51
-accelerate>=1.1
-
+transformers==4.46.3
+accelerate==1.0.1
+datasets
+huggingface_hub
+protobuf
 sentencepiece
 safetensors
-protobuf
-
-datasets
 scikit-learn

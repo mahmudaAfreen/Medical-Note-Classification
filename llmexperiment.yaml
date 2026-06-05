@@ -13,19 +13,17 @@ spec:
     spec:
       containers:
         - name: llmprompting
-          # Replace this with the image that contains:
-          # - this repository's src/llm_experiments package
-          # - pandas, torch, transformers, accelerate
           image: registry.datexis.com/troehr/medical_note_classification
+          imagePullPolicy: Always
           command: [
             "python", "-m", "src.llm_experiments.evaluate_prompting",
                 "--splits-dir", "/pvc/llm_splits",
                 "--split", "test",
-                "--setting", "few_shot",
-                "--num-shots", "3",
-                "--output-dir", "/pvc/llm_results/qwen25_fewshot_3shots",
+                "--setting", "zero_shot",
+                
+                "--output-dir", "/pvc/llm_results/llama31_8b_fewshot_3shots",
                 "--backend", "local",
-                "--model-name","Qwen/Qwen3-4B-Instruct-2507",
+                "--model-name", "meta-llama/Meta-Llama-3.1-8B-Instruct",
                 "--batch-size", "1",
                 "--max-new-tokens", "64",
                 "--temperature", "0.0",

@@ -1,0 +1,9 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Eyes\nPresences of microphthalmia.,Physical Examination,Acute Assessment,OBJECTIVE,D2N076,D2N076_1_2,json,"{""label"": ""Acute Assessment""}"
+"Ears, Eyes, Nose, Throat\nNasal congestion, clear mucus, rhinorrhea. Bilateral pulling of ears, no sore throat or hoarseness.",Physical Examination,Acute Symptoms,OBJECTIVE,D2N099,D2N099_1_2,json,"{""label"": ""Acute Symptoms""}"
+Respiratory\nPositive for cough.,Physical Examination,Acute Symptoms,OBJECTIVE,D2N099,D2N099_1_3,json,"{""label"": ""Acute Symptoms""}"
+Musculoskeletal\nLower extremity edema,Physical Examination,Acute Symptoms,OBJECTIVE,D2N105,D2N105_1_3,json,"{""label"": ""Acute Symptoms""}"
+Constitutional\nNo distress. No fever. No tobacco or other substance use.,Physical Examination,Drug History,OBJECTIVE,D2N142,D2N142_1_1,json,"{""label"": ""Drug History""}"
+Neurological\nAlert.,Physical Examination,Acute Assessment,OBJECTIVE,D2N142,D2N142_1_2,json,"{""label"": ""Acute Assessment""}"
+"Psychological\nShe does not appear anxious, agitated or depressed.",Physical Examination,Acute Assessment,OBJECTIVE,D2N142,D2N142_1_3,json,"{""label"": ""Acute Assessment""}"
+Integumentary\nSkin is moist. Good trigger.,Physical Examination,Acute Assessment,OBJECTIVE,D2N142,D2N142_1_8,json,"{""label"": ""Acute Assessment""}"

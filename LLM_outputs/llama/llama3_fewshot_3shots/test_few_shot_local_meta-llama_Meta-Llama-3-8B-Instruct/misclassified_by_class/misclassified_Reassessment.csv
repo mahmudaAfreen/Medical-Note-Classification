@@ -1,0 +1,13 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+• Hypertension.,Reassessment,Acute Symptoms,ASSESSMENT,D2N105,D2N105_2_3,json,"{""label"": ""Acute Symptoms""}"
+• Hyperlipidemia.,Reassessment,Personal History,ASSESSMENT,D2N105,D2N105_2_4,json,"{""label"": ""Personal History""}"
+• Hypothyroid.,Reassessment,Acute Assessment,ASSESSMENT,D2N105,D2N105_2_5,json,"{""label"": ""Acute Assessment""}"
+Hyperlipidemia\nThis is managed by her PCP,Reassessment,Referral,PLAN,D2N105,D2N105_3_17,json,"{""label"": ""Referral""}"
+She is having bilateral leg pain over the past month,Reassessment,Acute Symptoms,PLAN,D2N105,D2N105_3_19,json,"{""label"": ""Acute Symptoms""}"
+"This could be related to the simvastatin possibly and given her age, it would not be unreasonable to stop the simvastatin, but I will defer to her PCP",Reassessment,Discussion,PLAN,D2N105,D2N105_3_20,json,"{""label"": ""Discussion""}"
+â¢ Alcohol use disorder.,Reassessment,Drug History,ASSESSMENT,D2N142,D2N142_2_1,json,"{""label"": ""Drug History""}"
+â¢ Hypertension.,Reassessment,Acute Symptoms,ASSESSMENT,D2N142,D2N142_2_2,json,"{""label"": ""Acute Symptoms""}"
+3. Acute heart failure.\n- Medical Reasoning: The patient is retaining fluid.,Reassessment,Acute Assessment,ASSESSMENT,D2N156,D2N156_2_5,json,"{""label"": ""Acute Assessment""}"
+Herniated disc.\nâ¢ Medical Reasoning: She has been asymptomatic since receiving a steroid injection several months ago. I do not think we need to refer her for any further steroid injections or physical therapy at this time.,Reassessment,Acute Assessment,ASSESSMENT,D2N171,D2N171_2_6,json,"{""label"": ""Acute Assessment""}"
+Coronary artery disease.\nâ¢ Medical Reasoning: She reports a burning chest pain with exertion approximately 3 times per week for the past month.,Reassessment,Acute Symptoms,ASSESSMENT,D2N171,D2N171_2_7,json,"{""label"": ""Acute Symptoms""}"
+Her recent echocardiogram demonstrated a reduced ejection fraction of 45%.,Reassessment,Acute Assessment,ASSESSMENT,D2N171,D2N171_2_8,json,"{""label"": ""Acute Assessment""}"

@@ -1,0 +1,2 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+He is accompanied by his mother.,Personal Information,Family History,SUBJECTIVE,D2N099,D2N099_0_4,json,"{""label"": ""Family History""}"

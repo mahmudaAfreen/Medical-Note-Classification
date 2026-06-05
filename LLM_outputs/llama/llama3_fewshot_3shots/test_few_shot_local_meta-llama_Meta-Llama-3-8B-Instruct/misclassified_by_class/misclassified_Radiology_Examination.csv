@@ -1,0 +1,9 @@
+text,true_label,predicted_label,section,encounter_id,text_id,parse_status,raw_response
+Previous CT scan of the abdomen ordered by the patient's PCP is reviewed and demonstrates a 0.5 cm kidney stone located in the proximal right ureter. There is no evidence of hydronephrosis.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N085,D2N085_1_2,json,"{""label"": ""Diagnostic Testing""}"
+Electrocardiogram stable in comparison to last year.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N097,D2N097_1_5,json,"{""label"": ""Diagnostic Testing""}"
+The patient has attempted non-surgical treatments with minimal relief,Radiology Examination,Other Treatments,ASSESSMENT,D2N101,D2N101_2_4,json,"{""label"": ""Other Treatments""}"
+"Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable",Radiology Examination,Reassessment,ASSESSMENT,D2N101,D2N101_2_6,json,"{""label"": ""Reassessment""}"
+EKG\nImpression: Sinus rhythm with frequent PVCs as well as anterior septal infarct pattern.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N105,D2N105_1_5,json,"{""label"": ""Diagnostic Testing""}"
+"Views: Four views left knee.\nIndication: Knee pain.\nInterpretation: There are no fractures, dislocations, or other abnormalities.",Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N136,D2N136_1_5,json,"{""label"": ""Diagnostic Testing""}"
+EKG is reviewed and demonstrates a normal sinus rhythm. Good R wave progression. Evolutionary changes that are anticipated after a STEMI.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N156,D2N156_1_6,json,"{""label"": ""Diagnostic Testing""}"
+ECG prior coronary artery disease. No new changes.,Radiology Examination,Diagnostic Testing,OBJECTIVE,D2N171,D2N171_1_6,json,"{""label"": ""Diagnostic Testing""}"
