@@ -1,90 +1,98 @@
-# Medical-Note-Classification
+# Medical Note Classification
 
-Utilities for annotation, encoder training/evaluation, and LLM experiments on
-medical-note sentence intent classification.
+This repository contains the implementation of a **sentence-level intent classification framework for clinical notes**.
 
-## Encoder Experiments
+The project covers the workflow from data construction and annotation to encoder-based classification and prompt-based large language model evaluation.
 
-The encoder task code lives in `classification_task_encoder/src`. The released sentence
-splits live in `final_data`:
+> **Note:** The clinical datasets used in this project are not included in this repository.
 
-- `sentences_train.csv`, `sentences_dev.csv`, `sentences_test.csv`
-- `sentences_train_SOAP.csv`, `sentences_dev_SOAP.csv`, `sentences_test_SOAP.csv`
+## Repository Structure
 
-The `_SOAP.csv` files include the same sentence-level labels plus a SOAP section
-column. LLM experiments use these SOAP-aware splits by default so results are
-aligned with the encoder train/dev/test data.
-
-## LLM Experiments
-
-The LLM experiment code lives in `classification_task_lms/src_llms`. It reuses the
-zero-shot/few-shot prompting idea from `medical-intent-classification`, but wraps
-it around this repository's encoder splits instead of making a new split from
-raw annotation files.
-
-Prepare LLM JSONL files from the encoder splits:
-
-```bash
-python -m src.llm_experiments.data \
-  --source encoder \
-  --data-dir final_data \
-  --output-dir data_files/llm_splits
+```text
+Medical-Note-Classification/
+├── data_construction/
+├── classification_task_encoder/
+├── classification_task_llms/
+├── docs/
+└── README.md
 ```
 
-This writes `train.jsonl`, `dev.jsonl`, `test.jsonl`, and `labels.json` using
-the exact encoder examples and raw encoder labels, including `Medications`,
-`Other Social`, and `Theraputic History`. Use `--canonicalize-labels` only for
-exploratory runs where you intentionally want cleaned label names.
+## `data_construction/`
 
-Preview prompts without loading a model:
+Contains the resources used for dataset construction and annotation.
 
-```bash
-python -m src.llm_experiments.evaluate_prompting \
-  --splits-dir data_files/llm_splits \
-  --split test \
-  --setting few_shot \
-  --num-shots 3 \
-  --backend dry_run \
-  --save-prompts \
-  --limit 5
+- `Annotation guideline.pdf` — annotation guideline for the clinical intent classes
+- `SOAP_splitting.ipynb` — preprocessing and SOAP-section splitting
+- `Potato_formatting.ipynb` — preparation of data for the annotation interface
+- `configs/` — annotation configuration files
+- `surveyflow/` — survey and annotation workflow files
+- `templates/` — annotation interface templates
+
+## `classification_task_encoder/`
+
+Contains the encoder-based classification experiments.
+
+- `src/` — model, data module, training, and evaluation code
+- `expirements/` — saved encoder experiment results
+- `external_evaluation/` — external evaluation experiments
+- `classification-random-split/` — experiments using a random data split
+- Docker and YAML files — training and Kubernetes environment configurations
+
+## `classification_task_llms/`
+
+Contains the large language model experiments.
+
+- `src_llms/` — zero-shot and few-shot prompting implementation
+- `configs_llms/` — dependency, Docker, GPU, and Kubernetes configuration files
+- `LLM_outputs/` — saved Qwen and Llama experiment results
+
+## `docs/`
+
+Contains additional documentation related to the experiments and execution environment.
+
+## Project Workflow
+
+```text
+Clinical Notes
+      │
+      ▼
+SOAP Section Processing
+      │
+      ▼
+Sentence-Level Annotation
+      │
+      ▼
+Clinical Intent Classification Dataset
+      │
+      ├──────────────────────────┐
+      │                          │
+      ▼                          ▼
+Encoder-Based Models      Large Language Models
+      │                          │
+      ▼                          ▼
+Supervised Fine-Tuning    Zero-Shot / Few-Shot Prompting
+      │                          │
+      └────────────┬─────────────┘
+                   │
+                   ▼
+               Evaluation
 ```
 
-Run a local Hugging Face instruction model:
+## Experimental Approaches
 
-```bash
-python -m src.llm_experiments.evaluate_prompting \
-  --splits-dir data_files/llm_splits \
-  --split test \
-  --setting zero_shot \
-  --backend local \
-  --model-name Qwen/Qwen2.5-7B-Instruct \
-  --batch-size 2
-```
+### Encoder-Based Models
 
-Predictions are saved as JSONL with raw model responses and parsed labels.
-Metrics are saved as JSON with accuracy, macro/weighted F1, per-label metrics,
-and per-section reports. Each run also writes encoder-style artifacts under
-`outputs/llm_prompting/<run_name>/`:
+Transformer-based encoder models are fine-tuned for sentence-level clinical intent classification.
 
-- `per_class_metrics_test.csv`
-- `confusion_matrix_test.csv`
-- `misclassified_by_class/misclassified_<Class>.csv`
+### Large Language Models
 
-Export chat-style SFT rows for LoRA/QLoRA tooling:
+Instruction-tuned large language models are evaluated using:
 
-```bash
-python -m src.llm_experiments.export_sft_data \
-  --splits-dir data_files/llm_splits \
-  --output-dir data_files/llm_sft
-```
+- **Zero-shot prompting**
+- **Few-shot prompting**
 
-Keep experiments local unless the data has been approved for external API use.
+The experiments include models from the **Qwen** and **Llama** model families.
 
-The older raw annotation span parser remains available for exploration:
+## Purpose
 
-```bash
-python -m src.llm_experiments.data \
-  --source annotations \
-  --data-dir data_files \
-  --output-dir data_files/llm_annotation_splits
-```
+This repository provides the code, experiment configurations, and evaluation outputs used to compare **fine-tuned encoder models** with **prompt-based large language models** for clinical sentence intent classification.
