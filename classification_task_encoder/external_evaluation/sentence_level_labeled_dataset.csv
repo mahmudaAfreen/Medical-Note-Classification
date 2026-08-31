@@ -1,0 +1,658 @@
+﻿source_ID,source_id,sample_name,sentence_number,sentence,label
+1297,11502,Three-Week Postpartum Checkup,1,"CHIEF COMPLAINT:, The patient comes for three-week postpartum checkup, complaining of allergies.",Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,2,"HISTORY OF PRESENT ILLNESS:, She is doing well postpartum.",Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,3,She has had no headache.,Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,4,She is breastfeeding and feels like her milk is adequate.,Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,5,She has not had much bleeding.,Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,6,"She is using about a mini pad twice a day, not any cramping or clotting and the discharge is turned from red to brown to now slightly yellowish.",Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,7,She has not yet had sexual intercourse.,Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,8,"She does complain that she has had a little pain with the bowel movement, and every now and then she notices a little bright red bleeding.",Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,9,She has not been particularly constipated,Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,10,but her husband says she is not eating her vegetables like she should.,Personal History
+1297,11502,Three-Week Postpartum Checkup,11,Her seasonal allergies have back developed,Personal History
+1297,11502,Three-Week Postpartum Checkup,12,"she is complaining of extremely itchy watery eyes, runny nose, sneezing, and kind of a pressure sensation in her ears.",Acute Symptoms
+1297,11502,Three-Week Postpartum Checkup,13,"MEDICATIONS:, Prenatal vitamins",Theraputic History
+1297,11502,Three-Week Postpartum Checkup,14,"ALLERGIES:, She thinks to Benadryl.",Personal History
+1297,11502,Three-Week Postpartum Checkup,15,"FAMILY HISTORY: , Mother is 50 and healthy",Family History
+1297,11502,Three-Week Postpartum Checkup,16,Dad is 40 and healthy.,Family History
+1297,11502,Three-Week Postpartum Checkup,17,"Half-sister, age 34, is healthy",Family History
+1297,11502,Three-Week Postpartum Checkup,18,She has a sister who is age 10 who has some yeast infections.,Family History
+1297,11502,Three-Week Postpartum Checkup,19,"PHYSICAL EXAMINATION:,VITALS: Weight: 124 pounds",Physical Examination
+1297,11502,Three-Week Postpartum Checkup,20,Blood pressure 96/54,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,21,Pulse: 72. Respirations: 16. LMP: 10/18/03,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,22,Age: 39,Personal Information
+1297,11502,Three-Week Postpartum Checkup,23,HEENT: Head is normocephalic,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,24,Eyes: EOMs intact,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,25,PERRLA. Conjunctiva clear.,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,26,"Fundi: Discs flat, cups norma",Physical Examination
+1297,11502,Three-Week Postpartum Checkup,27,"No AV nicking, hemorrhage or exudate.",Physical Examination
+1297,11502,Three-Week Postpartum Checkup,28,Ears: TMs intact. Mouth: No lesion. Throat: No inflammation.,Personal Information
+1297,11502,Three-Week Postpartum Checkup,29,"She has allergic rhinitis with clear nasal drainage, clear watery discharge from the eyes",Physical Examination
+1297,11502,Three-Week Postpartum Checkup,30,Abdomen: Soft.,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,31,"No masses.,Pelvic: Uterus is involuting",Physical Examination
+1297,11502,Three-Week Postpartum Checkup,32,Rectal: She has one external hemorrhoid which has inflamed.,Physical Examination
+1297,11502,Three-Week Postpartum Checkup,33,"Stool is guaiac negative and using anoscope, no other lesions are identified.",Physical Examination
+1297,11502,Three-Week Postpartum Checkup,34,"ASSESSMENT/PLAN:, Satisfactory three-week postpartum course, seasonal allergies.",Reassessment
+1297,11502,Three-Week Postpartum Checkup,35,We will try Patanol eyedrops and Allegra 60 mg twice a day.,Medications
+1297,11502,Three-Week Postpartum Checkup,36,She was cautioned about the possibility that this may alter her milk supply.,Discussion
+1297,11502,Three-Week Postpartum Checkup,37,She is to drink extra fluids and call if she has problems with that.,Other Treatments
+1297,11502,Three-Week Postpartum Checkup,38,We will try ProctoFoam HC,Medications
+1297,11502,Three-Week Postpartum Checkup,39,"For the hemorrhoids, also increase the fiber in her diet.",Other Treatments
+1297,11502,Three-Week Postpartum Checkup,40,"That prescription was written, as well as one for Allegra and Patanol",Medications
+1297,11502,Three-Week Postpartum Checkup,41,She additionally will be begin on Micronor,Medications
+1297,11502,Three-Week Postpartum Checkup,42,"because she would like to protect herself from pregnancy until her husband get scheduled in and has a vasectomy, which is their ultimate plan for birth control, and she anticipates that happening fairly soon",Discussion
+1297,11502,Three-Week Postpartum Checkup,43,She will call and return if she continues to have problems with allergies.,Discussion
+1297,11502,Three-Week Postpartum Checkup,44,"Meantime, rechecking in three weeks for her final six-week postpartum checkup.",Follow-up
+1298,11503,Thrombocytosis Followup,1,"CHIEF COMPLAINT:, Essential thrombocytosis",Acute Symptoms
+1298,11503,Thrombocytosis Followup,2,This is an extremely pleasant 64-year-old gentleman,Personal Information
+1298,11503,Thrombocytosis Followup,3,who I am following for essential thrombocytosis,Acute Symptoms
+1298,11503,Thrombocytosis Followup,4,He was first diagnosed when he first saw a hematologist on 07/09/07,Personal History
+1298,11503,Thrombocytosis Followup,5,"At that time, his platelet count was 1,240,000",Personal History
+1298,11503,Thrombocytosis Followup,6,He was initially started on Hydrea 1000 mg q.d,Theraputic History
+1298,11503,Thrombocytosis Followup,7,"On 07/11/07, he underwent a bone marrow biopsy, which showed essential thrombocytosis.",Personal History
+1298,11503,Thrombocytosis Followup,8,He was positive for the JAK-2 mutation,Personal History
+1298,11503,Thrombocytosis Followup,9,"On 11/06/07, his platelets were noted to be 766,000.",Personal History
+1298,11503,Thrombocytosis Followup,10,His current Hydrea dose is now 1500 mg on Mondays and Fridays and 1000 mg on all other days,Theraputic History
+1298,11503,Thrombocytosis Followup,11,He moved to ABCD in December 2009 in an attempt to improve his wife's rheumatoid arthritis,Other Social
+1298,11503,Thrombocytosis Followup,12,"Overall, he is doing well.",Reassessment
+1298,11503,Thrombocytosis Followup,13,"He has a good energy level, and his ECOG performance status is 0.",Acute Symptoms
+1298,11503,Thrombocytosis Followup,14,"He denies any fevers, chills, or night sweats",Vegetative History
+1298,11503,Thrombocytosis Followup,15,No lymphadenopathy,Vegetative History
+1298,11503,Thrombocytosis Followup,16,No nausea or vomiting,Vegetative History
+1298,11503,Thrombocytosis Followup,17,No change in bowel or bladder habits,Vegetative History
+1298,11503,Thrombocytosis Followup,18,"CURRENT MEDICATIONS: , Hydrea 1500 mg on Mondays and Fridays and 1000 mg the other days of the week, Flomax q.d., vitamin D q.d, saw palmetto q.d., aspirin 81 mg q.d., and vitamin C q.d",Medications
+1298,11503,Thrombocytosis Followup,19,"ALLERGIES: , No known drug allergies.,",Personal History
+1298,11503,Thrombocytosis Followup,20,"REVIEW OF SYSTEMS:, As per the HPI, otherwise negative.",Vegetative History
+1298,11503,Thrombocytosis Followup,21,"PAST MEDICAL HISTORY:,1. He is status post an appendectomy",Personal History
+1298,11503,Thrombocytosis Followup,22,. Status post a tonsillectomy and adenoidectomy,Personal History
+1298,11503,Thrombocytosis Followup,23,3. Status post bilateral cataract surgery.,Personal History
+1298,11503,Thrombocytosis Followup,24,4. BPH,Personal History
+1298,11503,Thrombocytosis Followup,25,"He has a history of tobacco use, which he quit at the age of 37",Drug History
+1298,11503,Thrombocytosis Followup,26,He has one alcoholic drink per day,Drug History
+1298,11503,Thrombocytosis Followup,27,He is married,Other Social
+1298,11503,Thrombocytosis Followup,28,He is a retired lab manager,Other Social
+1298,11503,Thrombocytosis Followup,29,"FAMILY HISTORY: ,There is no history of solid tumor or hematologic malignancies in his family.",Family History
+1328,11504,Polycythemia Rubra Vera,1,"CHIEF COMPLAINT: , Polycythemia rubra vera.",Acute Symptoms
+1328,11504,Polycythemia Rubra Vera,2,The patient is an 83-year-old female,Personal Information
+1328,11504,Polycythemia Rubra Vera,3,with a history of polycythemia vera,Personal History
+1328,11504,Polycythemia Rubra Vera,4,She comes in to clinic today for followup,Acute Symptoms
+1328,11504,Polycythemia Rubra Vera,5,She has not required phlebotomies for several months,Personal History
+1328,11504,Polycythemia Rubra Vera,6,The patient comes to clinic unaccompanied,Acute Assessment
+1328,11504,Polycythemia Rubra Vera,7,"CURRENT MEDICATIONS: , Levothyroxine 200 mcg q.d., Nexium 40 mg q.d., Celebrex 200 mg q.d., vitamin D3 2000 IU q.d., aspirin 81 mg q.d., selenium 200 mg q.d., Aricept 10 mg q.d., Skelaxin 800 mg q.d., ropinirole 1 mg q.d., vitamin E 1000 IU q.d., vitamin C 500 mg q.d., flaxseed oil 100 mg daily, fish oil 100 units q.d., Vicodin q.h.s., and stool softener",Theraputic History
+1328,11504,Polycythemia Rubra Vera,8,"ALLERGIES: ,Penicillin.,REVIEW OF SYSTEMS:",Personal History
+1328,11504,Polycythemia Rubra Vera,9,The patient's chief complaint is her weight.,Acute Symptoms
+1328,11504,Polycythemia Rubra Vera,10,She brings in a packet of information on HCZ Diovan and also metabolic assessment that was done at the key,Acute Symptoms
+1328,11504,Polycythemia Rubra Vera,11,She has questions as to whether or not there would be any contra indications to her going on the diet,Discussion
+1328,11504,Polycythemia Rubra Vera,12,"Otherwise, she feels great",Acute Symptoms
+1328,11504,Polycythemia Rubra Vera,13,She had family reunion in Iowa once in four days out there.,Other Social
+1328,11504,Polycythemia Rubra Vera,14,She continues to volunteer Hospital and is walking and enjoying her summer,Other Social
+1328,11504,Polycythemia Rubra Vera,15,"She denies any fevers, chills, or night sweats",Vegetative History
+1328,11504,Polycythemia Rubra Vera,16,She has some mild constipation problem but has had under control,Vegetative History
+1328,11504,Polycythemia Rubra Vera,17,The rest of her review of systems is negative,Vegetative History
+1332,11505,Posttransplant Lymphoproliferative Disorder,1,"CHIEF COMPLAINT: , The patient is here for followup visit and chemotherapy",Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,2,"DIAGNOSES:,1. Posttransplant lymphoproliferative disorder.,2. Chronic renal insufficiency.,3. Squamous cell carcinoma of the skin.,4. Anemia secondary to chronic renal insufficiency and chemotherapy.,5. Hypertension",Reassessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,3,A 51-year-old white male,Personal Information
+1332,11505,Posttransplant Lymphoproliferative Disorder,4,diagnosed with PTLD in latter half of 2007,Personal History
+1332,11505,Posttransplant Lymphoproliferative Disorder,5,"He presented with symptoms of increasing adenopathy, abdominal pain, weight loss, and anorexia.",Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,6,He did not seek medical attention immediately,Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,7,"He was finally hospitalized by the renal transplant service and underwent a lymph node biopsy in the groin, which showed diagnosis of large cell lymphoma",Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,8,He was discussed at the hematopathology conference,Personal History
+1332,11505,Posttransplant Lymphoproliferative Disorder,9,"Chemotherapy with rituximab plus cyclophosphamide, daunorubicin, vincristine, and prednisone was started",Theraputic History
+1332,11505,Posttransplant Lymphoproliferative Disorder,10,First cycle of chemotherapy was complicated by sepsis despite growth factor support,Theraputic History
+1332,11505,Posttransplant Lymphoproliferative Disorder,11,He also appeared to have become disoriented either secondary to sepsis or steroid therapy,Theraputic History
+1332,11505,Posttransplant Lymphoproliferative Disorder,12,The patient has received 5 cycles of chemotherapy to date.,Theraputic History
+1332,11505,Posttransplant Lymphoproliferative Disorder,13,He did not keep his appointment for a PET scan after 3 cycles because he was not feeling well,Personal History
+1332,11505,Posttransplant Lymphoproliferative Disorder,14,"His therapy has been interrupted for infection related to squamous cell cancer, skin surgery as well as complaints of chest infection.",Personal History
+1332,11505,Posttransplant Lymphoproliferative Disorder,15,The patient is here for the sixth and final cycle of chemotherapy.,Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,16,He states he feels well,Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,17,"He denies any nausea, vomiting, cough, shortness of breath, chest pain or fatigue",Vegetative History
+1332,11505,Posttransplant Lymphoproliferative Disorder,18,He denies any tingling or numbness in his fingers.,Vegetative History
+1332,11505,Posttransplant Lymphoproliferative Disorder,19,Review of systems is otherwise entirely negative.,Vegetative History
+1332,11505,Posttransplant Lymphoproliferative Disorder,20,Performance status on the ECOG scale is 1,Acute Symptoms
+1332,11505,Posttransplant Lymphoproliferative Disorder,21,"PHYSICAL EXAMINATION:,VITAL SIGNS: He is afebrile. Blood pressure 161/80, pulse 65, weight 71.5 kg, which is essentially unchanged from his prior visit.",Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,22,There is mild pallor noted.,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,23,"There is no icterus, adenopathy or petechiae noted.",Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,24,CHEST: Clear to auscultation,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,25,CARDIOVASCULAR: S1 and S2 normal with regular rate and rhythm,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,26,Systolic flow murmur is best heard in the pulmonary area,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,27,ABDOMEN: Soft and nontender with no organomegaly.,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,28,Renal transplant is noted in the right lower quadrant with a scar present,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,29,EXTREMITIES: Reveal no edema,Physical Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,30,"LABORATORY DATA: , CBC from today shows white count of 9.6 with a normal differential, ANC of 7400, hemoglobin 8.9, hematocrit 26.5 with an MCV of 109, and platelet count of 220,000",Lab Examination
+1332,11505,Posttransplant Lymphoproliferative Disorder,31,"ASSESSMENT AND PLAN:,1. Diffuse large B-cell lymphoma following transplantation",Reassessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,32,The patient is to receive his sixth and final cycle of chemotherapy today,Medications
+1332,11505,Posttransplant Lymphoproliferative Disorder,33,PET scan has been ordered to be done within 2 weeks.,Diagnostic Testing
+1332,11505,Posttransplant Lymphoproliferative Disorder,34,"He will see me back for the visit in 3 weeks with CBC, CMP, and LDH.,2",Follow-up
+1332,11505,Posttransplant Lymphoproliferative Disorder,35,Chronic renal insufficiency.,Reassessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,36,3. Anemia secondary to chronic renal failure and chemotherapy.,Acute Assessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,37,He is to continue on his regimen of growth factor support.,Medications
+1332,11505,Posttransplant Lymphoproliferative Disorder,38,4. Hypertension. This is elevated today because he held his meds because he is getting rituximab other than that this is well controlled.,Reassessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,39,His CMP is pending from today,Diagnostic Testing
+1332,11505,Posttransplant Lymphoproliferative Disorder,40,",5. Squamous cell carcinoma of the skin. The scalp is well healed",Acute Assessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,41,He still has an open wound on the right posterior aspect of his trunk.,Acute Assessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,42,"This has no active drainage, but it is yet to heal",Acute Assessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,43,This probably will heal by secondary intention once chemotherapy is finished.,Acute Assessment
+1332,11505,Posttransplant Lymphoproliferative Disorder,44,Prescription for prednisone as part of his chemotherapy has been given to him.,Medications
+1343,11506,Osteoarthritis - Progress Note,1,"CHIEF COMPLAINT: , Right knee",Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,2,"The patient presents today for follow up of osteoarthritis Grade IV of the bilateral knees and flexion contracture, doing great",Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,3,Physical therapy is helping.,Personal History
+1343,11506,Osteoarthritis - Progress Note,4,The subjective pain is on the bilateral knees right worse than left,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,5,Pain: Localized to the bilateral knees right worse than left,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,6,"Quality: There is no swelling, no redness, or warmth",Physical Examination
+1343,11506,Osteoarthritis - Progress Note,7,The pain is described as aching occasionally,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,8,There is no burning,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,9,",Duration: Months.",Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,10,Associated symptoms: Includes stiffness and weakness,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,11,There is no sleep loss and no instability,Personal History
+1343,11506,Osteoarthritis - Progress Note,12,Hip Pain: None.,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,13,Back pain: None,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,14,Radicular type pain: None,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,15,Modifying factors: Includes weight bearing pain and pain with ambulation.,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,16,"There is no sitting, and no night pain.",Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,17,There is no pain with weather change.,Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,18,"VISCOSUPPLEMENTATION IN PAST:, No Synvisc.,",Personal History
+1343,11506,Osteoarthritis - Progress Note,19,"VAS PAIN SCORE: , 10 bilaterally.,WOMAC SCORE: , 8,A-1 WOMAC SCORE: , 0,See the enclosed WOMAC osteoarthritis index, which accompanies the patient's chart, for complete details of the patient's limitations to activities of daily living.",Acute Symptoms
+1343,11506,Osteoarthritis - Progress Note,20,"REVIEW OF SYSTEMS:, No change.,Constitutional: Good appetite and energy. No fever. No general complaints.,HEENT: No headaches, no difficulty swallowing, no change in vision, no change in hearing.,CV - RESP: No shortness of breath at rest or with exertion. No paroxysmal nocturnal dyspnea, orthopnea, and without significant cough, hemoptysis, or sputum. No chest pain on exertion.,GI:",Vegetative History
+1345,11507,MGUS Followup,1,"CHIEF COMPLAINT: , MGUS",Acute Symptoms
+1345,11507,MGUS Followup,2,This is an extremely pleasant 86-year-old gentleman,Personal Information
+1345,11507,MGUS Followup,3,who I follow for his MGUS,Acute Symptoms
+1345,11507,MGUS Followup,4,I initially saw him for thrombocytopenia when his ANC was 1300,Personal History
+1345,11507,MGUS Followup,5,A bone marrow biopsy was obtained,Personal History
+1345,11507,MGUS Followup,6,"Interestingly enough, at the time of his bone marrow biopsy, his hemoglobin was 13.0 and his white blood cell count was 6.5 with a platelet count of 484,000.",Personal History
+1345,11507,MGUS Followup,7,His bone marrow biopsy showed a normal cellular bone marrow,Personal History
+1345,11507,MGUS Followup,8,"however, there were 10% plasma cells and we proceeded with the workup for a plasma cell dyscrasia",Personal History
+1345,11507,MGUS Followup,9,All his tests came back as consistent with an MGUS,Reassessment
+1345,11507,MGUS Followup,10,"Overall, he is doing well. Since I last saw him",Acute Symptoms
+1345,11507,MGUS Followup,11,he tells me that he has had onset of atrial fibrillation,Acute Symptoms
+1345,11507,MGUS Followup,12,He has now started going to the gym two times per week,Personal History
+1345,11507,MGUS Followup,13,and has lost over 10 pounds,Vegetative History
+1345,11507,MGUS Followup,14,He has a good energy level and his ECOG performance status is 0.,Acute Symptoms
+1345,11507,MGUS Followup,15,"He denies any fever, chills, or night sweats. No lymphadenopathy. No nausea or vomiting. No change in bowel or bladder habits",Vegetative History
+1345,11507,MGUS Followup,16,"CURRENT MEDICATIONS: , Multivitamin q.d., aspirin one tablet q.d., Lupron q. three months, Flomax 0.4 mg q.d., and Warfarin 2.5 mg q.d.",Theraputic History
+1345,11507,MGUS Followup,17,"ALLERGIES: ,No known drug allergies",Personal History
+1345,11507,MGUS Followup,18,"REVIEW OF SYSTEMS: , As per the HPI, otherwise negative.",Vegetative History
+1345,11507,MGUS Followup,19,1. He is status post left inguinal hernia repair.,Personal History
+1345,11507,MGUS Followup,20,"Prostate cancer diagnosed in December 2004, which was a Gleason 3+4",Personal History
+1345,11507,MGUS Followup,21,He is now receiving Lupron,Personal History
+1345,11507,MGUS Followup,22,He has a very remote history of tobacco use.,Drug History
+1345,11507,MGUS Followup,23,He has one to two alcoholic drinks per day,Drug History
+1345,11507,MGUS Followup,24,He is married.,Other Social
+1345,11507,MGUS Followup,25,"FAMILY HISTORY: , His brother had prostate cancer.",Family History
+1353,11508,Non-Hodgkin lymphoma Followup,1,"CHIEF COMPLAINT:, Follicular non-Hodgkin's lymphoma.",Acute Symptoms
+1353,11508,Non-Hodgkin lymphoma Followup,2,This is an extremely pleasant 69 year-old gentleman,Personal Information
+1353,11508,Non-Hodgkin lymphoma Followup,3,who I follow for his follicular lymphoma,Acute Symptoms
+1353,11508,Non-Hodgkin lymphoma Followup,4,His history is that in February of 1988 he had a biopsy of a left posterior auricular lymph node and pathology showed follicular non-Hodgkin's lymphoma,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,5,"From 03/29/88 to 08/02/88, he received six cycles of CHOP chemotherapy",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,6,"In 1990, his CT scan showed retroperitoneal lymphadenopathy",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,7,"Therefore from 04/02/90 to 08/20/90, he received seven cycles of CVP.",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,8,"In 1999, he was treated with m-BACOD.",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,9,He also received radiation to his pelvis,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,10,"On 03/21/01, he had a right cervical lymph node biopsy, which again showed follicular lymphoma.",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,11,His most recent PET scan dated 12/31/08 showed resolution of previously described hypermetabolic lymph nodes in the right lower neck,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,12,",Overall, he is doing well. He has a good energy level, his ECOG performance status is 0",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,13,"He denies any fever, chills or night sweats. No lymphadenopathy. No nausea or vomiting. No change in bowel or bladder habits.",Vegetative History
+1353,11508,Non-Hodgkin lymphoma Followup,14,"CURRENT MEDICATIONS: , Avelox 400 mg q.d. p.r.n., cefuroxime 200 mg q.d. to be altered monthly with doxycycline 100 mg q.d., Coumadin 5 mg on Monday and 2.5 mg on all other days, dicyclomine 10 mg q.d., Coreg 6.25 mg b.i.d., Vasotec 2.5 mg b.i.d., Zantac 150 mg q.d., Claritin D q.d., Centrum q.d., calcium q.d., omega-3 b.i.d., Metamucil q.d., and Lasix 40 mg t.i.d",Theraputic History
+1353,11508,Non-Hodgkin lymphoma Followup,15,",ALLERGIES: , No known drug allergies.",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,16,"REVIEW OF SYSTEMS: ,As per the HPI, otherwise negative",Vegetative History
+1353,11508,Non-Hodgkin lymphoma Followup,17,"PAST MEDICAL HISTORY:,1. He has chronic lymphedema of the bilateral lower extremities secondary to his pelvic radiation.",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,18,2. He had bilateral ureteral obstruction and is status post a stent placement.,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,19,The obstruction was secondary to his pelvic radiation,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,20,3. History of congestive heart failure,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,21,4. History of schwannoma resection,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,22,It was resected from T12 to L1 in 1991,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,23,",5. He has chronic obstruction of his inferior vena cava.",Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,24,6. Recurrent lower extremity cellulitis,Personal History
+1353,11508,Non-Hodgkin lymphoma Followup,25,He has no tobacco use,Drug History
+1353,11508,Non-Hodgkin lymphoma Followup,26,No alcohol use,Drug History
+1353,11508,Non-Hodgkin lymphoma Followup,27,He is married,Other Social
+1353,11508,Non-Hodgkin lymphoma Followup,28,He is a retired Methodist minister,Other Social
+1353,11508,Non-Hodgkin lymphoma Followup,29,"FAMILY HISTORY: , His mother just died two days ago",Family History
+1353,11508,Non-Hodgkin lymphoma Followup,30,There is no history of solid tumors or hematologic malignancies in his family,Family History
+1357,11509,Leg Pain & Bone Pain,1,"CHIEF COMPLAINT:, Leg pain",Acute Symptoms
+1357,11509,Leg Pain & Bone Pain,2,This is a 56-year-old female,Personal Information
+1357,11509,Leg Pain & Bone Pain,3,"who has pain in her legs at nighttime and when she gets up it comes and goes, radiates from her buttocks to her legs, sometimes it is her ankle.",Acute Symptoms
+1357,11509,Leg Pain & Bone Pain,4,She has noticed it since she has been on Lipitor.,Personal History
+1357,11509,Leg Pain & Bone Pain,5,She has had some night sweats occasionally,Personal History
+1357,11509,Leg Pain & Bone Pain,6,She has had a little bit of fever and nausea.,Personal History
+1357,11509,Leg Pain & Bone Pain,7,She has noticed her blood sugars have been low.,Personal History
+1357,11509,Leg Pain & Bone Pain,8,She has lost over 30 pounds,Vegetative History
+1357,11509,Leg Pain & Bone Pain,9,after exercising doing water aerobics at Genesis in Wichita.,Other Social
+1357,11509,Leg Pain & Bone Pain,10,She has noticed her fasting blood sugars have been ranging from 100 to 120.,Personal History
+1357,11509,Leg Pain & Bone Pain,11,Blood sugars one and a half hours after meals have been 185,Personal History
+1357,11509,Leg Pain & Bone Pain,12,She is coming in for a diabetic checkup in one month and wants lab prior to that time.,Discussion
+1357,11509,Leg Pain & Bone Pain,13,She has been eating more meat recently and has not been on a diet for cholesterol.,Personal History
+1357,11509,Leg Pain & Bone Pain,14,"CURRENT MEDICATIONS:, Include Lipitor 80 mg q.d. discontinued today, Vioxx 25 mg q.d., Maxzide 37/25 q.d., Protonix 40 mg q.d., hydroxyzine pamoate 50 mg at h.s., aspirin 81 mg q.d., Glucovance 1.25/250 b.i.d. decreased to one a day today, Monopril 20 mg q.d., estradiol one mg q.d., and glucosamine 1000 mg q.d.",Theraputic History
+1357,11509,Leg Pain & Bone Pain,15,"ALLERGIES:, Cipro, sulfa, Bactrim, and Demerol",Personal History
+1357,11509,Leg Pain & Bone Pain,16,"OBJECTIVE:,Vital Signs: Weight is 248 pounds which is a 12-pound drop from January",Physical Examination
+1357,11509,Leg Pain & Bone Pain,17,Blood pressure 120/70. Pulse 68,Physical Examination
+1357,11509,Leg Pain & Bone Pain,18,"General: This is a well-developed adult female, awake, alert, and in no acute distress",Acute Assessment
+1357,11509,Leg Pain & Bone Pain,19,HEENT: Oropharynx and HEENT are within normal limits,Physical Examination
+1357,11509,Leg Pain & Bone Pain,20,"Lungs: Clear.,Heart: Regular rhythm and rate",Physical Examination
+1357,11509,Leg Pain & Bone Pain,21,",Abdomen: Soft, nontender, and nondistended without organomegaly.",Physical Examination
+1357,11509,Leg Pain & Bone Pain,22,"GU: Palpation of femurs do not cause pain, rotation of hips do not cause pain, and compression of the hips do not cause pain",Physical Examination
+1357,11509,Leg Pain & Bone Pain,23,",Neurologic: Deep tendon reflexes are normal",Physical Examination
+1357,11509,Leg Pain & Bone Pain,24,Extremities: Pulses in lower extremities are normal,Physical Examination
+1357,11509,Leg Pain & Bone Pain,25,Straight leg lifts are normal.,Physical Examination
+1357,11509,Leg Pain & Bone Pain,26,",ASSESSMENT/PLAN:,1. Leg pain/bone pain",Acute Assessment
+1357,11509,Leg Pain & Bone Pain,27,I am going to check her CMP. I think this possibly is a side effect from Lipitor,Acute Assessment
+1357,11509,Leg Pain & Bone Pain,28,We will stop Lipitor,Discussion
+1357,11509,Leg Pain & Bone Pain,29,have her follow up in one month which she has already got planned for diabetes appointment and check symptoms at that time,Follow-up
+1357,11509,Leg Pain & Bone Pain,30,"Certainly if her pain improves might consider something like Crestor, which is more water soluble, which may cause less adverse effects",Discussion
+1357,11509,Leg Pain & Bone Pain,31,"We will check her comprehensive metabolic panel to make sure the alkaline phosphatase is okay, may need an x-ray of back, hip, and legs at that time if symptoms are not gone.",Discussion
+1357,11509,Leg Pain & Bone Pain,32,"Hypercholesterolemia, this is somewhat bothersome as she is a diabetic",Reassessment
+1357,11509,Leg Pain & Bone Pain,33,Did discuss with her that we need to stick to the diet especially after going off of Lipitor.,Discussion
+1357,11509,Leg Pain & Bone Pain,34,We will see how she does with her bone pain/leg pain off of Lipitor.,Discussion
+1357,11509,Leg Pain & Bone Pain,35,If she has improvement may consider Crestor in one month,Discussion
+1357,11509,Leg Pain & Bone Pain,36,I am going to check her lipid panel and a CMP.,Diagnostic Testing
+1357,11509,Leg Pain & Bone Pain,37,"Apparently, she is going to get this at a different site, Mapleridge in Wichita",Discussion
+1357,11509,Leg Pain & Bone Pain,38,Type II diabetes,Acute Assessment
+1357,11509,Leg Pain & Bone Pain,39,We will decrease her Glucovance because she is having frequent low blood sugars,Medications
+1357,11509,Leg Pain & Bone Pain,40,Her previous hemoglobin A1c was 5.6,Personal History
+1357,11509,Leg Pain & Bone Pain,41,so we will see if this improves her symptoms,Discussion
+1357,11509,Leg Pain & Bone Pain,42,I am also going to check a hemoglobin A1c at Mapleridge in Wichita,Diagnostic Testing
+1357,11509,Leg Pain & Bone Pain,43,and have a followup here in one month for that diabetes appointment.,Follow-up
+1367,11510,Gen Med SOAP - 7,1,"CHIEF COMPLAINT:, One-month followup",Acute Symptoms
+1367,11510,Gen Med SOAP - 7,2,The patient is an 88-year-old Caucasian female,Personal Information
+1367,11510,Gen Med SOAP - 7,3,She comes here today with a friend,Personal Information
+1367,11510,Gen Med SOAP - 7,4,The patient has no complaints.,Acute Symptoms
+1367,11510,Gen Med SOAP - 7,5,She states she has been feeling well,Acute Symptoms
+1367,11510,Gen Med SOAP - 7,6,Her knees are not hurting her at all anymore and she is not needing Bextra any longer.,Acute Symptoms
+1367,11510,Gen Med SOAP - 7,7,I think the last steroid injection that she had with Dr. XYZ really did help,Personal History
+1367,11510,Gen Med SOAP - 7,8,The patient denies any shortness of breath or cough,Vegetative History
+1367,11510,Gen Med SOAP - 7,9,"Has no nausea, vomiting, abdominal pain.",Vegetative History
+1367,11510,Gen Med SOAP - 7,10,No diarrhea or constipation.,Vegetative History
+1367,11510,Gen Med SOAP - 7,11,She states her appetite is good,Personal History
+1367,11510,Gen Med SOAP - 7,12,She clears her plate at noon,Personal History
+1367,11510,Gen Med SOAP - 7,13,"She has had no fevers, chills, or sweats",Vegetative History
+1367,11510,Gen Med SOAP - 7,14,The friend with her states she is doing very well,Acute Symptoms
+1367,11510,Gen Med SOAP - 7,15,"Seems to eat excellently at noontime, despite this, the patient continues to lose weight",Acute Symptoms
+1367,11510,Gen Med SOAP - 7,16,"When I asked her what she eats for breakfast and for supper, she states she really does not eat anything.",Personal History
+1367,11510,Gen Med SOAP - 7,17,Her only meal that she eats at the nursing home is the noon meal and then I just do not think she is eating much the rest of the time,Personal History
+1367,11510,Gen Med SOAP - 7,18,She states she is really not hungry the rest of the time except at lunchtime,Acute Symptoms
+1367,11510,Gen Med SOAP - 7,19,"She denies any fevers, chills, or sweats.",Vegetative History
+1367,11510,Gen Med SOAP - 7,20,We did do some lab work at the last office visit and CBC was essentially normal.,Personal History
+1367,11510,Gen Med SOAP - 7,21,Comprehensive metabolic was essentially normal as was of the BUN of 32 and creatinine of 1.3,Personal History
+1367,11510,Gen Med SOAP - 7,22,This is fairly stable for her,Personal History
+1367,11510,Gen Med SOAP - 7,23,Liver enzymes were normal,Personal History
+1367,11510,Gen Med SOAP - 7,24,TSH was normal.,Personal History
+1367,11510,Gen Med SOAP - 7,25,Free albumin was normal at 23,Personal History
+1367,11510,Gen Med SOAP - 7,26,She is on different antidepressants and that may be causing some difficulties with unintentional weight loss,Personal History
+1367,11510,Gen Med SOAP - 7,27,"MEDICATIONS: ,Currently are Aricept 10 mg a day, Prevacid 30 mg a day, Lexapro 10 mg a day, Norvasc 2.5 mg a day, Milk of Magnesia 30 cc daily, and Amanda 10 mg b.i.d",Theraputic History
+1367,11510,Gen Med SOAP - 7,28,"ALLERGIES:, No known drug allergies",Personal History
+1367,11510,Gen Med SOAP - 7,29,"Reviewed from 05/10/2004 and unchanged other than the addition of paranoia, which is much improved on her current medications",Personal History
+1367,11510,Gen Med SOAP - 7,30,"SOCIAL HISTORY:, The patient is widow",Other Social
+1367,11510,Gen Med SOAP - 7,31,"She is a nonsmoker, nondrinker",Drug History
+1367,11510,Gen Med SOAP - 7,32,"She lives at Kansas Christian Home independently, but actually does get a lot of help with medications, having a driver to bring her here, and going to the noon meal",Other Social
+1367,11510,Gen Med SOAP - 7,33,"REVIEW OF SYSTEMS:, As above in HPI",Vegetative History
+1367,11510,Gen Med SOAP - 7,34,"PHYSICAL EXAM:,General: This is a well-developed, pleasant Caucasian female, who appears thinner especially in her face.",Physical Examination
+1367,11510,Gen Med SOAP - 7,35,States are clothes are fitting more loosely.,Physical Examination
+1367,11510,Gen Med SOAP - 7,36,"Vital Signs: Weight: 123, down 5 pounds from last month and down 11 pounds from May 2004",Physical Examination
+1367,11510,Gen Med SOAP - 7,37,"Blood pressure: 128/62. Pulse: 60. Respirations: 20. Temperature: 96.8.,Neck: Supple. Carotids are silent.,Chest: Clear to auscultation.,Cardiovascular: Regular rate and rhythm.,Abdomen: Soft and nontender, nondistended with positive bowel sounds.",Physical Examination
+1367,11510,Gen Med SOAP - 7,38,No organomegaly or masses are appreciated.,Physical Examination
+1367,11510,Gen Med SOAP - 7,39,Extremities: Free of edema,Physical Examination
+1367,11510,Gen Med SOAP - 7,40,"ASSESSMENT:,1. Unintentional weight loss",Acute Assessment
+1367,11510,Gen Med SOAP - 7,41,I think this is more a problem of just not getting in any calories though does not appear to be a medical problem go on,Acute Assessment
+1367,11510,Gen Med SOAP - 7,42,"although her dementia may make it difficult for her to remember to eat, and with her antidepressant medication she is on",Discussion
+1367,11510,Gen Med SOAP - 7,43,she just may not have much of an appetite to eat unless food is prepared for her.,Discussion
+1367,11510,Gen Med SOAP - 7,44,"2. Depression, doing well",Reassessment
+1367,11510,Gen Med SOAP - 7,45,"3. Paranoia, doing well",Reassessment
+1367,11510,Gen Med SOAP - 7,46,"4. Dementia, stable",Reassessment
+1367,11510,Gen Med SOAP - 7,47,"5. Osteoarthritis of the knees, pain is much improved",Reassessment
+1367,11510,Gen Med SOAP - 7,48,"PLAN:,1. Continue on current medications",Medications
+1367,11510,Gen Med SOAP - 7,49,2. I did call and talk with doctor at hospital,Discussion
+1367,11510,Gen Med SOAP - 7,50,We discussed different options,Discussion
+1367,11510,Gen Med SOAP - 7,51,We have decided to have the patient eat the evening meal at the nursing home also and have her take a supplement drink such as Ensure at breakfast time,Other Treatments
+1367,11510,Gen Med SOAP - 7,52,Connie will weigh the patient once a week,Discussion
+1367,11510,Gen Med SOAP - 7,53,and I will go ahead and see the patient in one month.,Follow-up
+1367,11510,Gen Med SOAP - 7,54,We can see how she is doing at that time.,Discussion
+1367,11510,Gen Med SOAP - 7,55,"If she continues to lose weight despite eating better, then I think we will need to do further evaluation.",Discussion
+1382,11511,Gen Med Progress Note - 2,1,"CHIEF COMPLAINT:, Followup on hypertension and hypercholesterolemia",Acute Symptoms
+1382,11511,Gen Med Progress Note - 2,2,This is a 78-year-old male,Personal Information
+1382,11511,Gen Med Progress Note - 2,3,who recently had his right knee replaced and also back surgery about a year and a half ago,Personal History
+1382,11511,Gen Med Progress Note - 2,4,He has done well with that,Personal History
+1382,11511,Gen Med Progress Note - 2,5,He does most of the things that he wants to do,Other Social
+1382,11511,Gen Med Progress Note - 2,6,"He travels at every chance he has, and he just got back from a cruise",Other Social
+1382,11511,Gen Med Progress Note - 2,7,"He denies any type of chest pain, heaviness, tightness, pressure, shortness of breath with stairs only, cough or palpitations.",Vegetative History
+1382,11511,Gen Med Progress Note - 2,8,He sees Dr. Ferguson,Personal History
+1382,11511,Gen Med Progress Note - 2,9,He is known to have Crohn's and he takes care of that for him.,Personal History
+1382,11511,Gen Med Progress Note - 2,10,He sees Dr. Roszhart for his prostate check,Personal History
+1382,11511,Gen Med Progress Note - 2,11,He is a nonsmoker,Drug History
+1382,11511,Gen Med Progress Note - 2,12,and denies swelling in his ankles,Vegetative History
+1382,11511,Gen Med Progress Note - 2,13,"MEDICATIONS:, Refer to chart",Theraputic History
+1382,11511,Gen Med Progress Note - 2,14,"ALLERGIES:, Refer to chart",Personal History
+1382,11511,Gen Med Progress Note - 2,15,"PHYSICAL EXAMINATION:, ,Vitals: Wt; 172 lbs, up 2 lbs, B/P; 150/60, T; 96.4, P; 72 and regular.",Physical Examination
+1382,11511,Gen Med Progress Note - 2,16,General: A 78-year-old male who does not appear to be in any acute distress,Physical Examination
+1382,11511,Gen Med Progress Note - 2,17,"Glasses. Good dentition.,CV: Distant S1, S2 without murmur or gallop",Physical Examination
+1382,11511,Gen Med Progress Note - 2,18,"No carotid bruits. P: 2+ all around.,Lungs: Diminished with increased AP diameter. ,Abdomen: Soft, bowel sounds active x 4 quadrants.",Physical Examination
+1382,11511,Gen Med Progress Note - 2,19,"No tenderness, no distention, no masses or organomegaly noted",Physical Examination
+1382,11511,Gen Med Progress Note - 2,20,Extremities: Well-healed surgical scar on the right knee,Physical Examination
+1382,11511,Gen Med Progress Note - 2,21,No edema,Physical Examination
+1382,11511,Gen Med Progress Note - 2,22,Hand grasps are strong and equal,Physical Examination
+1382,11511,Gen Med Progress Note - 2,23,",Back: Surgical scar on the lower bac",Physical Examination
+1382,11511,Gen Med Progress Note - 2,24,k,Physical Examination
+1382,11511,Gen Med Progress Note - 2,25,Neuro: Intac,Physical Examination
+1382,11511,Gen Med Progress Note - 2,26,A&O. Moves all four with no focal motor or sensory deficits,Physical Examination
+1382,11511,Gen Med Progress Note - 2,27,",IMPRESSION:,1. Hypertension.,2. Hypercholesterolemia.,3. Osteoarthritis.,4. Fatigue",Reassessment
+1382,11511,Gen Med Progress Note - 2,28,"PLAN:, We will check a BMP, lipid, liver profile, CPK, and CBC",Diagnostic Testing
+1382,11511,Gen Med Progress Note - 2,29,Refill his medications x 3 months,Medications
+1382,11511,Gen Med Progress Note - 2,30,I gave him a copy of Partners in Prevention.,Discussion
+1382,11511,Gen Med Progress Note - 2,31,Increase his Altace to 5 mg day for better blood pressure control.,Medications
+1382,11511,Gen Med Progress Note - 2,32,"Diet, exercise, and weight loss,",Other Treatments
+1382,11511,Gen Med Progress Note - 2,33,and we will see him back in three months and p.r.n.,Follow-up
+1389,11512,Gen Med Progress Note - 3,1,"CHIEF COMPLAINT:, Followup on diabetes mellitus, hypercholesterolemia, and sinusitis",Acute Symptoms
+1389,11512,Gen Med Progress Note - 3,2,"SUBJECTIVE:, A 70-year-old female",Personal Information
+1389,11512,Gen Med Progress Note - 3,3,who was diagnosed with diabetes mellitus last fall,Personal History
+1389,11512,Gen Med Progress Note - 3,4,"She has been checking her Accu-Cheks generally once a day, and they range from 82 to a high of 132",Personal History
+1389,11512,Gen Med Progress Note - 3,5,She feels well.,Acute Symptoms
+1389,11512,Gen Med Progress Note - 3,6,She walks 1-2 miles most days,Personal History
+1389,11512,Gen Med Progress Note - 3,7,"If the weather is bad, they go to a local mall",Other Social
+1389,11512,Gen Med Progress Note - 3,8,Otherwise they walk outside,Other Social
+1389,11512,Gen Med Progress Note - 3,9,She does complain of some sinus congestion and drainage for the last several days,Acute Symptoms
+1389,11512,Gen Med Progress Note - 3,10,She is up-to-date on her mammogram that she had at the Baylis Building.,Personal History
+1389,11512,Gen Med Progress Note - 3,11,She sees Dr. Cheng for her gynecological care,Personal History
+1389,11512,Gen Med Progress Note - 3,12,She is a nonsmoker,Drug History
+1389,11512,Gen Med Progress Note - 3,13,"Denies abdominal pain, nausea, vomiting, diarrhea, constipation, blood in her urine, blood in her stools",Vegetative History
+1389,11512,Gen Med Progress Note - 3,14,She has nocturia x 1,Vegetative History
+1389,11512,Gen Med Progress Note - 3,15,Denies swelling in her ankles,Vegetative History
+1389,11512,Gen Med Progress Note - 3,16,"She checks her feet regularly.,",Vegetative History
+1389,11512,Gen Med Progress Note - 3,17,",PAST MEDICAL HISTORY:, Refer to chart",Personal History
+1389,11512,Gen Med Progress Note - 3,18,"MEDICATIONS:, Refer to chart",Theraputic History
+1389,11512,Gen Med Progress Note - 3,19,",ALLERGIES:, Refer to chart.",Personal History
+1389,11512,Gen Med Progress Note - 3,20,"PHYSICAL EXAMINATION: ,Vitals: Wt: 185 B/P: 142/70.",Physical Examination
+1389,11512,Gen Med Progress Note - 3,21,"When she checks it at the mall and other places, it is usually about 120/56. T: 96.5 P: 84 and regular",Personal History
+1389,11512,Gen Med Progress Note - 3,22,General: A 70-year-old female who does not appear to be in acute distress.,Physical Examination
+1389,11512,Gen Med Progress Note - 3,23,HEENT: She has frontal and maxillary sinus tenderness on the right to palpation,Acute Assessment
+1389,11512,Gen Med Progress Note - 3,24,The right TM is slightly dull.,Acute Assessment
+1390,11513,Gen Med Progress Note - 10,1,"CHIEF COMPLAINT:, The patient is here for two-month followup",Acute Symptoms
+1390,11513,Gen Med Progress Note - 10,2,The patient is a 55-year-old Caucasian female,Personal Information
+1390,11513,Gen Med Progress Note - 10,3,She has hypertension,Personal History
+1390,11513,Gen Med Progress Note - 10,4,She has had no difficulties with chest pain.,Personal History
+1390,11513,Gen Med Progress Note - 10,5,She has some shortness of breath only at walking up the stairs,Vegetative History
+1390,11513,Gen Med Progress Note - 10,6,She has occasional lightheadedness only if she bends over then stands up quickly.,Vegetative History
+1390,11513,Gen Med Progress Note - 10,7,"She has had no nausea, vomiting, or diarrhea.",Vegetative History
+1390,11513,Gen Med Progress Note - 10,8,She does have severe osteoarthritis of the left knee and is likely going to undergo total knee replacement with Dr. XYZ in January of this coming year.,Personal History
+1390,11513,Gen Med Progress Note - 10,9,The patient is wanting to lose weight before her surgery,Discussion
+1390,11513,Gen Med Progress Note - 10,10,She is concerned about possible coronary disease or stroke risk,Discussion
+1390,11513,Gen Med Progress Note - 10,11,"She has not had any symptoms of cardiac disease other than some shortness of breath with exertion, which she states has been fairly stable",Personal History
+1390,11513,Gen Med Progress Note - 10,12,"She has had fairly normal lipid panel, last being checked on 11/26/2003",Personal History
+1390,11513,Gen Med Progress Note - 10,13,"Cholesterol was 194, triglycerides 118, HDL 41, and LDL 129",Personal History
+1390,11513,Gen Med Progress Note - 10,14,The patient is a nonsmoker,Drug History
+1390,11513,Gen Med Progress Note - 10,15,Her fasting glucose in November 2003 was within normal limits at 94,Personal History
+1390,11513,Gen Med Progress Note - 10,16,Her fasting insulin level was normal,Personal History
+1390,11513,Gen Med Progress Note - 10,17,Repeat nonfasting glucose was 109 on 06/22/2004,Personal History
+1390,11513,Gen Med Progress Note - 10,18,She does not have history of diabetes,Personal History
+1390,11513,Gen Med Progress Note - 10,19,She does not exercise regularly and is not able to because of knee pain,Personal History
+1390,11513,Gen Med Progress Note - 10,20,She also has had difficulties with low back pain,Personal History
+1390,11513,Gen Med Progress Note - 10,21,X-ray of the low back did show a mild compression fracture of L1.,Personal History
+1390,11513,Gen Med Progress Note - 10,22,She has had no falls that would contribute to a compression fracture.,Personal History
+1390,11513,Gen Med Progress Note - 10,23,She has had a normal DEXA scan on 11/07/2003 that does not really correlate with having a compression fracture of the lumbar spine,Personal History
+1390,11513,Gen Med Progress Note - 10,24,"however, it is possible that arthritis could contribute to falsely high bone density reading on DEXA scan",Discussion
+1390,11513,Gen Med Progress Note - 10,25,She is wanting to consider treatment for prevention of further compression fractures and possible osteoporosis,Discussion
+1390,11513,Gen Med Progress Note - 10,26,",CURRENT MEDICATIONS:, Hydrochlorothiazide 12.5 mg a day, Prozac 20 mg a day, Vioxx 25 mg a day, vitamin C 250 mg daily, vitamin E three to four tablets daily, calcium with D 1500 mg daily, multivitamin daily, aspirin 81 mg daily, Monopril 40 mg daily, Celexa p.r.n",Theraputic History
+1390,11513,Gen Med Progress Note - 10,27,"ALLERGIES: ,Bactrim, which causes nausea and vomiting, and adhesive tape",Personal History
+1390,11513,Gen Med Progress Note - 10,28,"PAST MEDICAL HISTORY:,1. Hypertension.,2. Depression.,3. Myofascitis of the feet.,4. Severe osteoarthritis of the knee.,5. Removal of the melanoma from the right thigh in 1984.,6. Breast biopsy in January of 1997, which was benign.,7. History of Holter monitor showing ectopic beat",Personal History
+1390,11513,Gen Med Progress Note - 10,29,Echocardiogram was normal.,Radiology Examination
+1390,11513,Gen Med Progress Note - 10,30,"These were in 1998.,8. Compression fracture of L1, unknown cause.",Personal History
+1390,11513,Gen Med Progress Note - 10,31,She had had no injury,Personal History
+1390,11513,Gen Med Progress Note - 10,32,"Interestingly, DEXA scan was normal 11/07/2003, which is somewhat conflicting.",Personal History
+1390,11513,Gen Med Progress Note - 10,33,"SOCIAL HISTORY:, The patient is married",Other Social
+1390,11513,Gen Med Progress Note - 10,34,She is a nonsmoker and nondrinker.,Drug History
+1390,11513,Gen Med Progress Note - 10,35,"REVIEW OF SYSTEMS:, As per the HPI",Vegetative History
+1390,11513,Gen Med Progress Note - 10,36,"PHYSICAL EXAMINATION:,General: This is a well-developed, well-nourished, pleasant Caucasian female, who is overweight",Physical Examination
+1390,11513,Gen Med Progress Note - 10,37,"Vital signs: Weight: Refused. Blood pressure: 148/82, on recheck by myself with a large cuff, it was 125/60. Pulse: 64. Respirations: 20. Temperature: 96.3.,Neck: Supple. Carotids are silent.,Chest: Clear to auscultation.,Cardiovascular: Revealed a regular rate and rhythm without murmur, S3, or S4.",Physical Examination
+1390,11513,Gen Med Progress Note - 10,38,Extremities: Revealed no edema.,Physical Examination
+1390,11513,Gen Med Progress Note - 10,39,"Neurologic: Grossly intact.,",Physical Examination
+1390,11513,Gen Med Progress Note - 10,40,"RADIOLOGY: EKG revealed normal sinus rhythm, rate 61, borderline first degree AV block, and poor R-wave progression in the anterior leads.",Radiology Examination
+1390,11513,Gen Med Progress Note - 10,41,"ASSESSMENT:,1. Hypertension, well controlled.",Reassessment
+1390,11513,Gen Med Progress Note - 10,42,Family history of cerebrovascular accident,Family History
+1390,11513,Gen Med Progress Note - 10,43,"Compression fracture of L1, mild.",Acute Assessment
+1390,11513,Gen Med Progress Note - 10,44,Osteoarthritis of the knee,Acute Assessment
+1390,11513,Gen Med Progress Note - 10,45,"Mildly abnormal chest x-ray.,",Acute Assessment
+1390,11513,Gen Med Progress Note - 10,46,We will get a C-reactive protein cardiac,Diagnostic Testing
+1390,11513,Gen Med Progress Note - 10,47,We discussed weight loss options.,Discussion
+1390,11513,Gen Med Progress Note - 10,48,I would recommend Weight Watchers or possibly having her see a dietician.,Discussion
+1390,11513,Gen Med Progress Note - 10,49,She will think about these options,Discussion
+1390,11513,Gen Med Progress Note - 10,50,She is not able to exercise regularly right now because of knee pain,Personal History
+1390,11513,Gen Med Progress Note - 10,51,We would recommend a screening colonoscopy,Diagnostic Testing
+1390,11513,Gen Med Progress Note - 10,52,She states that we discussed this in the past and she canceled her appointment to have that done,Personal History
+1390,11513,Gen Med Progress Note - 10,53,She will go ahead and make an appointment to see Dr. XYZ for screening colonoscopy,Discussion
+1390,11513,Gen Med Progress Note - 10,54,We will start Fosamax 70 mg once weekly,Medications
+1390,11513,Gen Med Progress Note - 10,55,She is to take this in the morning on an empty stomach with full glass of water.,Medications
+1390,11513,Gen Med Progress Note - 10,56,"She is not to eat, lie down, or take other medications for at least 30 minutes after taking Fosamax",Medications
+1390,11513,Gen Med Progress Note - 10,57,I would like to see her back in one to two months,Follow-up
+1390,11513,Gen Med Progress Note - 10,58,"t that time, we can do preoperative evaluation and we will probably send her to a cardiologist because of mildly abnormal EKG for preoperative cardiac testing",Discussion
+1390,11513,Gen Med Progress Note - 10,59,One would also consider preoperative beta-blocker for cardiac protection.,Discussion
+1391,11514,Gen Med Progress Note - 1,1,"CHIEF COMPLAINT:, Followup on diabetes mellitus, status post cerebrovascular accident",Acute Symptoms
+1391,11514,Gen Med Progress Note - 1,2,This is a 70-year-old male,Personal Information
+1391,11514,Gen Med Progress Note - 1,3,who has no particular complaints other than he has just discomfort on his right side,Acute Symptoms
+1391,11514,Gen Med Progress Note - 1,4,We have done EMG studies,Personal History
+1391,11514,Gen Med Progress Note - 1,5,He has noticed it since his stroke about five years ago,Personal History
+1391,11514,Gen Med Progress Note - 1,6,He has been to see a neurologist,Personal History
+1391,11514,Gen Med Progress Note - 1,7,We have tried different medications and it just does not seem to help,Personal History
+1391,11514,Gen Med Progress Note - 1,8,He checks his blood sugars at home two to three times a day.,Personal History
+1391,11514,Gen Med Progress Note - 1,9,He kind of adjusts his own insulin himself,Theraputic History
+1391,11514,Gen Med Progress Note - 1,10,Re-evaluation of symptoms is essentially negative.,Acute Symptoms
+1391,11514,Gen Med Progress Note - 1,11,He has a past history of heavy tobacco and alcohol usage,Drug History
+1391,11514,Gen Med Progress Note - 1,12,"MEDICATIONS:, Refer to char",Theraputic History
+1391,11514,Gen Med Progress Note - 1,13,"ALLERGIES:, Refer to chart",Personal History
+1391,11514,Gen Med Progress Note - 1,14,"PHYSICAL EXAMINATION: ,Vitals: Wt; 118 lbs, B/P; 108/72, T; 96.5, P; 80 and regular",Physical Examination
+1391,11514,Gen Med Progress Note - 1,15,General: A 70-year-old male who does not appear to be in acute distress but does look older than his stated age.,Physical Examination
+1391,11514,Gen Med Progress Note - 1,16,He has some missing dentition,Physical Examination
+1391,11514,Gen Med Progress Note - 1,17,Skin: Dry and flaky,Physical Examination
+1391,11514,Gen Med Progress Note - 1,18,",CV: Heart tones are okay, adequate carotid pulsations",Physical Examination
+1391,11514,Gen Med Progress Note - 1,19,He has 2+ pedal pulse on the left and 1+ on the right,Physical Examination
+1391,11514,Gen Med Progress Note - 1,20,"Lungs: Diminished but clear.,Abdomen: Scaphoid.,Rectal: His prostate check was normal per Dr. Gill.",Physical Examination
+1391,11514,Gen Med Progress Note - 1,21,Neuro: Sensation with monofilament testing is better on the left than it is on the right,Physical Examination
+1391,11514,Gen Med Progress Note - 1,22,"IMPRESSION:,1. Diabetes mellitus",Reassessment
+1391,11514,Gen Med Progress Note - 1,23,Neuropathy.,Reassessment
+1391,11514,Gen Med Progress Note - 1,24,Status post cerebrovascular accident,Reassessment
+1391,11514,Gen Med Progress Note - 1,25,"PLAN:, Refill his medications x 3 months",Medications
+1391,11514,Gen Med Progress Note - 1,26,We will check an A1c and BMP.,Diagnostic Testing
+1391,11514,Gen Med Progress Note - 1,27,"I have talked to him several times about a colonoscopy, which he has refused, and so we have been doing stools for occult blood",Discussion
+1391,11514,Gen Med Progress Note - 1,28,We will check a PSA,Discussion
+1391,11514,Gen Med Progress Note - 1,29,"Continue with yearly eye exams, foot exams, Accu-Cheks",Discussion
+1391,11514,Gen Med Progress Note - 1,30,and we will see him in three months and p.r.n.,Follow-up
+1417,11515,Diabetes Mellitus - SOAP Note - 1,1,"CHIEF COMPLAINT: ,Followup diabetes mellitus, type 1",Acute Symptoms
+1417,11515,Diabetes Mellitus - SOAP Note - 1,2,Patient is a 34-year-old male,Personal Information
+1417,11515,Diabetes Mellitus - SOAP Note - 1,3,with significant diabetic neuropathy,Acute Symptoms
+1417,11515,Diabetes Mellitus - SOAP Note - 1,4,He has been off on insurance for over a year,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,5,Has been using NPH and Regular insulin to maintain his blood sugars.,Theraputic History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,6,States that he is deathly afraid of having a low blood sugar due to motor vehicle accident he was in several years ago.,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,7,Reports that his blood sugar dropped too low which caused the accident.,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,8,"Since this point in time, he has been unwilling to let his blood sugars fall within a normal range, for fear of hypoglycemia",Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,9,"Also reports that he regulates his blood sugars with how he feels, rarely checking his blood sugar with a glucometer.,",Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,10,Reports that he has been worked up extensively at hospital and was seeing an Endocrinologist at one time,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,11,Reports that he had some indications of kidney damage when first diagnosed.,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,12,His urine microalbumin today is 100.,Lab Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,13,His last hemoglobin A1C drawn at the end of December is 11.9,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,14,"Reports that at one point, he was on Lantus which worked well and he did not worry about his blood sugars dropping too low",Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,15,"While using Lantus, he was able to get his hemoglobin A1C down to 7",Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,16,His last CMP shows an elevated alkaline phosphatase level of 168,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,17,He denies alcohol or drug use and is a non smoker,Drug History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,18,Reports he quit drinking 3 years ago,Drug History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,19,I have discussed with patient that it would be appropriate to do an SGGT and hepatic panel today,Discussion
+1417,11515,Diabetes Mellitus - SOAP Note - 1,20,Patient also has a history of gastroparesis and impotence,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,21,"Patient requests Nexium and Viagra, neither of which are covered under the Health Plan",Discussion
+1417,11515,Diabetes Mellitus - SOAP Note - 1,22,"Patient reports that he was in a scooter accident one week ago, fell off his scooter, hit his head.",Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,23,Was not wearing a helmet.,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,24,Reports that he did not go to the emergency room and had a headache for several days after this incident,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,25,Reports that an ambulance arrived at the scene and he was told he had a scalp laceration and to go into the emergency room.,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,26,Patient did not comply,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,27,Reports that the headache has resolved,Personal History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,28,"Denies any dizziness, nausea, vomiting, or other neurological abnormalities.",Vegetative History
+1417,11515,Diabetes Mellitus - SOAP Note - 1,29,",PHYSICAL EXAMINATION: , WD, WN. Slender",Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,30,34-year-old white male,Personal Information
+1417,11515,Diabetes Mellitus - SOAP Note - 1,31,"VITAL SIGNS: Blood sugar 145, blood pressure 120/88, heart rate 104, respirations 16. Microalbumin 100.",Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,32,"SKIN: There appears to be 2 skin lacerations on the left parietal region of the scalp, each approximately 1 inch long",Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,33,No signs of infection,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,34,Wound is closed with new granulation tissue,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,35,Appears to be healing well.,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,36,HEENT: Normocephalic.,Reassessment
+1417,11515,Diabetes Mellitus - SOAP Note - 1,37,PERRLA. EOMI. TMs pearly gray with landmarks present,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,38,Nares patent,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,39,Throat with no redness or swelling,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,40,Nontender sinuses,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,41,NECK: Supple.,Physical Examination
+1417,11515,Diabetes Mellitus - SOAP Note - 1,42,Full ROM. No LAD,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,1,"CHIEF COMPLAINT: , Septal irritation",Acute Symptoms
+1420,11516,Deviated Septum Repair - Followup,2,The patient is a 39-year-old African-American female,Personal Information
+1420,11516,Deviated Septum Repair - Followup,3,"status post repair of septal deviation but unfortunately, ultimately ended with a large septal perforation",Personal History
+1420,11516,Deviated Septum Repair - Followup,4,"The patient has been using saline nasal wash 2-3 times daily, however, she states that she still has discomfort in her nose with a ""stretching"" like pressure",Personal History
+1420,11516,Deviated Septum Repair - Followup,5,She says her nose is frequently dry and she occasionally has nosebleeds due to the dry nature of her nose.,Personal History
+1420,11516,Deviated Septum Repair - Followup,6,She has no other complaints at this time,Acute Symptoms
+1420,11516,Deviated Septum Repair - Followup,7,This is a pleasant African-American female resting in the examination room chair in no apparent distress,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,8,ENT: External auditory canals are clear,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,9,"Tympanic membrane shows no perforation, is intact",Physical Examination
+1420,11516,Deviated Septum Repair - Followup,10,NOSE: The patient has a slightly deviated right septum.,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,11,Septum has a large perforation in the anterior 2/3rd of the septum.,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,12,This appears to be well healed,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,13,There is no sign of crusting in the nose.,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,14,ORAL CAVITY: No lesions or sores,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,15,Tonsils show no exudate or erythema,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,16,NECK: No cervical lymphadenopathy,Physical Examination
+1420,11516,Deviated Septum Repair - Followup,17,"VITAL SIGNS: Temperature 98 degrees Fahrenheit, pulse 77, respirations 18, blood pressure 130/73",Physical Examination
+1420,11516,Deviated Septum Repair - Followup,18,The patient is a 40-year-old female,Personal Information
+1420,11516,Deviated Septum Repair - Followup,19,with a past medical history of repair of deviated septum with complication of a septal perforation,Personal History
+1420,11516,Deviated Septum Repair - Followup,20,"At this time, the patient states that her septal perforation bothers her as she feels that she has very dry air through her nose as well as occasional epistaxis",Acute Symptoms
+1420,11516,Deviated Septum Repair - Followup,21,"At this time, I counseled the patient on the risks and benefits of surgery.",Discussion
+1420,11516,Deviated Septum Repair - Followup,22,"She will consider surgery but at this time,",Discussion
+1420,11516,Deviated Septum Repair - Followup,23,would like to continue using the saline nasal wash,Other Treatments
+1420,11516,Deviated Septum Repair - Followup,24,"as well as occasional Bactroban to the nose if there is occasional irritation or crusting, which she will apply with the edge of a Q-tip.",Medications
+1420,11516,Deviated Septum Repair - Followup,25,We will see her back in 3 weeks,Follow-up
+1420,11516,Deviated Septum Repair - Followup,26,"and if the patient does not feel relieved from the Bactroban as well as saline nasal spray wash, we will consider setting the patient for surgery at that time.",Discussion
+1430,11517,Chiropractic Progress Note,1,"CHIEF COMPLAINT: ,Hip pain.",Acute Symptoms
+1430,11517,Chiropractic Progress Note,2,"The patient is a very pleasant 41-year-old white female that is known to me previously from our work at the Pain Management Clinic, as well as from my residency training program, San Francisco",Personal Information
+1430,11517,Chiropractic Progress Note,3,"We have worked collaboratively for many years at the Pain Management Clinic and with her departure there, she has asked to establish with me for clinic pain management at my office.",Personal History
+1430,11517,Chiropractic Progress Note,4,She reports moderate to severe pain related to a complicated past medical history,Acute Symptoms
+1430,11517,Chiropractic Progress Note,5,"In essence, she was seen at a very young age at the clinic for bilateral knee and hip pain and diagnosed with bursitis at age 23",Personal History
+1430,11517,Chiropractic Progress Note,6,"She was given nonsteroidals at that time, which did help with this discomfort",Theraputic History
+1430,11517,Chiropractic Progress Note,7,"With time, however, this became inadequate and she was seen later in San Francisco in her mid 30s by Dr. V, an orthopedist who diagnosed retroverted hips at Hospital",Personal History
+1430,11517,Chiropractic Progress Note,8,She was referred for rehabilitation and strengthening,Personal History
+1430,11517,Chiropractic Progress Note,9,Most of this was focused on her SI joints,Personal History
+1430,11517,Chiropractic Progress Note,10,"At that time, although she had complained of foot discomfort, she was not treated for it.",Personal History
+1430,11517,Chiropractic Progress Note,11,"This was in 1993 after which she and her new husband moved to the Boston area, where she lived from 1995-1996",Personal History
+1430,11517,Chiropractic Progress Note,12,She was seen at the Pain Center by Dr. R with similar complaints of hip and knee pain,Personal History
+1430,11517,Chiropractic Progress Note,13,She was seen by rheumatologists there and diagnosed with osteoarthritis as well as osteophytosis of the back,Personal History
+1430,11517,Chiropractic Progress Note,14,Medications at that time were salicylate and Ultram,Theraputic History
+1430,11517,Chiropractic Progress Note,15,"When she returned to Portland in 1996, she was then working for Dr. B",Personal History
+1430,11517,Chiropractic Progress Note,16,"She was referred to a podiatrist by her local doctor who found several fractured sesamoid bones in her both feet, but this was later found not to be the case",Personal History
+1430,11517,Chiropractic Progress Note,17,"Subsequently, nuclear bone scans revealed osteoarthritis",Personal History
+1430,11517,Chiropractic Progress Note,18,Orthotics were provided,Theraputic History
+1430,11517,Chiropractic Progress Note,19,She was given Paxil and Tramadol and subsequently developed an unfortunate side effect of grand mal seizure.,Theraputic History
+1430,11517,Chiropractic Progress Note,20,"During this workup of her seizure, imaging studies revealed a pericardial fluid-filled cyst adhered to her ventricle.",Personal History
+1430,11517,Chiropractic Progress Note,21,She has been advised not to undergo any corrective or reparative surgery as well as to limit her activities since,Personal History
+1430,11517,Chiropractic Progress Note,22,She currently does not have an established cardiologist having just changed insurance plans.,Other Social
+1430,11517,Chiropractic Progress Note,23,"She is establishing care with Dr. S, of Rheumatology for her ongoing care.",Other Social
+1430,11517,Chiropractic Progress Note,24,"Up until today, her pain medications were being written by Dr. Y prior to establishing with Dr. L.,Pain management in town had been first provided by the office of Dr. F. Under his care, followup MRIs were done which showed ongoing degenerative disc disease, joint disease, and facet arthropathy in addition to previously described sacroiliitis.",Personal History
+1430,11517,Chiropractic Progress Note,25,"A number of medications were attempted there, including fentanyl patches with Flonase from 25 mcg titrated upwards to 50 mcg, but this caused oversedation.",Theraputic History
+1430,11517,Chiropractic Progress Note,26,"She then transferred her care to Ab Cd, FNP under the direction of Dr. K. Her care there was satisfactory",Personal History
+1430,11517,Chiropractic Progress Note,27,"but because of her work schedule, the patient found this burdensome as well as the guidelines set forth in terms of monthly meetings and routine urine screens",Personal History
+1430,11517,Chiropractic Progress Note,28,"Because of a previous commitment, she was unable to make one unscheduled request to their office in order to produce a random urine screen and was therefore discharged.",Personal History
+1430,11517,Chiropractic Progress Note,29,"PAST MEDICAL HISTORY: ,1. Attention deficit disorder.,2. TMJ arthropathy.,3. Migraines.,4. Osteoarthritis as described above",Personal History
+1430,11517,Chiropractic Progress Note,30,"PAST SURGICAL HISTORY:,1. Cystectomies.,2. Sinuses.,3. Left ganglia of the head and subdermally in various locations.,4. TMJ and bruxism.",Personal History
+1430,11517,Chiropractic Progress Note,31,"FAMILY HISTORY: ,The patient's father also suffered from bilateral hip osteoarthritis",Family History
+1430,11517,Chiropractic Progress Note,32,",MEDICATIONS:,1. Methadone 2.5 mg p.o. t.i.d.,2. Norco 10/325 mg p.o. q.i.d.,3. Tenormin 50 mg q.a.m.,4. Skelaxin 800 mg b.i.d. to t.i.d. p.r.n.,5. Wellbutrin SR 100 mg q.d.,6. Naprosyn 500 mg one to two pills q.d. p.r.n",Theraputic History
+1430,11517,Chiropractic Progress Note,33,",ALLERGIES: , IV morphine causes hives.",Personal History
+1430,11517,Chiropractic Progress Note,34,Sulfa caused blisters and rash,Personal History
+1430,11517,Chiropractic Progress Note,35,"PHYSICAL EXAMINATION: , A well-developed, well-nourished white female in no acute distress, sitting comfortably and answering questions appropriately, making good eye contact, and no evidence of pain behavior",Physical Examination
+1430,11517,Chiropractic Progress Note,36,"VITAL SIGNS: Blood pressure 110/72 with a pulse of 68.,HEENT: Normocephalic. Atraumatic",Physical Examination
+1430,11517,Chiropractic Progress Note,37,Pupils are equal and reactive to light and accommodation,Physical Examination
+1430,11517,Chiropractic Progress Note,38,Extraocular motions are intact,Physical Examination
+1430,11517,Chiropractic Progress Note,39,No scleral icterus.,Physical Examination
+1430,11517,Chiropractic Progress Note,40,No nystagmus,Physical Examination
+1430,11517,Chiropractic Progress Note,41,Tongue is midline,Physical Examination
+1430,11517,Chiropractic Progress Note,42,Mucous membranes are moist without exudate.,Physical Examination
+1430,11517,Chiropractic Progress Note,43,NECK: Free range of motion without thyromegaly,Physical Examination
+1430,11517,Chiropractic Progress Note,44,CHEST: Clear to auscultation without wheeze or rhonchi,Physical Examination
+1430,11517,Chiropractic Progress Note,45,"HEART: Regular rate and rhythm without murmur, gallop, or rub.",Physical Examination
+1430,11517,Chiropractic Progress Note,46,"ABDOMEN: Soft, nontender",Physical Examination
+1430,11517,Chiropractic Progress Note,47,"MUSCULOSKELETAL: There is musculoskeletal soreness and tenderness found at the ankles, feet, as well as the low back, particularly above the SI joints bilaterally",Physical Examination
+1430,11517,Chiropractic Progress Note,48,Passive hip motion also elicits bilateral hip pain referred to the ipsilateral side.,Physical Examination
+1430,11517,Chiropractic Progress Note,49,Toe-heel walking is performed without difficulty,Physical Examination
+1430,11517,Chiropractic Progress Note,50,Straight leg raises are negative.,Physical Examination
+1430,11517,Chiropractic Progress Note,51,Romberg's are negative,Physical Examination
+1430,11517,Chiropractic Progress Note,52,NEUROLOGIC: Grossly intact,Physical Examination
+1430,11517,Chiropractic Progress Note,53,Intact reflexes in all extremities tested,Physical Examination
+1430,11517,Chiropractic Progress Note,54,Romberg is negative and downgoing,Physical Examination
+1430,11517,Chiropractic Progress Note,55,"ASSESSMENT:,1. Osteoarthritis.,2. Chronic sacroiliitis.,3. Lumbar spondylosis.,4. Migraine.,5. TMJ arthropathy secondary to bruxism.,6. Mood disorder secondary to chronic pain.,7. Attention deficit disorder, currently untreated and self diagnosed",Reassessment
+1430,11517,Chiropractic Progress Note,56,"RECOMMENDATIONS:,1. Agree with Rheumatology referral and review",Discussion
+1430,11517,Chiropractic Progress Note,57,I would particularly be interested in the patient pursuing a bone density scan as well as thyroid and parathyroid studies.,Discussion
+1430,11517,Chiropractic Progress Note,58,"Given the patient's previous sulfa allergies, we would recommend decreasing her Naprosyn usage.",Discussion
+1448,11518,Breast Cancer Followup - 1,1,"CHIEF COMPLAINT:, Stage IIA right breast cancer",Acute Symptoms
+1448,11518,Breast Cancer Followup - 1,2,This is an extremely pleasant 58-year-old woman,Personal Information
+1448,11518,Breast Cancer Followup - 1,3,who I am following for her stage IIA right breast cancer,Acute Symptoms
+1448,11518,Breast Cancer Followup - 1,4,She noticed a lump in the breast in November of 2007,Personal History
+1448,11518,Breast Cancer Followup - 1,5,"A mammogram was obtained dated 01/28/08, which showed a mass in the right breast",Personal History
+1448,11518,Breast Cancer Followup - 1,6,"On 02/10/08, she underwent an ultrasound-guided biopsy",Personal History
+1448,11518,Breast Cancer Followup - 1,7,The pathology showed an infiltrating ductal carcinoma Nottingham grade II,Personal History
+1448,11518,Breast Cancer Followup - 1,8,"The tumor was ER positive, PR positive and HER-2/neu negative",Personal History
+1448,11518,Breast Cancer Followup - 1,9,"On 02/22/08, she underwent a lumpectomy and sentinel lymph node biopsy",Personal History
+1448,11518,Breast Cancer Followup - 1,10,"The pathology showed a 3.3 cm infiltrating ductal carcinoma grade I, one sentinel lymph node was negative",Personal History
+1448,11518,Breast Cancer Followup - 1,11,"Therefore it was a T2, N0, M0 stage IIA breast cancer",Personal History
+1448,11518,Breast Cancer Followup - 1,12,"Of note, at that time she was taking hormone replacement therapy and that was stopped.",Theraputic History
+1448,11518,Breast Cancer Followup - 1,13,She underwent radiation treatment ending in May 2008.,Theraputic History
+1448,11518,Breast Cancer Followup - 1,14,"She then started on Arimidex, but unfortunately she did not tolerate the Arimidex and I changed her to Femara",Theraputic History
+1448,11518,Breast Cancer Followup - 1,15,She also did not tolerate the Femara and I changed it to tamoxifen,Theraputic History
+1448,11518,Breast Cancer Followup - 1,16,"She did not tolerate the tamoxifen and therefore when I saw her on 11/23/09, she decided that she would take no further antiestrogen therapy.",Theraputic History
+1448,11518,Breast Cancer Followup - 1,17,"She met with me again on 02/22/10, and decided she wants to rechallenge herself with tamoxifen",Personal History
+1448,11518,Breast Cancer Followup - 1,18,"When I saw her on 04/28/10, she was really doing quite well with tamoxifen",Theraputic History
+1448,11518,Breast Cancer Followup - 1,19,"She tells me 2 weeks after that visit, she developed toxicity from the tamoxifen and therefore stopped it herself.",Theraputic History
+1448,11518,Breast Cancer Followup - 1,20,She is not going take to any further tamoxifen,Discussion
+1448,11518,Breast Cancer Followup - 1,21,"Overall, she is feeling well",Acute Symptoms
+1448,11518,Breast Cancer Followup - 1,22,She has a good energy level and her ECOG performance status is 0,Acute Symptoms
+1448,11518,Breast Cancer Followup - 1,23,"She denies any fevers, chills, or night sweats",Vegetative History
+1448,11518,Breast Cancer Followup - 1,24,No lymphadenopathy,Vegetative History
+1448,11518,Breast Cancer Followup - 1,25,No nausea or vomiting,Vegetative History
+1448,11518,Breast Cancer Followup - 1,26,No change in bowel or bladder habits,Vegetative History
+1448,11518,Breast Cancer Followup - 1,27,"CURRENT MEDICATIONS:, Avapro 300 mg q.d., Pepcid q.d., Zyrtec p.r.n., and calcium q.d.",Theraputic History
+1448,11518,Breast Cancer Followup - 1,28,"ALLERGIES:, Sulfa, Betadine, and IV contrast",Personal History
+1448,11518,Breast Cancer Followup - 1,29,"REVIEW OF SYSTEMS: , As per the HPI, otherwise negative.",Vegetative History
+1448,11518,Breast Cancer Followup - 1,30,"PAST MEDICAL HISTORY:,1. Asthma.,2. Hypertension.,3. GERD.,4. Eczema.,5. Status post three cesarean sections.,6. Status post a hysterectomy in 1981 for fibroids. They also removed one ovary.,7. Status post a cholecystectomy in 1993.,8. She has a history of a positive TB test.,9. She is status post repair of ventral hernia in November 2008",Personal History
+1448,11518,Breast Cancer Followup - 1,31,She has no tobacco use,Drug History
+1448,11518,Breast Cancer Followup - 1,32,Only occasional alcohol use,Drug History
+1448,11518,Breast Cancer Followup - 1,33,She has no illicit drug use,Drug History
+1448,11518,Breast Cancer Followup - 1,34,She has two grown children.,Other Social
+1448,11518,Breast Cancer Followup - 1,35,She is married,Other Social
+1448,11518,Breast Cancer Followup - 1,36,She works as a social worker dealing with adult abuse and neglect issues.,Other Social
+1448,11518,Breast Cancer Followup - 1,37,Her husband is a high school chemistry teacher,Other Social
+1448,11518,Breast Cancer Followup - 1,38,",FAMILY HISTORY: ,Her father had prostate cancer",Family History
+1448,11518,Breast Cancer Followup - 1,39,"Her maternal uncle had Hodgkin's disease, melanoma, and prostate cancer",Family History
+1451,11519,Aplastic Anemia Followup,1,"CHIEF COMPLAINT: , Aplastic anemia",Acute Symptoms
+1451,11519,Aplastic Anemia Followup,2,This is a very pleasant 72-year-old woman,Personal Information
+1451,11519,Aplastic Anemia Followup,3,who I have been following for her pancytopenia,Acute Symptoms
+1451,11519,Aplastic Anemia Followup,4,"After several bone marrow biopsies, she was diagnosed with aplastic anemia",Personal History
+1451,11519,Aplastic Anemia Followup,5,She started cyclosporine and prednisone on 03/30/10,Personal History
+1451,11519,Aplastic Anemia Followup,6,She was admitted to the hospital from 07/11/10 to 07/14/10 with acute kidney injury,Personal History
+1451,11519,Aplastic Anemia Followup,7,Her cyclosporine level was 555,Personal History
+1451,11519,Aplastic Anemia Followup,8,It was thought that her acute kidney injury was due to cyclosporine toxicity and therefore that was held,Personal History
+1451,11519,Aplastic Anemia Followup,9,",Overall, she tells me that now she feels quite well since leaving the hospital",Acute Symptoms
+1451,11519,Aplastic Anemia Followup,10,She was transfused 2 units of packed red blood cells while in the hospital.,Personal History
+1451,11519,Aplastic Anemia Followup,11,"Repeat CBC from 07/26/10 showed white blood cell count of 3.4 with a hemoglobin of 10.7 and platelet count of 49,000.",Personal History
+1451,11519,Aplastic Anemia Followup,12,"CURRENT MEDICATIONS:, Folic acid, Aciphex, MiraLax, trazodone, prednisone for 5 days every 4 weeks, Bactrim double strength 1 tablet b.i.d. on Mondays, Wednesdays and Fridays",Theraputic History
+1451,11519,Aplastic Anemia Followup,13,",ALLERGIES: ,No known drug allergies",Personal History
+1451,11519,Aplastic Anemia Followup,14,"REVIEW OF SYSTEMS: , As per the HPI, otherwise negative",Vegetative History
+1451,11519,Aplastic Anemia Followup,15,"PAST MEDICAL HISTORY:,1. Hypertension.,2. GERD.,3. Osteoarthritis.,4. Status post tonsillectomy.,5. Status post hysterectomy.,6. Status post bilateral cataract surgery.,7. Esophageal stricture status post dilatation approximately four times.",Personal History
+1451,11519,Aplastic Anemia Followup,16,She has no tobacco use.,Drug History
+1451,11519,Aplastic Anemia Followup,17,She has rare alcohol use,Drug History
+1451,11519,Aplastic Anemia Followup,18,She has three children and is a widow,Other Social
+1451,11519,Aplastic Anemia Followup,19,Her husband died after they were married only eight years,Other Social
+1451,11519,Aplastic Anemia Followup,20,She is retired,Other Social
+1451,11519,Aplastic Anemia Followup,21,"FAMILY HISTORY: ,",Family History
+1451,11519,Aplastic Anemia Followup,22,Her sister had breast cancer.,Family History
+1456,11520,Anemia & Leukemia Followup,1,"CHIEF COMPLAINT:,1. Chronic lymphocytic leukemia (CLL).,2. Autoimmune hemolytic anemia.,3. Oral ulcer",Acute Symptoms
+1456,11520,Anemia & Leukemia Followup,2,The patient is a 72-year-old gentleman,Personal Information
+1456,11520,Anemia & Leukemia Followup,3,who was diagnosed with chronic lymphocytic leukemia in May 2008,Personal History
+1456,11520,Anemia & Leukemia Followup,4,He was noted to have autoimmune hemolytic anemia at the time of his CLL diagnosis,Personal History
+1456,11520,Anemia & Leukemia Followup,5,He has been on chronic steroids to control his hemolysis and is currently on prednisone 5 mg every other day.,Theraputic History
+1456,11520,Anemia & Leukemia Followup,6,He comes in to clinic today for follow-up and complete blood count.,Acute Symptoms
+1456,11520,Anemia & Leukemia Followup,7,At his last office visit we discontinued this prophylactic antivirals and antibacterial.,Personal History
+1456,11520,Anemia & Leukemia Followup,8,"CURRENT MEDICATIONS:, Prilosec 20 mg b.i.d., levothyroxine 50 mcg q.d., Lopressor 75 mg q.d., vitamin C 500 mg q.d., multivitamin q.d., simvastatin 20 mg q.d., and prednisone 5 mg q.o.d",Theraputic History
+1456,11520,Anemia & Leukemia Followup,9,"ALLERGIES: ,Vicodin",Personal History
+1456,11520,Anemia & Leukemia Followup,10,",REVIEW OF SYSTEMS: ,The patient reports ulcer on his tongue and his lip",Vegetative History
+1456,11520,Anemia & Leukemia Followup,11,He has been off of Valtrex for five days,Theraputic History
+1456,11520,Anemia & Leukemia Followup,12,He is having some difficulty with his night vision with his left eye,Acute Symptoms
+1456,11520,Anemia & Leukemia Followup,13,He has a known cataract.,Personal History
+1456,11520,Anemia & Leukemia Followup,14,"He denies any fevers, chills, or night sweats",Vegetative History
+1456,11520,Anemia & Leukemia Followup,15,He continues to have headaches,Acute Symptoms
+1456,11520,Anemia & Leukemia Followup,16,He continues to have headaches,Acute Symptoms
+1456,11520,Anemia & Leukemia Followup,17,The rest of his review of systems is negative,Vegetative History

@@ -1,0 +1,83 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sentenceclassification
+  labels:
+    app: sentenceclassification
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app:  sentenceclassification
+    spec:
+      containers:
+        - name: sentenceclassification
+          image: registry.datexis.com/s91031/traintestspecialist
+          command: [
+            "python", "/src/main.py",
+                "test",
+                "--data.train_file", "/pvc/sentences_train_random.csv",
+                "--data.val_file", "/pvc/sentences_val_random.csv",
+                "--data.test_file", "/pvc/sentences_test_random.csv",
+                "--trainer.accelerator=gpu",  
+                "--trainer.devices=auto",
+                "--trainer.precision=bf16-mixed",
+                "--trainer.default_root_dir=/pvc/Baseline_Pubmedbert_randomsplit", 
+                "--trainer.callbacks+=EarlyStopping",
+                "--trainer.callbacks.patience=5",
+                "--trainer.callbacks.monitor=Val/AUROC",
+                "--trainer.callbacks.mode=max",
+                "--trainer.callbacks+=ModelCheckpoint",
+                "--trainer.callbacks.dirpath=/pvc/Baseline_Pubmedbert_randomsplit",
+                "--trainer.callbacks.filename=checkpoint",
+                "--trainer.callbacks.save_top_k=1",
+                "--trainer.callbacks.monitor=Val/AUROC",
+                "--trainer.callbacks.mode=max",
+                "--trainer.num_sanity_val_steps=1",
+                "--data.num_workers=4",
+                "--data.eval_batch_size=8",
+                "--data.batch_size=4",
+                "--data.tokenizer_name=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+                "--model.encoder_model_name=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+                "--model.num_classes=19",  
+                "--trainer.max_steps=20000",
+                "--model.warmup_steps=200",
+                "--model.lr=2e-5",
+                "--seed_everything=42",
+                "--data.max_seq_len=256",
+                "--ckpt_path=/pvc/Baseline_Pubmedbert_randomsplit/checkpoint.ckpt",
+                  
+          ]
+          env:
+            - name: LANG
+              value: 'C.UTF-8'
+            - name: TOKENIZERS_PARALLELISM
+              value: 'true'
+            - name: NCCL_DEBUG
+              value: 'INFO'
+            - name: TRANSFORMERS_CACHE
+              value: "/pvc/huggingface_cache"
+          resources:
+            requests:
+              cpu: "1"
+            limits:
+              nvidia.com/gpu: "1"
+          volumeMounts:
+            - name: my-data-pvc
+              mountPath: /pvc
+            - name: dshm
+              mountPath: /dev/shm
+      nodeSelector:
+        kubernetes.io/hostname: cl-worker27
+        gpu: a100
+      volumes:
+        - name: my-data-pvc
+          persistentVolumeClaim:
+            claimName: my-data-pvc 
+        - name: dshm
+          emptyDir:
+            medium: Memory
+      imagePullSecrets:
+        - name: private-registry-auth
+      restartPolicy: Never
