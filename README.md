@@ -93,6 +93,4 @@ Instruction-tuned large language models are evaluated using:
 
 The experiments include models from the **Qwen** and **Llama** model families.
 
-## Purpose
 
-This repository provides the code, experiment configurations, and evaluation outputs used to compare **fine-tuned encoder models** with **prompt-based large language models** for clinical sentence intent classification.
