@@ -5,7 +5,7 @@ medical-note sentence intent classification.
 
 ## Encoder Experiments
 
-The encoder task code lives in `classification_task/src`. The released sentence
+The encoder task code lives in `classification_task_encoder/src`. The released sentence
 splits live in `final_data`:
 
 - `sentences_train.csv`, `sentences_dev.csv`, `sentences_test.csv`
@@ -17,7 +17,7 @@ aligned with the encoder train/dev/test data.
 
 ## LLM Experiments
 
-The LLM experiment code lives in `src/llm_experiments`. It reuses the
+The LLM experiment code lives in `classification_task_lms/src_llms`. It reuses the
 zero-shot/few-shot prompting idea from `medical-intent-classification`, but wraps
 it around this repository's encoder splits instead of making a new split from
 raw annotation files.
